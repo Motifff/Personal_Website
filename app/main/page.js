@@ -2,7 +2,7 @@
 
 //custom apps
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
-import PagePort from "@/components/mainPage/component/pageport";
+import PagePort from "@/components/mainPage/component/pagePort";
 import Name from "@/components/mainPage/component/name";
 
 export default function Home() {

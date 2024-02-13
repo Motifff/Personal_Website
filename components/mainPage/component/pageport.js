@@ -31,7 +31,7 @@ export default function PagePort(props){
     }
     
     return (
-        <div className="tab" style={{ height: 20, gap: 16, display: 'flex', flexDirection: 'row'}}>
+        <div className="tab" style={{ minHeight: 20, gap: 16, display: 'flex', flexDirection: 'row',flexWrap:"wrap"}}>
             <div className="Home" onClick={() => handleButtonClick("/home")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Home</div>
             <div style={{ opacity: 0.40, color: '#D4D5D9', fontSize: 14, fontWeight: '400', height: 20 }}>/</div>
             <div className="Blog" onClick={() => handleButtonClick("/blog")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Blog</div>
