@@ -7,9 +7,9 @@ import { useState, useEffect } from "react";
 import { useRouter, usePathname } from 'next/navigation';
 //custom apps
 import Name from "@/components/mainPage/component/name";
-import MainColumn from "@/components/mainPage/layout/mainColumn";
-import LatestColumn from "@/components/mainPage/layout/latestColumn";
-import IdeaColumn from "@/components/mainPage/layout/ideaColumn";
+import MainColumn from "@/components/mainPage/layout/mainLayout/mainColumn";
+import LatestColumn from "@/components/mainPage/layout/mainLayout/latestColumn";
+import IdeaColumn from "@/components/mainPage/layout/mainLayout/ideaColumn";
 
 
 export default function Home() {

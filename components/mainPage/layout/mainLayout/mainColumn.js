@@ -1,8 +1,8 @@
 import { useRef, useState, useEffect } from "react";
 
-import Divider from "../component/divider"
-import HeadLineBlock from "../component/headLineBlock"
-import ProjectBlock from "../component/projectBlock"
+import Divider from "../../component/divider"
+import HeadLineBlock from "../../component/headLineBlock"
+import ProjectBlock from "../../component/projectBlock"
 
 export default function MainColumn(props) {
 

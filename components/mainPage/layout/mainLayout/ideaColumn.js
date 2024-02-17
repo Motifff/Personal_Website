@@ -1,5 +1,5 @@
-import Divider from "../component/divider"
-import MemoBlock from "../component/memoBlock"
+import Divider from "../../component/divider"
+import MemoBlock from "../../component/memoBlock"
 
 export default function IdeaColumn(props) {
     return (

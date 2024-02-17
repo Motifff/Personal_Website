@@ -16,19 +16,6 @@ export default function PagePort(props){
             }
         }
     }
-
-    function concatenateWithoutOverlap(str1, str2) {
-        // Find the common part (if any)
-        const commonPart = str2.startsWith(str1) ? str1 : "";
-      
-        // Remove the common part from str2
-        const remainingPart = str2.replace(commonPart, "");
-      
-        // Concatenate the strings
-        const result = str1 + remainingPart;
-      
-        return result;
-    }
     
     return (
         <div className="tab" style={{ minHeight: 20, gap: 16, display: 'flex', flexDirection: 'row',flexWrap:"wrap"}}>

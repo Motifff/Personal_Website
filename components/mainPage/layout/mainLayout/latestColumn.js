@@ -1,5 +1,5 @@
-import Divider from "../component/divider"
-import InfoBlock from "../component/infoBlock"
+import Divider from "../../component/divider"
+import InfoBlock from "../../component/infoBlock"
 
 export default function LatestColumn(props) {
     return (
