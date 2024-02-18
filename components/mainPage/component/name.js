@@ -29,7 +29,7 @@ export default function Name(props) {
   })
 
   const handleButtonClick = () => {
-    router.replace("/main")
+    router.replace("")
   }
 
   return (
