@@ -1,5 +1,4 @@
 import { useSpring, animated } from '@react-spring/web'
-import { useState, useEffect } from "react";
 
 export default function InfoBlock(props) {
     

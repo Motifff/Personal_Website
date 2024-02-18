@@ -1,4 +1,4 @@
-import HomeLayout from "@/components/mainPage/layout/mainLayout/homeLayout";
+import HomeLayout from "@/components/mainPage/layout/homeLayout";
 
 export function generateStaticParams() {
   return [{ child: 'home' }, { child: 'home!' },
@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export default function Page({ params }) {
   const { child } = params
   return (
-    <div>
+    <div style={{position:"absolute",top:0,lett:0}}>
       <HomeLayout/>
     </div>
   );

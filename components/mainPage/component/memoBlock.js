@@ -1,13 +1,6 @@
 import { useSpring, animated } from '@react-spring/web'
-import { useState, useEffect } from "react";
 
-export default function MemoBlock(props) {
-    const [isFocused, setIsFocused] = useState(false);
-    
-    const expandAttr = useSpring({
-
-    })
-    
+export default function MemoBlock(props) {    
     return (
         <div className="Wrapper" style={{display:"flex",flexWrap:"wrap", width:"100%",flexDirection:'column',padding:16,gap:10}}>
             <div className="Subtitle"

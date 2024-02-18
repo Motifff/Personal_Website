@@ -1,5 +1,3 @@
-
-
 export default function Divider(props) {
     return (
         <div className="Divider" style={{display:"flex",flexDirection: 'column',gap: 2}}>
