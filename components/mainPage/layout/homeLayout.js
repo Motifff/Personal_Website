@@ -7,9 +7,7 @@ import { usePathname } from 'next/navigation';
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
 import PagePort from "@/components/mainPage/component/pageport";
 import Name from "@/components/mainPage/component/name";
-import MainColumn from "@/components/mainPage/layout/mainLayout/mainColumn";
-import LatestColumn from "@/components/mainPage/layout/mainLayout/latestColumn";
-import IdeaColumn from "@/components/mainPage/layout/mainLayout/ideaColumn";
+import MainLayout from './mainLayout/mainLayout';
 
 export default function HomeLayout() {
   const [ifFold, setIfFold] = useState(false);
@@ -86,24 +84,9 @@ export default function HomeLayout() {
           <PagePort isSubpage={true} />
         </animated.div>
       </animated.div>
-      <div className="mainContent" style={{ display: "flex", flexDirection: ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
-        {
-          ifFold ?
-            (<>
-              <LatestColumn ifFold={ifFold} />
-              <MainColumn ifFold={ifFold} ifDouble={if2} />
-            </>
-            )
-            :
-            (
-              <>
-                <LatestColumn ifFold={ifFold} />
-                <MainColumn ifFold={ifFold} ifDouble={if2} />
-                <IdeaColumn ifFold={ifFold} />
-              </>
-            )
-        }
-      </div>
+
+      <MainLayout ifFold = {ifFold} if2 = {if2}/>
+      
       <div className="background" style={{ position: "absolute", left: 0, top: 0, zIndex: -1 }}>
         <ShaderBlock />
       </div>
