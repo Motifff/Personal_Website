@@ -8,7 +8,7 @@ export default function PagePort(props){
         const currentPath = pathname;
         if(!currentPath.includes(n)){
             if(!props.isSubpage){
-                router.replace(n)
+                router.push(n)
             }else{
                 router.replace(n+"!")
             }
