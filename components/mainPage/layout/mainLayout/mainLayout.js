@@ -7,7 +7,7 @@ export default function MainLayout(props) {
     return (
         <div className="mainContent" style={{ display: "flex", flexDirection: props.ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
             {
-                ifFold ?
+                props.ifFold ?
                     (<>
                         <LatestColumn ifFold={props.ifFold} />
                         <MainColumn ifFold={props.ifFold} ifDouble={props.if2} />
