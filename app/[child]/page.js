@@ -11,6 +11,8 @@ export function generateStaticParams() {
 export default function Page({ params }) {
   const { child } = params
   return (
-    <HomeLayout/>
+    <div>
+      <HomeLayout/>
+    </div>
   );
 }
