@@ -1,16 +1,20 @@
 "use client"
 
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
-import PagePort from "@/components/mainPage/component/pagePort";
+import PagePort from "@/components/mainPage/component/pageport";
 import { useSpring, animated } from '@react-spring/web'
 import { useState, useEffect } from "react";
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 //custom apps
 import Name from "@/components/mainPage/component/name";
 import MainColumn from "@/components/mainPage/layout/mainLayout/mainColumn";
 import LatestColumn from "@/components/mainPage/layout/mainLayout/latestColumn";
 import IdeaColumn from "@/components/mainPage/layout/mainLayout/ideaColumn";
 
+
+// export function generateStaticParams() {
+//   return [{ child: 'home' },{ child: 'home' }]
+// }
 
 export default function Home() {
   const [ifFold, setIfFold] = useState(false);
