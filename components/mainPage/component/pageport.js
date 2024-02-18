@@ -10,9 +10,9 @@ export default function PagePort(props){
         console.log(props.isSubpage)
         if(!currentPath.includes(n)){
             if(!props.isSubpage){
-                router.replace("/main"+n)
+                router.replace(n)
             }else{
-                router.replace("/main"+n+"!")
+                router.replace(n+"!")
             }
         }
     }
