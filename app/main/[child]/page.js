@@ -12,9 +12,13 @@ import LatestColumn from "@/components/mainPage/layout/mainLayout/latestColumn";
 import IdeaColumn from "@/components/mainPage/layout/mainLayout/ideaColumn";
 
 
-// export function generateStaticParams() {
-//   return [{ child: 'home' },{ child: 'home' }]
-// }
+export function generateStaticParams() {
+  return [{ child: 'home' }, { child: 'home!' },
+          { child: 'blog' }, { child: 'blog!' },
+          { child: 'about!'},{ child: 'about!'},
+          { child: 'contacts!'},{ child: 'contacts!'},
+        ]
+}
 
 export default function Home() {
   const [ifFold, setIfFold] = useState(false);
