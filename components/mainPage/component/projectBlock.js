@@ -1,8 +1,4 @@
-import { useSpring, animated } from '@react-spring/web'
-import { useState, useEffect } from "react";
-
 export default function ProjectBlock(props) {
-
     return (
         <div className="Wrapper" style={{ display: "flex", flexWrap: "wrap", flexDirection: 'column', gap: 4 }}>
             <div className='ImageHolder' style={{ width: "100%", height: "236px", opacity: 0.2, background: '#FFF' }} />
