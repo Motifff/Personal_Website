@@ -66,6 +66,7 @@ export default function HomeLayout() {
       <animated.div className="Homepage"
         style={{
           position:"sticky",
+          top:0,
           width: "100vw",
           padding: 24,
           display: 'flex',
