@@ -6,8 +6,6 @@ export default function PagePort(props){
     
     const handleButtonClick = (n) => {
         const currentPath = pathname;
-        console.log(currentPath);
-        console.log(props.isSubpage)
         if(!currentPath.includes(n)){
             if(!props.isSubpage){
                 router.replace(n)
@@ -19,13 +17,13 @@ export default function PagePort(props){
     
     return (
         <div className="tab" style={{ minHeight: 20, gap: 16, display: 'flex', flexDirection: 'row',flexWrap:"wrap"}}>
-            <div className="Home" onClick={() => handleButtonClick("/home")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Home</div>
+            <div className="Home" onClick={() => handleButtonClick("home")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Home</div>
             <div style={{ opacity: 0.40, color: '#D4D5D9', fontSize: 14, fontWeight: '400', height: 20 }}>/</div>
-            <div className="Blog" onClick={() => handleButtonClick("/blog")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Blog</div>
+            <div className="Blog" onClick={() => handleButtonClick("blog")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Blog</div>
             <div style={{ opacity: 0.40, color: '#D4D5D9', fontSize: 14, fontWeight: '400', height: 20 }}>/</div>
-            <div className="About" onClick={() => handleButtonClick("/about")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>About</div>
+            <div className="About" onClick={() => handleButtonClick("about")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>About</div>
             <div style={{ opacity: 0.40, color: '#D4D5D9', fontSize: 14, fontWeight: '400', height: 20 }}>/</div>
-            <div className="Contacts" onClick={() => handleButtonClick("/contacts")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Contacts</div>
+            <div className="Contacts" onClick={() => handleButtonClick("contacts")} style={{ color: '#D4D5D9', fontSize: 14, fontWeight: '500', height: 20, cursor:'pointer' }}>Contacts</div>
         </div>
     )
 }
