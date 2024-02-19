@@ -19,11 +19,11 @@ export default function HomeLayout() {
   const [timeUp, setTimeup] = useState(false);
 
   const jumpAnimationHomepage = useSpring({
-    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? "21.875vh" : "100vh"
+    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? pathname.includes("home") ? "21.875vh" : "6.25vh" : "100vh"
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? pathname.includes("home")? "25vh" : "16px" : timeUp ? "10vh" : "25vh",
+    gap: pathname.includes("!") ? pathname.includes("home")? "25vh" : "1.5625vh" : timeUp ? "10vh" : "25vh",
     flexDirection: pathname.includes("home")?'column':'row',
     alignItems: pathname.includes('home')?'flex-start':'center',
   });
