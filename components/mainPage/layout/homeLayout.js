@@ -25,6 +25,7 @@ export default function HomeLayout() {
   const jumpAnimationTitle = useSpring({
     gap: pathname.includes("!") ? pathname.includes("home")? "25vh" : "16px" : timeUp ? "10vh" : "25vh",
     flexDirection: pathname.includes("home")?'column':'row',
+    alignItems: pathname.includes('home')?'flex-start':'center',
   });
 
   const resizeSet = (windowSize) => {
@@ -79,7 +80,6 @@ export default function HomeLayout() {
         <animated.div className="title"
           style={{
             justifyContent: 'flex-end',
-            alignItems: 'flex-start',
             display: 'flex',
             ...jumpAnimationTitle
           }}>
