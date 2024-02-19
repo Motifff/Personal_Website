@@ -8,6 +8,9 @@ import ShaderBlock from "@/components/mainPage/component/shaderBackground";
 import PagePort from "@/components/mainPage/component/pageport";
 import Name from "@/components/mainPage/component/name";
 import MainLayout from './mainLayout/mainLayout';
+import BlogLayout from './blogLayout/blogLayout';
+import ContactLayout from './contactLayout/contactLayout';
+import AboutLayout from './aboutLayout/aboutLayout';
 
 export default function HomeLayout() {
   const [ifFold, setIfFold] = useState(false);
@@ -16,11 +19,12 @@ export default function HomeLayout() {
   const [timeUp, setTimeup] = useState(false);
 
   const jumpAnimationHomepage = useSpring({
-    minHeight: pathname.includes("!") ? "21.875vh" : timeUp ? "21.875vh" : "100vh"
+    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? "21.875vh" : "100vh"
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? "10vh" : timeUp ? "10vh" : "25vh"
+    gap: pathname.includes("!") ? pathname.includes("home")? "25vh" : "16px" : timeUp ? "10vh" : "25vh",
+    flexDirection: pathname.includes("home")?'column':'row',
   });
 
   const resizeSet = (windowSize) => {
@@ -74,7 +78,6 @@ export default function HomeLayout() {
         }}>
         <animated.div className="title"
           style={{
-            flexDirection: 'column',
             justifyContent: 'flex-end',
             alignItems: 'flex-start',
             display: 'flex',
@@ -84,9 +87,18 @@ export default function HomeLayout() {
           <PagePort isSubpage={true} />
         </animated.div>
       </animated.div>
-
-      <MainLayout ifFold = {ifFold} if2 = {if2}/>
-      
+      {
+        pathname.includes("home") ? <MainLayout ifFold={ifFold} if2={if2} /> : null
+      }
+      {
+        pathname.includes("blog") ? <BlogLayout /> : null
+      }
+      {
+        pathname.includes("about") ? <AboutLayout /> : null
+      }
+      {
+        pathname.includes("contacts") ? <ContactLayout /> : null
+      }
       <div className="background" style={{ position: "absolute", left: 0, top: 0, zIndex: -1 }}>
         <ShaderBlock />
       </div>
