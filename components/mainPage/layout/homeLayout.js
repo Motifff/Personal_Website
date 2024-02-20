@@ -23,9 +23,9 @@ export default function HomeLayout() {
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? "25vh" : timeUp ? pathname.includes("home")? "10vh":"1.5625vh" : "25vh",
-    flexDirection: pathname.includes("home")?'column':'row',
-    alignItems: pathname.includes('home')?'flex-start':'center',
+    gap: timeUp ? "25vh" : pathname.includes("!") ? "1.5625vh" : pathname.includes("home") ? "10vh" : "1.5625vh",
+    flexDirection: pathname.includes("home") ? 'column' : 'row',
+    alignItems: pathname.includes('home') ? 'flex-start' : 'center',
   });
 
   const resizeSet = (windowSize) => {
