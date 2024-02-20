@@ -23,7 +23,7 @@ export default function HomeLayout() {
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? pathname.includes("home")? "25vh" : "1.5625vh" : timeUp ? "10vh" : "25vh",
+    gap: pathname.includes("!") ? "25vh" : timeUp ? pathname.includes("home")? "10vh":"1.5625vh" : "25vh",
     flexDirection: pathname.includes("home")?'column':'row',
     alignItems: pathname.includes('home')?'flex-start':'center',
   });
