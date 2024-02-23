@@ -13,7 +13,9 @@ import ContactLayout from './contactLayout/contactLayout';
 import AboutLayout from './aboutLayout/aboutLayout';
 
 export default function HomeLayout() {
+  // this is to decide whether we should close the surrounding columns
   const [ifFold, setIfFold] = useState(false);
+  // this one is to determine whether use two columns in the design projects area
   const [if2, setIf2] = useState(true);
   const pathname = usePathname()
   const [timeUp, setTimeup] = useState(false);
@@ -24,8 +26,8 @@ export default function HomeLayout() {
 
   const jumpAnimationTitle = useSpring({
     gap: pathname.includes("!") ? pathname.includes("home") ? "10vh" : "1.5625vh" : timeUp ? pathname.includes("home") ? "10vh" : "1.5625vh" : "25vh",
-    flexDirection: pathname.includes("home") ? 'column' : 'row',
-    alignItems: pathname.includes('home') ? 'flex-start' : 'center',
+    flexDirection: pathname.includes("home") ? 'column' : ifFold? 'column':'row',
+    alignItems: pathname.includes('home') ? 'flex-start' : ifFold?'flex-start':'center',
   });
 
   const resizeSet = (windowSize) => {
@@ -91,7 +93,7 @@ export default function HomeLayout() {
         pathname.includes("home") ? <MainLayout ifFold={ifFold} if2={if2} /> : null
       }
       {
-        pathname.includes("blog") ? <BlogLayout /> : null
+        pathname.includes("blog") ? <BlogLayout ifFold={ifFold}/> : null
       }
       {
         pathname.includes("about") ? <AboutLayout /> : null
