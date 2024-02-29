@@ -104,7 +104,7 @@ export default function AboutLayout(props) {
                         height={14}
                     />
                     <div style={{ "color": "#D9D9D9", "fontSize": "12px", "fontStyle": "normal", "fontWeight": "300", "lineHeight": "130%", "letterSpacing": "-0.12px" }}>
-                        London King's Cross Station
+                        London King&apos;s Cross Station
                     </div>
                 </div>
             </div>
