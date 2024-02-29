@@ -3,6 +3,7 @@
 import { useSpring, animated } from '@react-spring/web'
 import { useState, useEffect } from "react";
 import { usePathname } from 'next/navigation';
+import axios from 'axios';
 //custom apps
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
 import PagePort from "@/components/mainPage/component/pageport";
@@ -96,13 +97,15 @@ export default function HomeLayout() {
         pathname.includes("blog") ? <BlogLayout ifFold={ifFold} /> : null
       }
       {
-        pathname.includes("about") ? <AboutLayout /> : null
+        pathname.includes("about") ? <AboutLayout ifFold={ifFold} /> : null
       }
       {
         pathname.includes("contacts") ? <ContactLayout /> : null
       }
       <div className="background" style={{ position: "absolute", left: 0, top: 0, zIndex: -1 }}>
-        <ShaderBlock />
+        {
+          pathname.includes("home") ? <ShaderBlock /> : null
+        }
       </div>
     </div>
   );

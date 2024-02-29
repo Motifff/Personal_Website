@@ -1,5 +1,6 @@
 import ArticleTitle from "../../component/articleTitle"
 import HeadLineBlock from "../../component/headLineBlock"
+import LinkJumper from "../../component/linkJumper"
 import ParaBlock from "../../component/paraBlock"
 import QuoteBlock from "../../component/quoteBlock"
 
@@ -21,6 +22,7 @@ export default function ArticleColumn(props) {
             <QuoteBlock text="SALT is grateful to Google's Artists and Machine Intelligence program, and Doğuş Technology, ŠKODA, Volkswagen Doğuş Finansman for supporting Archive Dreaming."/>
             <HeadLineBlock/>
             <HeadLineBlock/>
+            <LinkJumper link="https://www.google.com" text="Full Design File"/>
         </div>
     )
 }
