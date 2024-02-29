@@ -12,6 +12,7 @@ import MainLayout from './mainLayout/mainLayout';
 import BlogLayout from './blogLayout/blogLayout';
 import ContactLayout from './contactLayout/contactLayout';
 import AboutLayout from './aboutLayout/aboutLayout';
+import Footer from '../component/footer';
 
 export default function HomeLayout() {
   // this is to decide whether we should close the surrounding columns
@@ -102,6 +103,7 @@ export default function HomeLayout() {
       {
         pathname.includes("contacts") ? <ContactLayout /> : null
       }
+      <Footer />
       <div className="background" style={{ position: "absolute", left: 0, top: 0, zIndex: -1 }}>
         {
           pathname.includes("home") ? <ShaderBlock /> : null

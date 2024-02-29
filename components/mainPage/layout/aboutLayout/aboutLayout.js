@@ -97,14 +97,9 @@ export default function AboutLayout(props) {
                         boxShadow: "0px 0px 4px 2px rgba(0, 0, 0, 0.25)"
                     }}
                 />
-                <div style={{ display: "flex", padding: "8px 32px", alignItems: "center",justifyContent:"center", gap: "16px", alignSelf: "strench" }}>
-                    <Image
-                        src={QuoteImage}
-                        width={16}
-                        height={14}
-                    />
-                    <div style={{ "color": "#D9D9D9", "fontSize": "12px", "fontStyle": "normal", "fontWeight": "300", "lineHeight": "130%", "letterSpacing": "-0.12px" }}>
-                        London King&apos;s Cross Station
+                <div style={{ display: "flex", padding: "8px 32px", justifyContent:"center", gap: "16px", alignSelf: "strench" }}>
+                    <div style={{ textAlign:"center","color": "#D9D9D9", "fontSize": 12, "fontWeight": 300, lineHeight:"130%", letterSpacing: "-0.12px" }}>
+                        Taken From : Arthur&apos;s Seats, Edinburgh, Scotland
                     </div>
                 </div>
             </div>
