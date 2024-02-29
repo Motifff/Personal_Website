@@ -2,9 +2,116 @@
     "data": [
         {
             "page": "Home",
-            "latest":[],
-            "main":[],
-            "memo":[]
+            "latest":[
+                {
+                    "title": "Add new features to the Information Architecture",
+                    "subtitle": "Personal Project Progress",
+                    "time": "2016-01-01",
+                    "image": "http://placehold.it/900x300"
+                }
+            ],
+            "main":[
+                {
+                    "headline": [
+                        {
+                            "title": "Welcome to my personal website",
+                            "image": "http://placehold.it/900x300"
+                        },
+                        {
+                            "title": "My name is John Doe",
+                            "image": "http://placehold.it/900x300"
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "title": "Detective Rhetoric",
+                            "subtitle": "Human Computer Interaction",
+                            "type": "An interactive robot for awakening caution of expression",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Myo-Clear APP ",
+                            "subtitle": "Myopic App Design using Lidar and Computer Vision",
+                            "type": "Interaction Design",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Enhanced Spine",
+                            "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
+                            "type": "Industrial Design",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Dimention Smasher",
+                            "subtitle": "System Design",
+                            "type": "A set of hardware and software system for expanding live streamers' creativity space",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "天罡 1# SPACE POET PROJECT",
+                            "subtitle": "Speculative Design",
+                            "type": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "The Time Flowing on the Canal",
+                            "subtitle": "Installation Design",
+                            "type": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Interactive Art Design for Tea Space(Helper)",
+                            "subtitle": "Mechanics Design",
+                            "type": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Untitled Quantum Game",
+                            "subtitle": "Speculative Design",
+                            "type": "A quantum  science game using the Unity engine",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Material Movement",
+                            "subtitle": "Innovation Design",
+                            "type": "regenerative material recording device and artistic interactive installation",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Lightime",
+                            "subtitle": "Industrial Design",
+                            "type": "A desktop zoned lighting table lamp using FOC and depth detection",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "万物生•普陀祈福",
+                            "subtitle": "Jewellery Design",
+                            "type": "A jewellery collection based on Mount Putuo's blessing culture and the Beijing Olympic medals.",
+                            "image": "http://placehold.it/300x200"
+                        },
+                        {
+                            "title": "Modular Desk",
+                            "subtitle": "Industrial Design",
+                            "type": "A table design project based on module classification and custom functionality.",
+                            "image": "http://placehold.it/300x200"
+                        }
+                    ]
+                }
+            ],
+            "memo":[
+                {
+                    "title": "Can the learning rate of a neural network in 3D space be visualized by a ball?",
+                    "subtitle": "Ideas",
+                    "time": "2016-01-01",
+                    "image": "http://placehold.it/900x300"
+                },
+                {
+                    "title": "What is more important is that the machine is made of hydraulic instead of Raw motors, which create human like movements, as is the essence of human muscle.",
+                    "subtitle": "Memo",
+                    "time": "2016-01-01",
+                    "image": "http://placehold.it/900x300"
+                }
+            ]
         },
         {
             "page": "Blog",
@@ -19,10 +126,7 @@
             "memo":[]
         },
         {
-            "page": "Contacts",
-            "latest":[],
-            "main":[],
-            "memo":[]
+            "page": "Contacts"
         }
     ]
 }

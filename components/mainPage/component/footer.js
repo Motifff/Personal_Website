@@ -16,7 +16,7 @@ export default function Footer(props) {
         <div>
             <div
                 style={{
-                    height: "50px",
+                    height: "20vh",
                     backgroundColor: "#18191B"
                 }}
             ></div>
