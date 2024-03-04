@@ -29,7 +29,7 @@ export default function Name(props) {
   })
 
   const handleButtonClick = () => {
-    router.back()
+    router.push("https://motifff.github.io/Personal_Website/")
   }
 
   return (

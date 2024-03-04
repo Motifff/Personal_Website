@@ -23,7 +23,8 @@ export default function HomeLayout() {
   const [timeUp, setTimeup] = useState(false);
 
   const jumpAnimationHomepage = useSpring({
-    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? pathname.includes("home") ? "21.875vh" : "6.25vh" : "100vh"
+    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? pathname.includes("home") ? "21.875vh" : "6.25vh" : "100vh",
+    backgroundColor: pathname.includes("home")?"rgba(0, 0, 0, 0.00)":"rgba(0, 0, 0, 1.00)"
   });
 
   const jumpAnimationTitle = useSpring({
@@ -79,6 +80,7 @@ export default function HomeLayout() {
           justifyContent: 'flex-end',
           alignItems: 'flex-start',
           gap: 24,
+          backgroundColor:"#000000",
           ...jumpAnimationHomepage
         }}>
         <animated.div className="title"

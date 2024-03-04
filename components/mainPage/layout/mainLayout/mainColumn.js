@@ -10,7 +10,7 @@ export default function MainColumn(props) {
         <div style={{ display: "flex", flex: "1 0 0", padding: "16px", flexDirection: "column", alignSelf: "stretch", gap: "16px" }}>
             <Divider text="Headline" />
             <HeadLineBlock />
-            <Divider text="Design Projects" />
+            <Divider text="Featured Projects" />
             <div
                 style={{ display: "grid", gridTemplateColumns: props.ifDouble?"repeat(2,1fr)":"repeat(1,1fr)", gap: "16px" }}
             >
