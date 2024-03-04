@@ -1,6 +1,3 @@
-import Image from "next/image"
-
-import QuoteImage from "/public/qm.svg"
 import selfie from "@/components/src/selfie.jpg"
 import view from "@/components/src/view.jpg"
 
