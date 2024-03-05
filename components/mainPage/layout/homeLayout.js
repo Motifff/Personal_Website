@@ -106,7 +106,7 @@ export default function HomeLayout() {
       <Footer />
       <div className="background" style={{ position: "absolute", left: 0, top: 0, zIndex: -1 }}>
         {
-          pathname.includes("home") ? <ShaderBlock /> : <Canvas style={{ width: "100vw", height: "100vh" , backgroundColor:"#000000"}}></Canvas>
+          pathname.includes("home") ? <ShaderBlock /> : <div style={{ width: "100vw", height: "100vh" , backgroundColor:"#000000"}}></div>
         }
       </div>
     </div>
