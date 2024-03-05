@@ -16,17 +16,27 @@ export default function Footer(props) {
         <div>
             <div
                 style={{
+                    display: "flex",
+                    alignSelf: "stretch",
                     height: "20vh",
-                    backgroundColor: "#18191B"
+                    backgroundColor: "#18191B",
+                    justifyContent: "flex-end",
+                    alignItems: "flex-end",
+                    paddingRight: "24px",
                 }}
-            ></div>
+            >
+                <div style={{width:"fit-content",color:"#ADB3AB", fontSize:"12px", fontWeight:"200", lineHeight:"130%", letterSpacing:"-0.12px"}}>
+                    Build from scratch @2024
+                </div>
+            </div>
             {stripes}
             <div
                 style={{
                     height: "64px",
-                    backgroundColor: "#D4D5D9"
+                    backgroundColor: "#D4D5D9",
                 }}
-            ></div>
+            >
+            </div>
         </div>
     )
 }
