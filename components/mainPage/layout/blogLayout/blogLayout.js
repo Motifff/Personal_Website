@@ -12,9 +12,9 @@ export default function BlogLayout(props) {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await axios("pageData.json"); // Assuming `.json` is in the `public` folder
+            const result = await axios("./pageData.json"); // Assuming `.json` is in the `public` folder
             setContent(result.data);
-            console.log(content);
+            console.log(result.data);
         };
 
         fetchData();
