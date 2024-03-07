@@ -70,6 +70,8 @@ function AsyncBlogPage(props) {
 
 export default function BlogLayout(props) {
     return (
-        <AsyncBlogPage ifFold={props.ifFold} />
+        <Suspense fallback={<div>Loading...</div>}>
+            <AsyncBlogPage ifFold={props.ifFold} />
+        </Suspense>
     );
 }
