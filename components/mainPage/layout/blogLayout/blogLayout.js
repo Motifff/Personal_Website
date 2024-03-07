@@ -1,11 +1,11 @@
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense} from "react";
 import axios from "axios";
 
 import BlogSummaryView from "../../component/blogSummaryView";
 import ArticleLayout from "./openArticle/articleLayout";
 
-export default function BlogLayout(props) {
+function AsyncBlogPage(props) {
     const searchParams = useSearchParams();
     const search = searchParams.get('search');
     const [jsonData, seJsonData] = useState(null);
@@ -57,5 +57,13 @@ export default function BlogLayout(props) {
                 <ArticleLayout ifFold={props.ifFold} />
             )}
         </div>
+    );
+}
+
+export default function BlogLayout(props) {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <AsyncBlogPage ifFold={props.ifFold} />
+        </Suspense>
     );
 }
