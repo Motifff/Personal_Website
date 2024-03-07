@@ -8,17 +8,19 @@ import ArticleLayout from "./openArticle/articleLayout";
 export default function BlogLayout(props) {
     const searchParams = useSearchParams();
     const search = searchParams.get('search');
-    const [content, setContent] = useState(null);
+    const [jsonData, seJsonData] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await axios("./pageData.json"); // Assuming `.json` is in the `public` folder
-            setContent(result.data);
+            const result = await axios("@/public/data.json"); // Assuming `.json` is in the `public` folder
+            setData(result.data);
             console.log(result.data);
         };
 
         fetchData();
     }, []);
+
+    
 
     return (
         <div className="mainContent" style={{ display: "flex", flexDirection: props.ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
@@ -46,7 +48,7 @@ export default function BlogLayout(props) {
                         Blog
                     </div>
                     {
-                        content.blog.content.map((blogItem, index) => (
+                        jsonData.blog.content.map((blogItem, index) => (
                             <BlogSummaryView key={index} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} date={blogItem.date}/>
                         ))
                     }

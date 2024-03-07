@@ -1,3 +1,7 @@
+import OutlineColumn from "./outlineColumn"
+import ArticleColumn from "./articleColumn"
+import QuoteColumn from "./quoteColumn"
+
 export default function ArticleLayout(props) {
     return (
         <>

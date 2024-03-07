@@ -9,6 +9,7 @@ export default function QuoteBlock(props) {
                 src = {QuoteImage}
                 width={16}
                 height={14}
+                alt={"Quote"}
             />
             <div style={{ "color": "#D9D9D9", "fontSize": "12px", "fontStyle": "normal", "fontWeight": "300", "lineHeight": "130%", "letterSpacing": "-0.12px" }}>
                 {props.text}
