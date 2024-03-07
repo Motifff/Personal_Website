@@ -70,7 +70,8 @@
                     "type": "HCI | UX",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "detective_retoric"
                 },
                 {
                     "title": "Myo-Clear APP ",
@@ -78,7 +79,8 @@
                     "type": "Interaction Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "myo_clear_app"
                 },
                 {
                     "title": "Enhanced Spine",
@@ -86,7 +88,8 @@
                     "type": "Industrial Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "enhanced_spine"
                 },
                 {
                     "title": "Dimention Smasher",
@@ -94,7 +97,8 @@
                     "type": "System Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "dimention_smasher"
                 },
                 {
                     "title": "天罡 1# SPACE POET PROJECT",
@@ -102,7 +106,8 @@
                     "type": "Installation Design",
                     "location": "Shanghai",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "space_poet_project"
                 },
                 {
                     "title": "The Time Flowing on the Canal",
@@ -110,15 +115,17 @@
                     "type": "Installation Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "time_flowing_on_canal"
                 },
                 {
-                    "title": "Interactive Art Design for Tea Space(Helper)",
+                    "title": "Interactive Art Design - Tea Space",
                     "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
                     "type": "Mechanics Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "tea_space"
                 },
                 {
                     "title": "Untitled Quantum Game",
@@ -126,7 +133,8 @@
                     "type": "Game Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "untitled_quantum_game"
                 },
                 {
                     "title": "Material Movement",
@@ -134,7 +142,8 @@
                     "type": "Innovation Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "material_movement"
                 },
                 {
                     "title": "Lightime",
@@ -142,7 +151,8 @@
                     "type": "Industrial Design",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200"
+                    "image": "http://placehold.it/300x200",
+                    "link": "lightime"
                 }
             ]
         },

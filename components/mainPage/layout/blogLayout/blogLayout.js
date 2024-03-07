@@ -13,26 +13,12 @@ function AsyncBlogPage(props) {
     useEffect(() => {
         const fetchData = async () => {
             const result = await axios("data.json"); // Assuming `.json` is in the `public` folder
-            setJsonData(result["allPageData"]["blog"]);
-            print(result["allPageData"]["blog"]);
+            setJsonData(result.data.allPageData);
+            console.log(result.data.allPageData);
         };
 
         fetchData();
     }, []);
-
-
-    function renderBlock() {
-        return (
-            <>
-            {
-                jsonData.blog.content.map((blogItem, index) => (
-                    <BlogSummaryView key={index} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} date={blogItem.date} />
-                ))
-            }
-            </>
-        )
-    }
-
 
     return (
         <div className="mainContent" style={{ display: "flex", flexDirection: props.ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
@@ -45,6 +31,7 @@ function AsyncBlogPage(props) {
                         width: "100%",
                         padding: "0px 13.33vw",
                         alignItems: "flex-start",
+                        gap: "32px",
                     }}
                 >
                     <div
@@ -59,7 +46,12 @@ function AsyncBlogPage(props) {
                     >
                         Blog
                     </div>
-                    
+                    {
+                        jsonData === null ? null :
+                        jsonData.blog.content.map((blogItem, index) => (
+                            <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} date={blogItem.date} />
+                        ))
+                    }
                 </div>
             ) : (
                 <ArticleLayout ifFold={props.ifFold} />
