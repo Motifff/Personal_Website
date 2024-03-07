@@ -13,8 +13,7 @@ function AsyncBlogPage(props) {
     useEffect(() => {
         const fetchData = async () => {
             const result = await axios("https://motifff.github.io/Personal_Website/data.json"); // Assuming `.json` is in the `public` folder
-            setJsonData(result.allPageData);
-            console.log(result);
+            setJsonData(result.allPageData.blog);
         };
 
         fetchData();
