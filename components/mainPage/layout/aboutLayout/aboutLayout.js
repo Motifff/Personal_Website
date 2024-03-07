@@ -1,5 +1,5 @@
-import selfie from "@/components/src/selfie.jpg"
 import view from "@/components/src/view.jpg"
+import selfie from "@/components/src/selfie.jpg"
 
 import ExpBlock from "../../component/experienceBlock"
 import LinkJumper from "../../component/linkJumper"
