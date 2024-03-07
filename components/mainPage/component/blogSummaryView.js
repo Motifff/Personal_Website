@@ -1,5 +1,6 @@
 import ArticleTitle from "./articleTitle";
 import DefaultImage from "/public/view.jpg";
+import Image from "next/image";
 
 
 export default function BlogSummaryView(props) {
