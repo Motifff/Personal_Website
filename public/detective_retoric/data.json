@@ -1,0 +1,21 @@
+{
+    "title": "Detective Rhetoric",
+    "subtitle": "An interactive robot for awakening caution of expression",
+    "type": "HCI | UX",
+    "location": "Hangzhou",
+    "date": "02 FEB 24",
+    "mainContent": [
+        {
+            "type":"imageBed",
+            "links":[
+                "",
+                ""
+            ]
+        },
+        {
+            "type": "paragraph",
+            "contents":"",
+            "credits":""
+        }
+    ]
+}

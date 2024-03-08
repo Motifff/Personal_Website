@@ -8,7 +8,7 @@ export default function ArticleLayout(props) {
         {
             props.ifFold ? null : <OutlineColumn />
         }
-        < ArticleColumn />
+        < ArticleColumn articleData={props.articleData}/>
         {
             props.ifFold ? null : <QuoteColumn />
         }

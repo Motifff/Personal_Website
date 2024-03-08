@@ -7,16 +7,22 @@ import ArticleLayout from "./openArticle/articleLayout";
 
 function AsyncBlogPage(props) {
     const searchParams = useSearchParams();
-    const search = searchParams.get('search');
+    const search = searchParams.get('id');
     const [jsonData, setJsonData] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await axios("data.json"); // Assuming `.json` is in the `public` folder
-            setJsonData(result.data.allPageData);
-            console.log(result.data.allPageData);
+            if (search !== null) {
+                console.log(search);
+                const result = await axios("/"+search+"/"+"data.json"); // Assuming `.json` is in the `public` folder
+                setJsonData(result.data);
+            }
+            else {
+                const result = await axios("data.json"); // Assuming `.json` is in the `public` folder
+                setJsonData(result.data.allPageData);
+                console.log(result.data.allPageData);
+            }
         };
-
         fetchData();
     }, []);
 
@@ -48,13 +54,18 @@ function AsyncBlogPage(props) {
                     </div>
                     {
                         jsonData === null ? null :
-                        jsonData.blog.content.map((blogItem, index) => (
-                            <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} date={blogItem.date} />
-                        ))
+                            jsonData.blog.content.map((blogItem, index) => (
+                                <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} date={blogItem.date} link={blogItem.link}/>
+                            ))
                     }
                 </div>
             ) : (
-                <ArticleLayout ifFold={props.ifFold} />
+                <>
+                {
+                    jsonData === null ? null :
+                        <ArticleLayout ifFold={props.ifFold} articleData={jsonData}/>
+                }
+                </>
             )}
         </div>
     );

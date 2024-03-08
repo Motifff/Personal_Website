@@ -4,7 +4,7 @@ export function generateStaticParams() {
   return [{ child: 'home' }, { child: 'home!' },
           { child: 'blog' }, { child: 'blog!' },
           { child: 'about'},{ child: 'about!'},
-          { child: 'contacts'},{ child: 'contacts!'},
+          { child: 'contacts'},{ child: 'contacts!'},{child:"undefined"}
         ]
 }
 
