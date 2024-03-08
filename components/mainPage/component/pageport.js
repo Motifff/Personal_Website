@@ -10,7 +10,11 @@ export default function PagePort(props){
             if(!props.isSubpage){
                 router.push(n)
             }else{
-                router.replace(n+"!")
+                router.replace("!"+n)
+            }
+        }else{
+            if(currentPath.includes("blog")){
+                router.replace("!blog")
             }
         }
     }

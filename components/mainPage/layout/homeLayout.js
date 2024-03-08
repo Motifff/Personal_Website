@@ -1,7 +1,7 @@
 'use client'
 
 import { useSpring, animated } from '@react-spring/web'
-import { useState, useEffect } from "react";
+import { useState, useEffect, useLayoutEffect } from "react";
 import { usePathname } from 'next/navigation';
 import axios from 'axios';
 //custom apps
@@ -18,7 +18,7 @@ export default function HomeLayout() {
   // this is to decide whether we should close the surrounding columns
   const [ifFold, setIfFold] = useState(false);
   // this one is to determine whether use two columns in the design projects area
-  const [if2, setIf2] = useState(true);
+  const [if2, setIf2] = useState(false);
   const pathname = usePathname()
   const [timeUp, setTimeup] = useState(false);
 
@@ -36,7 +36,7 @@ export default function HomeLayout() {
     if (windowSize > 224 + 384 + 236 * 2 + 16 * 3) {
       setIfFold(false);
       setIf2(true);
-    } else if (windowSize > 236 * 2 + 16 * 3) {
+    } else if (windowSize > 520) {
       setIfFold(true);
       setIf2(true);
     } else {
@@ -49,14 +49,14 @@ export default function HomeLayout() {
     // Set showContent to false after 3000 milliseconds (3 seconds)
     const timer = setTimeout(() => {
       setTimeup(true);
-    }, 300);
-    // Window Size Auto Detection
-    resizeSet(window.innerWidth);
+    }, 300);    
     // Clean up the timer when the component unmounts
     return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
+    resizeSet(window.innerWidth);
+
     function handleWindowResize() {
       resizeSet(window.innerWidth);
     }
@@ -98,7 +98,7 @@ export default function HomeLayout() {
         pathname.includes("blog") ? <BlogLayout ifFold={ifFold} /> : null
       }
       {
-        pathname.includes("about") ? <AboutLayout ifFold={ifFold} /> : null
+        pathname.includes("about") ? <AboutLayout ifFold={ifFold} if2={if2}/> : null
       }
       {
         pathname.includes("contacts") ? <ContactLayout /> : null

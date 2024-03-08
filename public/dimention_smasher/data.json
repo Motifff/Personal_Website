@@ -7,9 +7,15 @@
     "mainContent": [
         {
             "type":"imageBed",
-            "links":[
-                "",
-                ""
+            "content":[
+                {
+                    "title": "Welcome to my personal website",
+                    "image": "http://placehold.it/900x300"
+                },
+                {
+                    "title": "My name is John Doe",
+                    "image": "http://placehold.it/900x300"
+                }
             ]
         },
         {

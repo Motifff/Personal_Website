@@ -63,8 +63,8 @@ export default function AboutLayout(props) {
                 <div
                     className="imageHolder"
                     style={{
-                        width: "20vw",
-                        height: "20vw",
+                        width: !props.if2 ? "73.33vw" : "20vw",
+                        height: !props.if2 ? "73.33vw" : "20vw",
                         backgroundImage: `url(${selfie.src})`,
                         backgroundSize: "cover",
                         borderRadius: "8px",

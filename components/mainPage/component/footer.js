@@ -22,7 +22,7 @@ export default function Footer(props) {
                     backgroundColor: "#18191B",
                     justifyContent: "flex-end",
                     alignItems: "flex-end",
-                    paddingRight: "24px",
+                    paddingRight: "24px"
                 }}
             >
                 <div style={{width:"fit-content",color:"#ADB3AB", fontSize:"12px", fontWeight:"200", lineHeight:"130%", letterSpacing:"-0.12px"}}>

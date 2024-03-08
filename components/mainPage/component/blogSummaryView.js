@@ -22,7 +22,6 @@ export default function BlogSummaryView(props) {
                 style={{
                     width: props.ifFold ? "100%" : "35vw",
                     height: "100%",
-                    background: "#FFF",
                     backgroundImage: `url(${props.image})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center center",
@@ -38,7 +37,7 @@ export default function BlogSummaryView(props) {
                     <div className="SubTitle" style={{ width: "33.3vh", color: '#5D5D5D', fontSize: 12, fontWeight: '500', lineHeight: "130%", wordWrap: 'break-word' }}>{props.subtitle}</div>
                 </div>
                 <div className="Datas" style={{ display: "flex", flexWrap: "wrap", "justifyContent": "space-between", "alignItems": "flex-end" }}>
-                    <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-end", "alignItems": "flex-end", "gap": "4px" }}>
+                    <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-start", "alignItems": "flex-start", "gap": "4px" }}>
                         <div style={{ "color": "#D4D5D9", "fontSize": 16, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>{props.cotegories}</div>
                         <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>COTEGORIES</div>
                     </div>

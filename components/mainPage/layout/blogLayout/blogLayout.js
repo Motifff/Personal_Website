@@ -55,7 +55,7 @@ function AsyncBlogPage(props) {
                     {
                         jsonData === null ? null :
                             jsonData.blog.content.map((blogItem, index) => (
-                                <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} date={blogItem.date} link={blogItem.link}/>
+                                <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} image={blogItem.image} date={blogItem.date} link={blogItem.link}/>
                             ))
                     }
                 </div>

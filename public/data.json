@@ -25,25 +25,25 @@
                         "title": "Detective Rhetoric",
                         "subtitle": "An interactive robot for awakening caution of expression",
                         "type": "Human Computer Interaction",
-                        "image": "http://placehold.it/300x200"
+                        "image": "detective_retoric/images/mainImage.png"
                     },
                     {
                         "title": "Myo-Clear APP ",
                         "subtitle": "Myopic App Design using Lidar and Computer Vision",
                         "type": "Interaction Design",
-                        "image": "http://placehold.it/300x200"
+                        "image": "myo_clear_app/images/mainImage.png"
                     },
                     {
                         "title": "Enhanced Spine",
                         "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
                         "type": "Industrial Design",
-                        "image": "http://placehold.it/300x200"
+                        "image": "enhanced_spine/images/mainImage.png"
                     },
                     {
                         "title": "Dimention Smasher",
-                        "subtitle": "A set of hardware and software system for expanding live streamers' creativity space",
+                        "subtitle": "Hardware and software system for expanding live streamers' creativity space",
                         "type": "System Design",
-                        "image": "http://placehold.it/300x200"
+                        "image": "dimention_smasher/images/mainImage.png"
                     }
                 ],
                 "memo": [
@@ -70,13 +70,13 @@
                     "type": "HCI | UX",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
+                    "image": "detective_retoric/images/mainImage.png",
                     "link": "detective_retoric"
                 },
                 {
                     "title": "Myo-Clear APP ",
                     "subtitle": "Myopic App Design using Lidar and Computer Vision",
-                    "type": "Interaction Design",
+                    "type": "UX",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -85,7 +85,7 @@
                 {
                     "title": "Enhanced Spine",
                     "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
-                    "type": "Industrial Design",
+                    "type": "DEng",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -94,7 +94,7 @@
                 {
                     "title": "Dimention Smasher",
                     "subtitle": "A set of hardware and software system for expanding live streamers' creativity space",
-                    "type": "System Design",
+                    "type": "PD",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -103,7 +103,7 @@
                 {
                     "title": "天罡 1# SPACE POET PROJECT",
                     "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
-                    "type": "Installation Design",
+                    "type": "IED",
                     "location": "Shanghai",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -112,7 +112,7 @@
                 {
                     "title": "The Time Flowing on the Canal",
                     "subtitle": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
-                    "type": "Installation Design",
+                    "type": "IED",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -121,7 +121,7 @@
                 {
                     "title": "Interactive Art Design - Tea Space",
                     "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
-                    "type": "Mechanics Design",
+                    "type": "DEng",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -130,7 +130,7 @@
                 {
                     "title": "Untitled Quantum Game",
                     "subtitle": "A quantum  science game using the Unity engine",
-                    "type": "Game Design",
+                    "type": "Game",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -139,7 +139,7 @@
                 {
                     "title": "Material Movement",
                     "subtitle": "regenerative material recording device and artistic interactive installation",
-                    "type": "Innovation Design",
+                    "type": "DEng",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
@@ -148,7 +148,7 @@
                 {
                     "title": "Lightime",
                     "subtitle": "A desktop zoned lighting table lamp using FOC and depth detection",
-                    "type": "Industrial Design",
+                    "type": "DEng",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
                     "image": "http://placehold.it/300x200",
