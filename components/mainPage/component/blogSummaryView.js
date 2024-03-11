@@ -2,7 +2,7 @@
 export default function BlogSummaryView(props) {
     const handleOnClick = () => {
         //window.location.href = `/blog/${props.link}`;
-        window.location.href = "/blog/"+"?id="+props.link;
+        window.location.href = "/blog/"+props.link;
     }
 
     return (

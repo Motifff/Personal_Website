@@ -1,4 +1,4 @@
-import { useSearchParams } from "next/navigation";
+import { useParams } from "next/navigation";
 import { useEffect, useState, Suspense } from "react";
 import axios from "axios";
 
@@ -6,15 +6,15 @@ import BlogSummaryView from "../../component/blogSummaryView";
 import ArticleLayout from "./openArticle/articleLayout";
 
 function AsyncBlogPage(props) {
-    const searchParams = useSearchParams();
-    const search = searchParams.get('id');
+    const pageParams = useParams();
+    const articleParams = pageParams.id;
     const [jsonData, setJsonData] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
-            if (search !== null) {
-                console.log(search);
-                const result = await axios("/"+search+"/"+"data.json"); // Assuming `.json` is in the `public` folder
+            if (articleParams !== undefined && articleParams !== null) {
+                console.log(articleParams);
+                const result = await axios("/"+articleParams+"/"+"data.json"); // Assuming `.json` is in the `public` folder
                 setJsonData(result.data);
             }
             else {
@@ -28,7 +28,7 @@ function AsyncBlogPage(props) {
 
     return (
         <div className="mainContent" style={{ display: "flex", flexDirection: props.ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
-            {search === null ? (
+            {articleParams === undefined ? (
                 <div
                     className="PageRestriction"
                     style={{

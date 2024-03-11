@@ -1,9 +1,9 @@
 'use client'
 
 import { useSpring, animated } from '@react-spring/web'
-import { useState, useEffect, useLayoutEffect } from "react";
+import { useState, useEffect} from "react";
 import { usePathname } from 'next/navigation';
-import axios from 'axios';
+
 //custom apps
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
 import PagePort from "@/components/mainPage/component/pageport";
