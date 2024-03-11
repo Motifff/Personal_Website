@@ -1,21 +1,21 @@
 {
-    "title": "Detective Rhetoric",
-    "subtitle": "An interactive robot for awakening caution of expression",
-    "type": "HCI | UX",
+    "title": "Enhanced Spine",
+    "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
+    "type": "DEng",
     "location": "Hangzhou",
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type":"imageBed",
-            "links":[
+            "type": "imageBed",
+            "links": [
                 "",
                 ""
             ]
         },
         {
             "type": "paragraph",
-            "contents":"",
-            "credits":""
+            "contents": "",
+            "credits": ""
         }
     ]
 }

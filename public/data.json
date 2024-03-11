@@ -83,7 +83,7 @@
                     "type": "UX",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
+                    "image": "myo_clear_app/images/mainImage.png",
                     "link": "myo_clear_app"
                 },
                 {
@@ -92,7 +92,7 @@
                     "type": "DEng",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
+                    "image": "enhanced_spine/images/mainImage.png",
                     "link": "enhanced_spine"
                 },
                 {
@@ -101,7 +101,7 @@
                     "type": "PD",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
+                    "image": "dimention_smasher/images/mainImage.png",
                     "link": "dimention_smasher"
                 },
                 {
