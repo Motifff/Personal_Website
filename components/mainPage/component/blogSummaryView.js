@@ -1,8 +1,13 @@
+import { useRouter } from 'next/navigation';
+
 // Description: This component is used to display the summary of the blog.
 export default function BlogSummaryView(props) {
+    const router = useRouter();
+
     const handleOnClick = () => {
         //window.location.href = `/blog/${props.link}`;
-        window.location.href = "/Personal_Website/blog/"+props.link;
+        window.location.href = "/Personal_Website/blog/"+props.link;// this modefiy is for github pages
+        router.push(`/blog/${props.link}`);
     }
 
     return (
