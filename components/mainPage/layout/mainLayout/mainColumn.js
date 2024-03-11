@@ -26,7 +26,7 @@ export default function MainColumn(props) {
                 style={{ display: "grid", gridTemplateColumns: props.ifDouble ? "repeat(2,1fr)" : "repeat(1,1fr)", gap: "16px" }}
             >
                 {jsonData === null ? null : jsonData.home.main.projects.map((projectItem, index) => (
-                    <ProjectBlock key={index} type={projectItem.type} title={projectItem.title} subtitle={projectItem.subtitle} image={projectItem.image} />
+                    <ProjectBlock key={index} type={projectItem.type} title={projectItem.title} subtitle={projectItem.subtitle} image={projectItem.image} link={projectItem.link}/>
                 ))}
             </div>
         </div>

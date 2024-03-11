@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 
 export default function ProjectBlock(props) {
     const [isHover, setIsHover] = useState(false);
+    const router = useRouter();
 
     const handleMouseEnter = () => {
         setIsHover(true);
@@ -9,12 +11,21 @@ export default function ProjectBlock(props) {
     const handleMouseLeave = () => {
         setIsHover(false);
     };
-    
+
+    const handleMouseClick = () => {
+        router.push("/blog/"+props.link);
+    }
+
     return (
-        <div className="Wrapper" style={{ display: "flex", flexWrap: "wrap", flexDirection: 'column', gap: 4 }}>
-            <div className='ImageHolder' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ width: "100%", height: "35vh", opacity:isHover?1:0.5, backgroundImage: `url(${props.image})`, 
-                    backgroundSize: "cover",
-                    backgroundPosition: "center center",}} />
+        <a  className="Wrapper"
+            onClick={handleMouseClick}
+            style={{ display: "flex", flexWrap: "wrap", flexDirection: 'column', gap: 4 }}
+        >
+            <div className='ImageHolder' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{
+                width: "100%", height: "35vh", opacity: isHover ? 1 : 0.5, backgroundImage: `url(${props.image})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+            }} />
             <div className="Type"
                 style={{ color: "#FFF", fontSize: "10px", fontWeight: "200", lineHeight: "130%", letterSpacing: "-0.1px" }}>
                 {props.type}
@@ -29,6 +40,6 @@ export default function ProjectBlock(props) {
                     {props.subtitle}
                 </div>
             </div>
-        </div>
+        </a>
     )
 }
