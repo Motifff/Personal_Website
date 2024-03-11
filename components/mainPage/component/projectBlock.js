@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export default function ProjectBlock(props) {
     const [isHover, setIsHover] = useState(false);
