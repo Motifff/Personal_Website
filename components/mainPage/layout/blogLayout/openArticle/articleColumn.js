@@ -1,8 +1,5 @@
 import ArticleTitle from "../../../component/articleTitle"
-import HeadLineBlock from "../../../component/headLineBlock"
 import LinkJumper from "../../../component/linkJumper"
-import ParaBlock from "../../../component/paraBlock"
-import QuoteBlock from "../../../component/quoteBlock"
 
 export default function ArticleColumn(props) {
     return (

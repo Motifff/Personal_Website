@@ -5,7 +5,6 @@ export default function BlogSummaryView(props) {
     const router = useRouter();
 
     const handleOnClick = () => {
-        //window.location.href = `/blog/${props.link}`;
         router.push(`/blog/${props.link}`);
     }
 
