@@ -14,7 +14,7 @@ function AsyncBlogPage(props) {
         const fetchData = async () => {
             if (articleParams !== undefined && articleParams !== null) {
                 console.log(articleParams);
-                const result = await axios("/"+articleParams+"/"+"data.json"); // Assuming `.json` is in the `public` folder
+                const result = await axios("../"+articleParams+"/"+"data.json"); // Assuming `.json` is in the `public` folder
                 setJsonData(result.data);
             }
             else {
