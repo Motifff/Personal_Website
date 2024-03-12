@@ -23,7 +23,7 @@ export default function LinkJumper(props) {
                         gap: "10px",
                     }}    
                 >
-                    <div className="Texts" style={{color: "#FFF",fontSize: "12px",fontStyle: "normal",fontWeight: 300,lineHeight: "130%",letterSpacing: "-0.12px"}}>
+                    <div className="Texts" style={{color: "#FFF",fontSize: "12px",fontWeight: 300,lineHeight: "130%",letterSpacing: "-0.12px"}}>
                         {props.text}
                     </div>
                     <div className="Vector" style={{ width: 12, height: 12, opacity: 0.80, backgroundImage: `url(${arrow.src})`, backgroundSize: "cover" }}></div>

@@ -22,7 +22,7 @@ export default function ProjectBlock(props) {
             style={{ display: "flex", flexWrap: "wrap", flexDirection: 'column', gap: 4 }}
         >
             <div className='ImageHolder' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{
-                width: "100%", height: "35vh", opacity: isHover ? 1 : 0.5, backgroundImage: `url(${props.image})`,
+                width: "100%", height: "35vh", opacity: isHover ? 1 : 0.8, backgroundImage: `url(${props.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
             }} />
