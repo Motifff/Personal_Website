@@ -14,7 +14,7 @@ export default function BlogSummaryView(props) {
             style={{
                 display: 'flex',
                 flexDirection: props.ifFold ? 'column' : "row",
-                height: props.ifFold ? "60vh" : "33.3vh",
+                height: props.ifFold ? null : "33.3vh",
                 alignItems: 'flex-start',
                 gap: '3.33vw',
                 alignSelf: 'stretch',
@@ -24,12 +24,12 @@ export default function BlogSummaryView(props) {
                 className="Image"
                 style={{
                     width: props.ifFold ? "100%" : "35vw",
-                    height: "100%",
+                    height: props.ifFold ? "35vh":"100%",
                     backgroundImage: `url(${props.image})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center center",
                 }} />
-            <div className="Wrap" style={{ width: props.ifFold ? "100%" : "35vw", height: props.ifFold ? "20vh" : "100%", display: "flex", flexDirection: 'column', justifyContent: "space-between", alignSelf: "strench", gap: 16 }}>
+            <div className="Wrap" style={{ width: props.ifFold ? "100%" : "35vw", height: props.ifFold ? "fit-content" : "100%", display: "flex", flexDirection: 'column', justifyContent: "space-between", alignSelf: "strench", gap: 16 }}>
                 <div style={{
                     display: "flex",
                     flexDirection: "column",
