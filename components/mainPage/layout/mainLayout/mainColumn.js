@@ -4,6 +4,7 @@ import axios from "axios";
 import Divider from "../../component/divider"
 import HeadLineBlock from "../../component/headLineBlock"
 import ProjectBlock from "../../component/projectBlock"
+import { Suspense } from "react";
 
 export default function MainColumn(props) {
     const [jsonData, setJsonData] = useState(null);
@@ -15,20 +16,22 @@ export default function MainColumn(props) {
             console.log(result.data.allPageData);
         };
         fetchData();
-    }, []); 
+    }, []);
 
     return (
-        <div style={{ display: "flex", flex: "1 0 0", padding: "16px", flexDirection: "column", alignSelf: "stretch", gap: "16px" }}>
-            <Divider text="Headline" />
-            <HeadLineBlock />
-            <Divider text="Featured Projects" />
-            <div
-                style={{ display: "grid", gridTemplateColumns: props.ifDouble ? "repeat(2,1fr)" : "repeat(1,1fr)", gap: "16px" }}
-            >
-                {jsonData === null ? null : jsonData.home.main.projects.map((projectItem, index) => (
-                    <ProjectBlock key={index} type={projectItem.type} title={projectItem.title} subtitle={projectItem.subtitle} image={projectItem.image} link={projectItem.link}/>
-                ))}
+        <Suspense fallback={<div>Loading...</div>}>
+            <div style={{ display: "flex", flex: "1 0 0", padding: "16px", flexDirection: "column", alignSelf: "stretch", gap: "16px" }}>
+                <Divider text="Headline" />
+                <HeadLineBlock />
+                <Divider text="Featured Projects" />
+                <div
+                    style={{ display: "grid", gridTemplateColumns: props.ifDouble ? "repeat(2,1fr)" : "repeat(1,1fr)", gap: "16px" }}
+                >
+                    {jsonData === null ? null : jsonData.home.main.projects.map((projectItem, index) => (
+                        <ProjectBlock key={index} type={projectItem.type} title={projectItem.title} subtitle={projectItem.subtitle} image={projectItem.image} link={projectItem.link} />
+                    ))}
+                </div>
             </div>
-        </div>
+        </Suspense>
     )
 }

@@ -13,7 +13,7 @@ export default function Footer(props) {
     ));
 
     return (
-        <div>
+        <>
             <div
                 style={{
                     display: "flex",
@@ -37,6 +37,6 @@ export default function Footer(props) {
                 }}
             >
             </div>
-        </div>
+        </>
     )
 }

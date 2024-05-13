@@ -71,6 +71,7 @@ export default function AboutLayout(props) {
                         boxShadow: "0px 0px 4px 2px rgba(0, 0, 0, 0.25)"
                     }}
                 />
+                
             </div>
             <ExpBlock fold={props.ifFold} roleText="HCI | UX Engineer/Designer" locationText="London, UK" timeText="22 JAN 01" />
             <div className="Words" style={{ alignSelf: "stretch", paddingTop: "2px", height: "26px", color: '#D4D5D9', borderTop: "1px solid #636467", fontSize: 20, fontWeight: '500', letterSpacing: "-0.2px" }}>
