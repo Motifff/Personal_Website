@@ -1,6 +1,22 @@
 import { useSpring, animated } from '@react-spring/web'
 
+// 格式化时间的函数
+function formatTime(dateString) {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diffTime = Math.abs(now - date);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    if (diffDays === 0) {
+        return "today";
+    } else {
+        return `${diffDays} days ago`;
+    }
+}
+
 export default function MemoBlock(props) {    
+    const formattedTime = formatTime(props.time);
+
     return (
         <div className="Wrapper" style={{display:"flex",flexWrap:"wrap", width:"100%",flexDirection:'column',padding:16,gap:10}}>
             <div className="Subtitle"
@@ -14,7 +30,7 @@ export default function MemoBlock(props) {
             </div>
             <div className="Time"
                 style={{ color:"#FFF", fontSize:"12px", fontWeight:"200", lineHeight:"130%", letterSpacing:"-0.12px"}}>
-                    {props.time}
+                    {formattedTime}
             </div>
             <animated.div className="dot-container"
                 style={{

@@ -8,7 +8,7 @@ export default function IdeaColumn(props) {
             <MemoBlock 
                 subtitle="Ideas" 
                 title="Can the learning rate of a neural network in 3D space be visualized by a ball?" 
-                time="1mo ago"
+                time="2023/10/10"
             />
         </div>
     )

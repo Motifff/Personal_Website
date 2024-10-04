@@ -12,12 +12,16 @@
             "main": {
                 "headline": [
                     {
-                        "title": "Welcome to my personal website",
-                        "image": "http://placehold.it/900x300"
+                        "title": "Simulating Multi-Stakeholder Roundtable Discussions",
+                        "image": "main/main1.jpeg"
                     },
                     {
-                        "title": "My name is John Doe",
-                        "image": "http://placehold.it/900x300"
+                        "title": "“Detective Rhetoric” has been invited to join the exhibition",
+                        "image": "main/main2.jpeg"
+                    },
+                    {
+                        "title": "I am a designer",
+                        "image": "main/main1.jpeg"
                     }
                 ],
                 "projects": [

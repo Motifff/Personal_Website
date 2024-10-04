@@ -8,7 +8,7 @@ export default function LatestColumn(props) {
             <InfoBlock
                 subtitle="Personal Project Progress"
                 title="Add new features to the Information Architecture"
-                time="15min ago"
+                time="2024/10/2"
             />
         </div>
     )
