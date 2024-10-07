@@ -8,6 +8,7 @@ export default function JumpTag(props) {
                 alignItems:"flex - start",
                 gap:"2px",
                 alignSelf:"stretch",
+                cursor: "pointer",
             }}>
             <div className="Text" 
                 style={{

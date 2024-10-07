@@ -46,7 +46,9 @@ export default function HeadLineBlock(props) {
                     }}>
                     <div className="Dynamic Switcher" style={{ display: "flex", flexDirection: "row", gap: 8 }}>
                     {Array.isArray(props.content) ? props.content.map((item, index) => (
-                        <div key={index} style={{ width: 24, height: 2, backgroundColor: index === currentIndex ? "#FFF" : "#999" ,transition: 'background-color 1s ease'}}
+                        <div key={index} style={{ width: 24, height: 2, backgroundColor: index === currentIndex ? "#FFF" : "#999" ,transition: 'background-color 1s ease',
+                        cursor: "pointer"
+                        }}
                         onClick={() => setCurrentIndex(index)}
                         ></div>
                     )) : null}

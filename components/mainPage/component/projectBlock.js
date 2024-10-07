@@ -22,10 +22,11 @@ export default function ProjectBlock(props) {
             style={{ display: "flex", flexWrap: "wrap", flexDirection: 'column', gap: 4 }}
         >
             <div className='ImageHolder' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{
-                width: "100%", height: "35vh", opacity: isHover ? 1 : 0.8, backgroundImage: `url(${props.image})`,
+                width: "100%", height: "35vh", opacity: isHover ? 1 : 0.7, backgroundImage: `url(${props.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
-                transition: "opacity 0.5s ease"
+                transition: "opacity 0.5s ease",
+                cursor: "pointer"
             }} />
             <div className="Type"
                 style={{ color: "#FFF", fontSize: "10px", fontWeight: "200", lineHeight: "130%", letterSpacing: "-0.1px" }}>
