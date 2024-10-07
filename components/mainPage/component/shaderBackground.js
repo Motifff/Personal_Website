@@ -50,8 +50,8 @@ function ShaderBlock() {
     // Fetch the shaders once the component mounts
     useEffect(() => {
         // fetch the vertex and fragment shaders from public folder 
-        axios.get("https://motifff.github.io/Personal_Website/vert.glsl").then((res) => setVertex(res.data));
-        axios.get("https://motifff.github.io/Personal_Website/frag.glsl").then((res) => setFragment(res.data));
+        axios.get("https://yuting-justin-chen.top/vert.glsl").then((res) => setVertex(res.data));
+        axios.get("https://yuting-justin-chen.top/frag.glsl").then((res) => setFragment(res.data));
     }, []);
 
     // If the shaders are not loaded yet, return null (nothing will be rendered)
