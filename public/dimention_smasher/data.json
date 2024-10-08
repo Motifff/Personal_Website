@@ -1,7 +1,7 @@
 {
-    "title": "Myo-Clear APP ",
-    "subtitle": "Myopic App Design using Lidar and Computer Vision",
-    "type": "UX",
+    "title": "Dimention Smasher",
+    "subtitle": "Hardware and software system for expanding live streamers' creativity space",
+    "type": "System Design",
     "location": "Hangzhou",
     "date": "02 FEB 24",
     "mainContent": [
@@ -20,8 +20,8 @@
         },
         {
             "type": "paragraph",
-            "contents": "",
-            "credits": ""
+            "contents": "This is A paragraph that is long enough ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+            "credits": "Me"
         }
     ]
 }

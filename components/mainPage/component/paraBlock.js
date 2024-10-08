@@ -6,14 +6,14 @@ export default function ParaBlock(props) {
                     {props.text}
                 </div>
             </div>
-            <div style={{ "display": "flex", "width": "128px", "padding": "16px", "flexDirection": "column", "alignItems": "flex-start", "gap": "10px", "alignSelf": "stretch" }}>
+            {props.credits && (<div style={{ "display": "flex", "width": "128px", "padding": "16px", "flexDirection": "column", "alignItems": "flex-start", "gap": "10px", "alignSelf": "stretch" }}>
                 <div style={{ "color": "#D9D9D9", "fontSize": "16px", "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>
                     Credits
                 </div>
                 <div style={{ "color": "#D9D9D9", "fontSize": "14px", "fontStyle": "normal", "fontWeight": "300", "lineHeight": "130%", "letterSpacing": "-0.14px" }}>
                     {props.credits}
                 </div>
-            </div>
+            </div>)}
         </div>
     )
 }

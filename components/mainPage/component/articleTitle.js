@@ -11,8 +11,8 @@ export default function ArticleTitle(props) {
                 <div className="SubTitle" style={{ width: "256px", color: '#5D5D5D', fontSize: 12, fontWeight: '500', lineHeight: "130%", wordWrap: 'break-word' }}>{props.subtitle}</div>
             </div>
             <div className="Datas" style={{ display: "flex", flexWrap: "wrap", "justifyContent": "space-between", "alignItems": "flex-end", "alignSelf": "stretch" }}>
-                <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-end", "alignItems": "flex-end", "gap": "4px" }}>
-                    <div style={{ "color": "#D4D5D9", "fontSize": 16, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>{props.cotegories}</div>
+                <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-end", "alignItems": "flex-start", "gap": "4px" }}>
+                    <div style={{ "color": "#D4D5D9", "fontSize": 16, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>{props.type}</div>
                     <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>COTEGORIES</div>
                 </div>
                 <div style={{"display": "flex", "flexDirection": "row", "justifyContent": "flex-end", "alignItems": "flex-end", "gap": "24px"}}>

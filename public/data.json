@@ -29,28 +29,28 @@
                         "title": "Detective Rhetoric",
                         "subtitle": "An interactive robot for awakening caution of expression",
                         "type": "Human Computer Interaction",
-                        "image": "detective_retoric/images/mainImage.png",
+                        "image": "detective_retoric/images/mainImage.jpg",
                         "link": "detective_retoric"
                     },
                     {
                         "title": "Myo-Clear APP ",
                         "subtitle": "Myopic App Design using Lidar and Computer Vision",
                         "type": "Interaction Design",
-                        "image": "myo_clear_app/images/mainImage.png",
+                        "image": "myo_clear_app/images/mainImage.jpg",
                         "link": "myo_clear_app"
                     },
                     {
                         "title": "Enhanced Spine",
                         "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
                         "type": "Industrial Design",
-                        "image": "enhanced_spine/images/mainImage.png",
+                        "image": "enhanced_spine/images/mainImage.jpg",
                         "link": "enhanced_spine"
                     },
                     {
                         "title": "Dimention Smasher",
                         "subtitle": "Hardware and software system for expanding live streamers' creativity space",
                         "type": "System Design",
-                        "image": "dimention_smasher/images/mainImage.png",
+                        "image": "dimention_smasher/images/mainImage.jpg",
                         "link": "dimention_smasher"
                     }
                 ],
@@ -78,7 +78,7 @@
                     "type": "HCI | UX",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "detective_retoric/images/mainImage.png",
+                    "image": "detective_retoric/images/mainImage.jpg",
                     "link": "detective_retoric"
                 },
                 {
@@ -87,7 +87,7 @@
                     "type": "UX",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "myo_clear_app/images/mainImage.png",
+                    "image": "myo_clear_app/images/mainImage.jpg",
                     "link": "myo_clear_app"
                 },
                 {
@@ -96,7 +96,7 @@
                     "type": "DEng",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "enhanced_spine/images/mainImage.png",
+                    "image": "enhanced_spine/images/mainImage.jpg",
                     "link": "enhanced_spine"
                 },
                 {
@@ -105,7 +105,7 @@
                     "type": "PD",
                     "location": "Hangzhou",
                     "date": "02 FEB 24",
-                    "image": "dimention_smasher/images/mainImage.png",
+                    "image": "dimention_smasher/images/mainImage.jpg",
                     "link": "dimention_smasher"
                 },
                 {
