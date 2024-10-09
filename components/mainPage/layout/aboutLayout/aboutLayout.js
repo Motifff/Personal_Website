@@ -77,7 +77,7 @@ export default function AboutLayout(props) {
             <div className="Words" style={{ alignSelf: "stretch", paddingTop: "2px", height: "26px", color: '#D4D5D9', borderTop: "1px solid #636467", fontSize: 20, fontWeight: '500', letterSpacing: "-0.2px" }}>
                 Experience
             </div>
-            <ExpBlock fold={props.ifFold} roleText="University College London | MArch. DfPI" locationText="London, UK" timeText="JAN 25 - SEP 23" />
+            <ExpBlock fold={props.ifFold} roleText="University College London | MArch. DfPI" locationText="London, UK" timeText="SEP 23 - JAN 25" />
             <ExpBlock fold={props.ifFold} roleText="Aliyun | User Experience Design Intern" locationText="Hangzhou, CN" timeText="JUN 23 - SEP 23" />
             <ExpBlock fold={props.ifFold} roleText="Harman Intl. | UIUX Design Intern" locationText="Shenzhen, CN" timeText="DEC 22 - MAR 23" />
             <ExpBlock fold={props.ifFold} roleText="China Academy of Art | BEng. Industrial Design" locationText="Hangzhou, CN" timeText="SEP 19 - JUL 23" />

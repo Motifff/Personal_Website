@@ -3,7 +3,7 @@ import arrow from "@/components/src/Vector.svg"
 export default function LinkJumper(props) {
 
     return (
-        <a href={props.link} style={{alignSelf: "stretch"}}>
+        <a href={props.link} target="_blank" rel="noopener noreferrer" style={{alignSelf: "stretch"}}>
             <div
                 style={{
                     alignSelf: "stretch",

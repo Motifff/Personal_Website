@@ -7,15 +7,23 @@
     "mainContent": [
         {
             "type":"imageBed",
-            "links":[
-                "",
-                ""
-            ]
+            "content":[
+                {
+                    "title": "",
+                    "image": "/detective_retoric/images/mainImage.jpg"
+                }
+            ],
+            "aspectRatio": "1.5"
         },
         {
             "type": "paragraph",
-            "contents":"",
+            "content":"The work hopes to let the audience experience the process of distortion of information by chatbot through the participation of the audience. Using text as the communication medium, the algorithm is designed to continuously increase the variables of the system text, accumulate and iterate, and simulate the process of information distortion.",
             "credits":""
+        },
+        {
+            "type": "link",
+            "text": "Video",
+            "link":"https://www.youtube.com/watch?v=dzWlzplLSGY"
         }
     ]
 }

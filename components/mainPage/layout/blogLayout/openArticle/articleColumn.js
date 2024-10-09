@@ -1,6 +1,6 @@
+import InArticleImage from "@/components/mainPage/component/inArticleImage";
 import ArticleTitle from "../../../component/articleTitle"
 import LinkJumper from "../../../component/linkJumper"
-import HeadLineBlock from "@/components/mainPage/component/headLineBlock";
 import ParaBlock from "@/components/mainPage/component/paraBlock";
 
 export default function ArticleColumn(props) {
@@ -8,11 +8,15 @@ export default function ArticleColumn(props) {
         switch (item.type) {
             case "imageBed":
                 return (
-                    <HeadLineBlock content={item.content} />
+                    <InArticleImage ao = {item.aspectRatio} content={item.content} />
                 );
             case "paragraph":
                 return (
-                    <ParaBlock text={item.contents} credits={item.credits} />
+                    <ParaBlock text={item.content} credits={item.credits} />
+                );
+            case "link":
+                return (
+                    <LinkJumper text = {item.text} link={item.link} />
                 );
             default:
                 return null;
@@ -34,7 +38,6 @@ export default function ArticleColumn(props) {
                     {renderContent(item)}
                 </div>
             ))}
-            <LinkJumper link="https://www.google.com" text="Full Design File" />
         </div>
     )
 }
