@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation';
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
 import PagePort from "@/components/mainPage/component/pageport";
 import Name from "@/components/mainPage/component/name";
+import LanguageSwitcher from "@/components/mainPage/component/languageSwitcher";
 import MainLayout from './mainLayout/mainLayout';
 import BlogLayout from './blogLayout/blogLayout';
 import ContactLayout from './contactLayout/contactLayout';
@@ -27,9 +28,9 @@ export default function HomeLayout() {
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? pathname.includes("home") ? "10vh" : "1.5625vh" : timeUp ? pathname.includes("home") ? "10vh" : "1.5625vh" : "25vh",
+    gap: pathname.includes("!") ? pathname.includes("home") ? "10vh" : "16px" : timeUp ? pathname.includes("home") ? "10vh" : "16px" : "25vh",
     flexDirection: pathname.includes("home") ? 'column' : 'row',
-    alignItems: pathname.includes('home') ? 'flex-start' : ifFold ? 'flex-start' : 'center',
+    alignItems: pathname.includes('home') ? 'flex-start' : 'center',
   });
 
   const resizeSet = (windowSize) => {
@@ -79,16 +80,34 @@ export default function HomeLayout() {
           justifyContent: 'flex-end',
           alignItems: 'flex-start',
           gap: 24,
+          position: pathname.includes("home") ? 'relative' : 'sticky',
+          top: 0,
+          zIndex: 100,
+          backgroundColor: pathname.includes("home") ? 'transparent' : 'rgba(0, 0, 0, 0.7)',
+          backdropFilter: pathname.includes("home") ? 'none' : 'blur(10px)',
           ...jumpAnimationHomepage
         }}>
         <animated.div className="title"
           style={{
             justifyContent: 'flex-end',
             display: 'flex',
+            width: '100%',
             ...jumpAnimationTitle
           }}>
-          <Name isSubpage={true} />
-          <PagePort isSubpage={true} />
+          {(!pathname.includes("home") && ifFold) ? null : <Name isSubpage={true} />}
+          <div style={{ 
+            display: 'flex', 
+            flexWrap: 'wrap', 
+            columnGap: 16, 
+            rowGap: 8, 
+            alignItems: 'center', 
+            justifyContent: 'space-between',
+            flex: 1,
+            width: pathname.includes("home") ? '100%' : 'auto' 
+          }}>
+            <PagePort isSubpage={true} />
+            <LanguageSwitcher />
+          </div>
         </animated.div>
       </animated.div>
       {

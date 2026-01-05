@@ -4,6 +4,7 @@
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
 import PagePort from "@/components/mainPage/component/pageport";
 import Name from "@/components/mainPage/component/name";
+import LanguageSwitcher from "@/components/mainPage/component/languageSwitcher";
 
 export default function Home() {
 
@@ -31,7 +32,10 @@ export default function Home() {
           display: 'flex'
         }}>
         <Name isSubpage={false} />
-        <PagePort isSubpage={false} />
+        <div style={{display: 'flex', alignItems: 'center', gap: 16}}>
+          <PagePort isSubpage={false} />
+          <LanguageSwitcher />
+        </div>
       </div>
       <div className="background" style={{ position: "absolute", left: 0, top: 0, zIndex: -1, }}>
         <ShaderBlock />

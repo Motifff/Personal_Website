@@ -1,0 +1,27 @@
+{
+    "title": "2023 Design Portfolio",
+    "subtitle": "Interaction & Industrial Design Works",
+    "type": "Portfolio",
+    "location": "Hangzhou",
+    "date": "2023",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "本作品集汇集了 Chen YuTing 在 2023 年期间的交互设计与工业设计作品，涵盖了从硬件系统、移动应用到思辨设计（Speculative Design）和互动装置等多个领域。作品核心关注点在于通过技术手段解决实际问题（如近视、直播生产力）以及对未来社会现象（如内卷、信息扭曲）的深刻反思与批判性设计。",
+            "credits": ""
+        },
+        {
+            "type": "paragraph",
+            "content": "项目主要内容：\n1. Dimension Smasher (维度粉碎者)：一套软硬件结合的系统，旨在扩展直播主的创造力空间。\n2. Myo-Clear APP：利用移动设备 LiDAR 和计算机视觉技术，预防青少年近视的应用程序。\n3. Enhanced Spine (强化脊柱)：针对未来“内卷”社会设计的脊柱增强装置。\n4. Detective Rhetoric (侦探修辞)：一个交互式机器人装置，旨在唤醒人们对聊天机器人信息扭曲的警惕。\n5. 其他探索项目：Untitled Quantum Game, Lightime, Material Movement。",
+            "credits": ""
+        },
+        {
+            "type": "paragraph",
+            "content": "核心的设计思考：\n- 技术平权：致力于将昂贵的工业级技术下放给个人创作者。\n- 直觉化交互：放弃说教式的警告，转而使用生理本能的视觉反馈。\n- 批判性反思：不仅是解决问题的工具，更是提出问题的媒介，探讨技术异化、社会压力和信息真实性。",
+            "credits": ""
+        }
+    ]
+}
+
+
+

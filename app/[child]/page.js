@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export default function Page({ params }) {
   const { child } = params
   return (
-    <div style={{position:"absolute",top:0,lett:0}}>
+    <div style={{position:"absolute",top:0,left:0,width:"100%"}}>
       <HomeLayout/>
     </div>
   );

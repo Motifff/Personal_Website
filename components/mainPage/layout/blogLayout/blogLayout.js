@@ -1,64 +1,48 @@
 import { useParams } from "next/navigation";
 import { useEffect, useState, Suspense } from "react";
 import axios from "axios";
+import { useLanguage } from "@/context/LanguageContext";
 
-import BlogSummaryView from "../../component/blogSummaryView";
+import BlogListLayout from "./blogListLayout";
 import ArticleLayout from "./openArticle/articleLayout";
 
 function AsyncBlogPage(props) {
     const pageParams = useParams();
     const articleParams = pageParams.id;
     const [jsonData, setJsonData] = useState(null);
+    const { language } = useLanguage();
 
     useEffect(() => {
         const fetchData = async () => {
             if (articleParams !== undefined && articleParams !== null) {
                 console.log(articleParams);
-                const result = await axios("../"+articleParams+"/"+"data.json"); // Assuming `.json` is in the `public` instead of "blog"
-                setJsonData(result.data);
+                try {
+                    const result = await axios("../"+articleParams+"/"+"data_" + language + ".json");
+                    setJsonData(result.data);
+                } catch (e) {
+                    // Fallback
+                    const result = await axios("../"+articleParams+"/"+"data.json");
+                    setJsonData(result.data);
+                }
             }
             else {
-                const result = await axios("./data.json"); // Assuming `.json` is in the `public` folder
-                setJsonData(result.data.allPageData);
-                console.log(result.data.allPageData);
+                try {
+                    const result = await axios("./data_" + language + ".json");
+                    setJsonData(result.data.allPageData);
+                } catch (e) {
+                    // Fallback
+                    const result = await axios("./data.json");
+                    setJsonData(result.data.allPageData);
+                }
             }
         };
         fetchData();
-    }, []);
+    }, [language, articleParams]);
 
     return (
         <div className="mainContent" style={{ display: "flex", flexDirection: props.ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
             {articleParams === undefined ? (
-                <div
-                    className="PageRestriction"
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        width: "100%",
-                        padding: "0px 13.33vw",
-                        alignItems: "flex-start",
-                        gap: "32px",
-                    }}
-                >
-                    <div
-                        className="Title"
-                        style={{
-                            color: "#FFF",
-                            fontSize: "6.66vw",
-                            fontWeight: 500,
-                            lineHeight: "130%", /* 124.8px */
-                            letterSpacing: "-0.96px",
-                        }}
-                    >
-                        Blog
-                    </div>
-                    {
-                        jsonData === null ? null :
-                            jsonData.blog.content.map((blogItem, index) => (
-                                <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} image={blogItem.image} date={blogItem.date} link={blogItem.link}/>
-                            ))
-                    }
-                </div>
+                <BlogListLayout ifFold={props.ifFold} blogData={jsonData ? jsonData.blog.content : []} />
             ) : (
                 <>
                 {

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import QuoteImage from "/public/qm.svg"
+import QuoteImage from "@/components/src/qm.svg"
 
 export default function QuoteBlock(props) {
     return (

@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
@@ -20,7 +19,6 @@
     "three": "^0.161.0"
   },
   "devDependencies": {
-    "@next/font": "^14.1.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",

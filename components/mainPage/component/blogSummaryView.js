@@ -1,8 +1,16 @@
 import { useRouter } from 'next/navigation';
+import { useLanguage } from '@/context/LanguageContext';
 
 // Description: This component is used to display the summary of the blog.
 export default function BlogSummaryView(props) {
     const router = useRouter();
+    const { language } = useLanguage();
+    
+    const labels = {
+        en: { categories: "CATEGORIES", locations: "LOCATIONS", date: "DATE" },
+        zh: { categories: "分类", locations: "地点", date: "日期" }
+    };
+    const t = labels[language] || labels.en;
 
     const handleOnClick = () => {
         router.push(`/blog/${props.link}`);
@@ -42,16 +50,16 @@ export default function BlogSummaryView(props) {
                 <div className="Datas" style={{ display: "flex", flexWrap: "wrap", "justifyContent": "space-between", "alignItems": "flex-end" }}>
                     <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-start", "alignItems": "flex-start", "gap": "4px" }}>
                         <div style={{ "color": "#D4D5D9", "fontSize": 16, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>{props.cotegories}</div>
-                        <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>COTEGORIES</div>
+                        <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>{t.categories}</div>
                     </div>
                     <div style={{ "display": "flex", "flexDirection": "row", "justifyContent": "flex-end", "alignItems": "flex-end", "gap": "24px" }}>
                         <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-end", "alignItems": "flex-end", "gap": "4px" }}>
                             <div style={{ "color": "#D4D5D9", "fontSize": 16, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>{props.locations}</div>
-                            <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>LOCATIONS</div>
+                            <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>{t.locations}</div>
                         </div>
                         <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "flex-end", "alignItems": "flex-end", "gap": "4px" }}>
                             <div style={{ "color": "#D4D5D9", "fontSize": 16, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.16px" }}>{props.date}</div>
-                            <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>DATE</div>
+                            <div style={{ "color": "#5D5D5D", "fontSize": 10, "fontStyle": "normal", "fontWeight": "500", "lineHeight": "130%", "letterSpacing": "-0.1px" }}>{t.date}</div>
                         </div>
                     </div>
                 </div>

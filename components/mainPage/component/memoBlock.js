@@ -1,21 +1,23 @@
 import { useSpring, animated } from '@react-spring/web'
+import { useLanguage } from '@/context/LanguageContext';
 
 // 格式化时间的函数
-function formatTime(dateString) {
+function formatTime(dateString, language) {
     const date = new Date(dateString);
     const now = new Date();
     const diffTime = Math.abs(now - date);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
     if (diffDays === 0) {
-        return "today";
+        return language === 'zh' ? "今天" : "today";
     } else {
-        return `${diffDays} days ago`;
+        return language === 'zh' ? `${diffDays} 天前` : `${diffDays} days ago`;
     }
 }
 
 export default function MemoBlock(props) {    
-    const formattedTime = formatTime(props.time);
+    const { language } = useLanguage();
+    const formattedTime = formatTime(props.time, language);
 
     return (
         <div className="Wrapper" style={{display:"flex",flexWrap:"wrap", width:"100%",flexDirection:'column',padding:16,gap:10}}>

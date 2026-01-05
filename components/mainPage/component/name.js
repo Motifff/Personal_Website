@@ -33,10 +33,10 @@ export default function Name(props) {
   }
 
   return (
-    <div className="name" style={{ gap: 8, display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
-      <div style={{ gap: 8, display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
-        <animated.div className="YutingChen" onClick={handleButtonClick} style={{ justifyContent: "center", color: '#D4D5D9', fontWeight: 500, lineHeight: "100%", cursor: 'pointer', mixBlendMode: "plus-lighter", ...sizeOfFont }}>Yuting</animated.div>
-        <animated.div className="YutingChen" onClick={handleButtonClick} style={{ justifyContent: "center", color: '#D4D5D9', fontWeight: 500, lineHeight: "100%", cursor: 'pointer', mixBlendMode: "plus-lighter", ...sizeOfFont }}>Chen</animated.div>
+    <div className="name" style={{ gap: 8, display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center' }}>
+      <div style={{ gap: 8, display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center' }}>
+        <animated.div className="YutingChen" onClick={handleButtonClick} style={{ display: 'flex', alignItems: 'center', color: '#D4D5D9', fontWeight: 500, lineHeight: 1, cursor: 'pointer', mixBlendMode: "plus-lighter", ...sizeOfFont }}>Yuting</animated.div>
+        <animated.div className="YutingChen" onClick={handleButtonClick} style={{ display: 'flex', alignItems: 'center', color: '#D4D5D9', fontWeight: 500, lineHeight: 1, cursor: 'pointer', mixBlendMode: "plus-lighter", ...sizeOfFont }}>Chen</animated.div>
       </div>
       <div className="Vector" style={{ width: 12, height: 12, opacity: 0.80, backgroundImage: `url(${arrow.src})`, backgroundSize: "cover" }}></div>
     </div>

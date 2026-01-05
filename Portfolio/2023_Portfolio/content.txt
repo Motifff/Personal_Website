@@ -1,0 +1,2071 @@
+Chen YuTing
+
+2024
+
+
+
+
+
+
+
+Interaction
+
+Design
+
+Portfolio
+
+China Academy Of Art
+
+Industrial Design
+BEng
+
+HCI & UIUX
+
+UIUX & Game Design
+
+HCI & EE
+
+UIUX & UXR
+
+UIUX & UXR
+
+HCI & EE & UIUX
+
+UIUX
+
+PD & UIUX
+
+PD
+
+Harman Int. (SZ)
+
+UIUX Design
+Intern
+
+Alibaba Cloud
+
+UIUX Design
+Intern
+
+UCL Bartlett
+
+To be continued
+Design For Performance and Interaction
+MArch
+
+Dimention Smasher
+A set of hardware & software system for expanding 
+
+live streamers' creativity space
+
+Pain Points
+
+Pre Research in Advance
+
+RISING
+
+NEW TECHNOLOGY
+PreProduction
+Production
+Design
+
+Single Project
+
+REALTIME
+
+Requires manual
+adjustment of lens
+
+PostProduction
+
+Virtual
+
+Production
+
+Try on 
+
+Experience
+Real-time 
+
+LED
+
+render
+
+The results are very good,
+but a lot of effort went into
+adjusting the colour gamut
+of the monitor and the
+colour temperature of the
+light
+
+The live-streaming band market and
+other live-streaming markets are
+currently a blue ocean market in the
+industry, but limited by factors such
+as production costs, making it difficult
+for individual producers to obtain the
+same production resources as the
+head companies, this design expands
+the production space for producers
+and hopefully promotes positive
+competition with content as the core
+
+Correct
+
+Len
+Distortion
+
+Green
+
+Screen
+
+data, this process
+takes a lot of time
+
+Colour distortion can
+occur on the screen,
+require color
+adjustments
+
+Correct
+
+Color
+
+The green screen can
+quickly create an
+immersive environment,
+but the green reflected light
+from the green screen
+makes it more difficult to
+match the light to the
+atmosphere
+
+Re-
+
+lighting
+The light from the screen
+needs to be mixed with
+realistic lighting to
+achieve a realistic effect,
+which requires a lot of
+debugging
+
+Overall, virtual production technology can significantly
+reduce set costs and raise the efficiency of film
+production, but the technology still requires significant
+learning costs and a long learning curve for users.
+
+Other Problems
+Tools used personally
+
+Unrealistic Focus
+
+Require Process Performance
+
+Bulky
+Complex Settings
+Expensive
+
+Desk 
+
+
+C
+
+How to make a
+
+Research
+
+once
+
+p
+
+t
+
+successful
+
+p
+b
+
+Design a
+
+stream
+
+content
+
+Sy
+
+roduct that
+
+arriers
+
+,
+
+b
+
+rings together hardware and software to
+
+and im
+
+p
+
+rove overall content
+
+p
+
+roduction so
+
+p
+
+p
+
+ersonali
+
+histication
+
+.
+
+z
+
+e virtual live streaming
+
+,
+
+reduce
+
+stem Design
+
+Product
+
+L
+
+ine
+
+S
+
+egmentation
+
+b e
+
+e
+
+y
+
+Mo
+
+il
+
+Devic
+Onl
+
+Mainstream
+
+Disrupting
+monopolies to
+
+Market
+
+
+T h
+
+
+U r
+
+
+Area
+
+Area
+
+ec
+
+Area
+
+G
+S
+
+create a virtuous
+
+ree
+
+circle
+
+se
+
+n
+
+
+Image
+
+S
+
+ENTRY-LEVEL
+
+egment
+
+100:1
+Mobile VS.
+
+creen
+
+Conduct virtuous
+content iterations to
+
+Sp e
+
+
+maintain and even
+attract new users
+
+ac
+
+Anchor
+
+Investing the right
+
+Opening
+reveal
+
+Taobao
+that
+
+businesses
+hosts
+
+to
+
+late
+
+more
+are
+
+live
+
+and
+
+at
+
+using
+stream
+
+night
+
+will
+
+reen
+
+other
+
+more
+virtual
+their
+
+G
+
+goods.
+
+c
+k
+
+te
+
+c
+f
+s
+
+reen
+
+ilm
+
+ing
+
+f
+
+ompositing
+
+and
+
+hnologies
+
+sin
+
+c
+
+rom
+
+I c
+
+and
+
+n
+
+television
+
+are
+the
+
+y
+
+reasing
+
+time
+
+c
+
+be
+
+c
+
+audien
+
+omes
+
+a
+
+e
+
+new
+
+growth
+
+area
+
+graduall
+
+f
+
+ilm
+
+Part Of It
+
+Depth
+
+y
+
+industr
+
+How Might We?
+
+First hand
+Interview
+
+boost channel
+views
+
+Live sets require a lot
+
+User retention is
+
+of changes, but are very
+
+directly related to
+
+budget intensive and
+
+freshness, a single
+
+wasteful
+
+product cannot be sold
+
+Helping
+tools
+
+those
+
+that
+
+audience
+
+content
+
+engage
+
+R
+
+elighting
+
+50%
+Highend
+
+a
+
+
+amer
+
+producers
+
+their
+
+C
+C p
+
+audience
+
+to
+
+create
+
+and
+
+enhance
+
+a
+
+ture
+
+stickiness.
+
+multiple times
+
+F
+
+inal
+
+F
+
+usion
+
+Al
+
+l
+
+
+b
+
+Mo
+
+ile 
+
+
+Devic
+
++
+
+What
+
+Pann
+
+if
+
+personal
+
+we
+
+could
+
+do
+
+virtual
+
+production
+
+of shipments
+
+Camera
+
+amount of money to
+retention
+
+2022 Q1+Q2 Volume
+
+e
+
+
+Plugin
+
+in
+
+studio?
+
+HIGHEND-LEVEL
+
+5Years
+
+Media Operations Manager
+Out
+
+p
+
+ut
+
+L y
+a
+
+er
+
+F
+
+or camera buyers
+
+Pain Points
+
+or a collection of pain points
+from interviews with two
+photographers and a film worker
+
+Using Scenario
+
+Hardware
+
+
+Software Solution
+
+Solution
+
+F
+
+SET-UP
+
+Set camera
+
+
+FOREGROUND
+
+MIDGROUND
+
+BACKGROUND
+
+OUTPUT
+
+handheld 
+
+
+location
+
+depth of field
+
++
+
+
+effect
+
+
+Cutting-edge
+
+Make lighting 
+
+
+R
+
+
+OLED
+
+
+LiDA
+
+Screen
+
+Sensor
+
++ LiDAR
+
+Fusion
+Single
+
+infinite move
+
+
+Reality light
+
++
+
+
+collection 
+
+
+No reposition
+
++ Fusion
+
+Set
+Lighting
+
+Conn
+ect
+
+Import
+Assets
+
+Exterior
+
+Render
+
+Edit
+Everything
+
+Handed
+High 
+
+
+OR
+
+All of the 
+
+
+Threshold
+
+settings 
+
+
+Attac
+
+at a glance
+
+t
+
+o
+
+
+z
+
+Supportive
+
+
+Customi e
+
+Technical Research
+
+s arch to combine existing
+technologies with existing highend equipment to make the most
+of their potential
+
+h
+
+
+device
+
+Button
+
+Re e
+
+Ultra Wide Band
+
+
+Point cloud
+
+
+Distance Measure
+
+Shadow mapping
+
+App Design
+
+HDRI 
+
+Capture
+
+Connect
+
+
+I
+
+
+Dial
+By learning from
+
+&
+
+
+shoulder
+
+shortcut panel
+for the camera
+parameters that
+can be adjusted
+through the
+camera api
+
+p
+
+
+Through practical
+experiments, we found it is
+not possible to share
+camera occupancy
+
+Dial
+
+between multiple
+applications, so it is not
+possible to quickly view live
+comments while adjusting
+
+.
+
+content So we chose to
+embed the social software
+directly into the client
+
+&
+
+
+Selector
+
+Battery
+
+USB-C
+
+&
+
+Connect
+
+Settin
+
+g
+
+
+Light
+
+OLED
+
+Screen
+
+k
+
+
+PC
+
+The foreground, midground and rear-ground
+are highly adjustable, the
+foreground can import
+
+B
+
+
+Board
+
+UWB
+
+Sensor
+
+real-time subtitles,
+
+function, we have
+designed a
+
+r
+
+
+switch
+
+Layer
+
+ove
+
+M
+
+Selector
+
+the camera
+
+Ap
+
+Layer
+Bac
+
+Switching
+
+Editor
+
+Middle
+
+
+Wheel
+
+Module Editing
+
+Laye
+
+Layer
+
+Collect
+
+Focus-Control
+
+Shoulder Screen
+
+Front
+
+
+Page
+HDR
+
+Trackpoint
+
+Quick-glance
+
+Through interviews with
+photography users, the vast
+
+Quick
+
+Status
+
+
+majority of users have a
+very high demand for
+joysticks and scroll wheels,
+and they are very much in
+line with their user habits
+
+We have designed an
+
+posters, pictures and
+
+easy-to-use
+
+videos, etc , the mid-
+
+environment
+
+ground can be replaced
+
+acquisition function
+
+by object binding through
+
+for mixed reality
+
+bone detection and
+
+lighting as well as
+
+tracker, and the rear-
+
+virtual environment
+
+ground can be edited and
+
+lighting
+
+changed in real time
+
+.
+
+.
+
+Alternative
+
+
+Base
+
+r
+
+
+Handheld
+
+
+Exterio
+
+Stream
+
+Render
+
+Start
+Stream
+
+Myo-Clear APP
+Myopic App Design using Lidar 
+
+and Computer Vision
+
+Insight
+
+Myopia has become a major Chinese national health issue. With the modernisation of Chinese society and the widespread use of
+the internet, the vision level of the Chinese population has declined significantly in the last decade, and the main reason for this
+decline is the high incidence of myopia among teenagers.
+
+Single Project
+
+Although the Chinese government has
+implemented measures on several fronts to
+reduce the incidence and progression of myopia,
+the number of people with myopia has been
+steadily increasing over the last decade, and the
+number of young people with moderate and
+severe myopia is increasing at a faster rate.
+
+The app expects to efficiently build a
+bridge between parents and children
+with its extensive layout of mobile
+devices and its matching hardware,
+paired with long-term vision
+screening. This will lead to immediate
+or even early prevention of myopia
+caused by lens distortion.
+
+Research suggests that online learning has
+been shown to increase retention of
+information, and take less time, meaning the
+changes coronavirus have caused might be
+here to stay.
+
+Tools used personally
+
+QUESTION
+With the further spread of mobile devices in the
+context of the epidemic, children's screen time is
+rapidly increasing, and at the same time their myopia
+is gradually rising, how do we need to face such
+problems?
+
+Research
+
+Mechanisms of myopia
+
+Concept
+Proposals
+
+Field Research
+
+Solution research
+easy-tounderstand
+system
+
+Technical Testing
+
+By measuring the distance from the screen
+and combining it with the screen size and
+resolution of the device, we are able to
+determine the level of myopia using the
+same criteria
+
+Natural and
+understand-able
+feedback
+
+From the etiology of myopia, tightening of the ciliary muscles occurs when
+the normal eye looks at objects that are too close. When this tightening
+continues for too long, the ciliary muscle goes into spasm, creating
+pseudomyopia, and when the pseudomyopia is not relieved for a long time,
+the eye axis is stretched and eventually high myopia develops
+
+Front
+
+Cam LiDAR
+
+Test
+
+Just like the principle that a magnifying glass
+
+can only be imaged at a certain distance, so
+does the eye, and the corresponding degree of
+blurring will be very mobile and reinforcing
+when the distance is not right
+
+Potential users
+Nearsightedness? Astigmatism? There
+are too many of these digital numbers, I
+just want to know about visual acuity!
+
+Wide Equipped
+
+Hardware
+
+Why mobile device?
+Portablility
+
+Most mobile devices are equipped with front and
+rear-facing cameras, which can be combined
+with computer vision algorithms to measure
+object distances
+
+Although I know I need to protect my
+eyesight, I really don't like being lectured
+all the time, can I get into the habit
+quickly?
+
+There will always be parent-side
+software and child-side software, which
+are all too complicated, how can I fit in
+with all this complexity?
+
+Prevalence rate
+
+Through these studies, we were able to understand what tools should be used to
+address the myopia issues we raised. However, we should carry out some
+technical studies to ensure that this is feasible, including the possibility of
+implementing this function, its impact on the normal functioning of the device and
+its energy performance.
+
+Back
+
+Cam LiDAR
+
+Test
+Precise
+
+±10CM
+
+by distance
+Energy costy
+
+±1MM
+
+within 25-30cm
+
+Continuous use will cause the
+
+sensor to overheat and consume
+more battery life per unit time, so a
+certain sampling frequency is
+required
+
+Design Output
+
+Delivery
+
+Service map
+
+Mo k w
+c
+
+9:41
+
+9:41
+
+vie
+
+S
+
+to y bo d
+r
+
+ar
+
+9:41
+
+Myopia Rate
+
+All
+
+Set!
+
+select 
+
+
+90D
+
+100D
+
+110D
+
+Myopia Rate
+
+your myopia level 
+
+below!
+
+100D
+Myopia Rate
+
+90D
+
+100D
+
+110D
+
+Normal
+
+move away 
+
+from the screen 
+
+until you can clearly see
+90D
+
+100D
+
+P
+
+age
+
+100D
+
+110D
+
+100D
+
+Confirm
+
+Close
+
+W
+
+arning
+
+Universal Homescreen
+
+Over Used
+
+Autonomous Relaxation
+
+Blur Reminder
+
+Arranging Function
+9:41
+
+9:41
+
+9:41
+
+9:41
+
+Start
+
+
+Start
+
+
+Too
+
+
+Reference
+
+close
+
+percentage
+
+to App
+
+Face
+
+Here
+
+Tilt
+
+W
+
+arning
+
+addup
+
+Time: 
+
+
+task hierachy
+
+03:33
+Distance: 
+
+50
+Reading
+
+Now
+
+relationship
+
+5%
+GOT IT !
+
+Entertaining
+
+Now
+
+6%
+Comfort Excise
+
+Background
+
+Enhanced spine
+
+Multitasking is most needed when we are involuting
+
+futuristic and speculative design
+
+Extracurricular achievement
+
+cademic achievement
+
+Single Project
+
+ESSENSE
+
+Environmental
+
+A
+
+Spinal augmentation device that combines 
+
+
+Research: Key factors for multitasking performance
+Working
+
+
+factors
+
+force factors
+
+influences
+
+Th E
+
+Self-imposed
+
+Mindfulness Meditation Training on
+Multitasking in a High-Stress Information Environment
+e
+
+individual
+
+ffects of
+
+capacity limitations
+
+Acquired
+training
+
+Brain 
+
+Multitasking Ability
+
+Experienced ability
+Multitasking as Skill Acquisition
+
+Physical limitation
+
+Brain
+
+Support
+
+System
+
+B
+
+Reduce
+
+body
+
+Distraction
+
+Support for
+
+F
+
+gained through
+
+etter support systems lead to
+
+F
+
+more powerful features
+
+ewer physical pains increase
+the time to stay productive
+
+Cg
+
+l skulls reveal that blood flow rate to the
+brain increased faster than brain volume
+during human evolution
+
+consistency
+
+o
+
+ossi
+
+Blood supply
+Higher education
+
+Pressure
+
+Brain
+
+
+Increasing the
+
+v Dysfunction in
+the Fibromyalgia
+Syndrome
+
+niti e
+
+working proportion
+
+Soreness
+
+Pain
+
+Spine
+
+Job market achievement
+
+P
+
+ositive
+
+F
+
+eedback
+
+N
+
+egative
+
+F
+
+eedback
+
+Will modern society's overemphasis
+on efficiency and mutual involution
+pose unpredictable risks to future
+generations of Z? This work attempts
+to use futuristic design to bring about
+a reflection on the current way of
+working and learning in China
+
+Tools used personally
+
+Continuous
+
+High level of
+
+Constantly
+
+attention
+
+involvement
+
+multitasking
+
+Staying focused isn’t easy in
+
+The trend started from the most
+
+today’s world. The prospect of
+
+elite university campuses in
+
+Research has shown that
+preschoolers are exposed to
+
+in some cases, getting
+
+China when pictures of students
+taking work to the extreme went
+
+scholarships can cause some
+
+viral on the internet.
+
+teens to use stimulants such as
+
+as
+
+as fre
+
+Adderall to improve their
+
+than ever before, forcing them to
+
+students as performing two
+
+getting into a good college and,
+
+concerntrating ability.
+
+Schools are
+
+king much more of students
+
+join in all subjects.
+
+digital devices before being
+introduced to boo
+
+ks and that
+
+king is almost
+
+bundled multitas
+
+quent among college
+
+activities simultaneously.
+
+N v
+
+N v ,m
+,
+b , wh
+er
+
+a
+
+Discomfort
+
+Muscle
+
+er e
+
+es
+
+ility so
+
+uscles
+
+spine
+
+,
+h
+
+at angle s
+
+organs can a
+ould
+
+w
+
+ff h b
+f m?
+
+e start
+
+ect t
+ro
+
+e
+
+rain to t
+
+h
+
+e
+
+WHAT IF...
+
+Future workforce started
+their involution by making
+themselves artificial
+
+“Young people of today no longer
+need massage, they need osteopathy”
+High rates of scoliosis
+
+Scientific studies have shown that scoliosis has
+become the third biggest "killer" of children and
+adolescents in China, following obesity and myopia.
+The incidence of scoliosis among Chinese adolescents
+is as high as 20%
+
+Initial concept
+This company controls the various parts of the brain-spine
+system through a systematic and analytical approach, leading
+consumers to gradually slip into more advanced forms of
+consumption, paying more money and consuming their
+physical health through different levels of service design.
+
+Third
+
+Biggest
+
+Stage Difference
+
+Design Conduction
+From the treatment approach, it is possible to identify a system that seems to exist
+around the treatment of the spine. And through some research in the literature, we
+were able to break down the whole system into three main parts.
+
+First stage
+PAIN ONSET
+
+support
+
+Spine
+
+PATCH ON
+SPINE
+
+PAIN EASED
+PATCH REMOVE
+
+suppress
+
+Second stage
+
+multiplicity
+
+Muscle
+
+Common treatment methods
+
+move
+
+KEEP PATCH ON
+MUSCLE
+
+MICRO-NEEDLE
+
+Concept Service Map
+
+SLOW-RELEASE
+
+swelling
+
+ADDICTED
+
+stiff
+Massage
+
+Botox injections
+
+Nerve
+
+control
+
+reduce
+
+NERVE
+
+Third stage
+INPLANT
+MOVEMENT
+
+suppressed
+
+STABLIZING
+SEDENTARY
+
+Ozone injection
+
+Spinal Inplant
+
+ENERGY
+
+Product Poster
+
+Design delivery
+
+Basic magnetic field
+
+ADVANCED
+
+
+
+Cover
+
+Wireless charging coil
+
+Electromagnetic coil
+Supercapacitor
+
+Silent Turbtofan
+Pedestal
+
+Battery Pack
+
+& SiP
+
+Self-Adaptive Evaporative Cooling Hydrogel
+
+Core Mechanism
+Spine Support
+
+Force
+
+Feedback
+
+Momentum Restoration
+
+Using coils to change the magnetic field
+
+Recovery energy by cutting magnetic induction lines
+
+Heat is generated during the external recharge
+
+modular design and skin-friendly materials
+
+Somatic
+
+sensory
+
+SMART
+
+SKIN
+
+WIRELESS
+
+EXT EREOR
+ CHARGE FRIE NDLY 
+
+COOLING SYSTEM PATCH
+MATERIAL
+INTEREOR
+
+
+
+
+
+INTEGERATED
+
+
+ENERGY
+
+RECOV.
+UNCOMPROM
+ISING
+
+
+AID
+
+
+EASY
+
+IMPLANT
+SYSTEMETIC INSTALL ENHANCE
+VAST
+
+QUICKLY
+
+FREE TO BUY!
+
+MEDICAL
+
+CUSTOM
+ GET
+
+LOANS
+
+MODULAR
+
+-ISATION
+ADVANTAGE AVAILABLE!
+DESIGN
+
+Inspiration: from The Verge
+
+Detective Rhetoric
+An interactive robot for awakening
+caution of expression
+
+Team Project
+
+Chatbots are
+
+Chatbots are likely to
+
+sometimes dangerous
+
+distort information
+
+Active chat/
+
+Twitter taught Microsoft’s AI chatbot to be a
+racist asshole in less than a day
+
+Comment bots
+
+Can i just say that im stokerd
+
+16.5Million
+
+to meet u?
+
+Humans are super coool!
+
+Copy comment
+and retweet
+
+9 to 15 %
+I FXXKING hate feminists and
+they should all die and burn in
+
+The work hopes to let the audience
+
+hell.
+
+experience the process of distortion
+of information by chatbot through the
+
+In a recent trend, these chatbots have also been
+
+participation of the audience. Using
+
+algorithmically used to detect trendings, which has
+
+text as the communication medium,
+the algorithm is designed to
+
+Tools used personally
+
+It's a failure, obviously, but there are serious questions to
+
+certainly increased the distortion of information on the
+
+answer, like how are we going to teach AI using public data
+
+internet
+
+continuously increase the variables
+
+without incorporating the worst traits of humanity? If we
+
+of the system text, accumulate and
+
+create bots that mirror their users, do we care if their users
+
+iterate, and simulate the process of
+
+are human trash?
+
+information distortion.
+
+Machanism：Learned from human
+What is Information Distortion amoung human？
+Information distortion is defined as the incorrect reproduction of objectively
+correct information and can result from either cousious or delibreate
+alteration or unconcious manipulation.
+Data
+
+reproduction
+
+Concept: Follow The linear communication model
+The intentional
+distortion of
+information in
+organizational
+communication: A
+laboratory and field
+investigation
+
+From the above research, we found that most of the papers refer to The linear
+communication model as an experimental method, can we reproduce the experimental
+process and give the audience a practical experience?
+
+basic architecture
+
+Information is processed, organized and structured
+data. It provides context for data and enables
+decision making process. Thus generates the
+opportunity to be reproducted by narrators
+
+The most basic experimental architecture
+consists of only encoder, noise and decoder,
+and even in a complex relational network, we
+can still break it down into units like this
+
+noise
+encoding
+
+decoding
+
+Attention derived noise
+
+UNIQUE
+
+In social
+
+network
+A social network is the pattern of friendships,
+advice, com-munication, or support that exists
+among the members of a social system with the
+computational foundation of graph theory
+
+consious
+
+or delibreate
+it is always easy for a human being to make his or her
+own modifications in the delivery of information, and AI
+bots possess this skill in practice by learning a lot from
+human data
+
+If we consider both encoder and decoder as the
+
+audience, noise is the most important area for our
+research, and listed papers argue that attention is the
+most important. So we have adopted this approach
+
+&
+User attention
+
+Machine attention
+
+Attention from LSTM
+
+User perceiveable differences
+
+In this LSTM model proposed by Tsinghua
+
+If we want the user to experience the
+
+machine against human will, the best way
+to do so is to present the errors that occur
+after its operation
+
+University, it predicts the missing part of
+the sentence based on the meaning of the
+whole sentence, but its own attention and
+the attention of human will be different,
+and we can find interesting phenomena
+when using it
+
+Evolution
+
+Introduce Chinese grammar
+
+Basic components of a whole sentence of Chinese include seven parts: Attributive,
+Subject, Adverbial, Predicate, Complement, another Attributive and Object.Each part has
+its own part of speech, and those parts are the minium granularity ingredient in
+information distortion.
+
+Final process
+1
+
+3
+
+Design Sketches
+
+Wheels &
+
+Selector
+More
+
+Details
+
+Rendering Sketches
+Scene
+
+Concept
+
+Prototyping
+Guessing the
+original
+message from
+the history
+
+The machine
+overrides your
+operation and
+fills in the fields
+you selected in
+its way
+
+2
+
+4
+
+Machinery Design
+
+Program Architecture
+
+Motherboard Design
+
+Coding
+
+Select where
+something is
+wrong and pull
+the lever to
+change it
+
+The machine adds
+its input to the
+history and
+misleads the
+wider audience
+
+Render
+
+Image
+
+Delivery
+
+Untitled
+Quantum
+Game
+A quantum science game 
+
+using 
+
+the Unity engine
+Project Link：https://github.com/Motifff/Untitled-Quantum-Game-Final
+
+The quantum states of quantum
+systems can be fully formulated in
+terms of wave functions, position and
+momentum cannot be determined
+simultaneously, and fluctuating and
+particle behaviour cannot be fully
+revealed at the same time. We expect
+to visualise these complex quantum
+effects and to make these
+interpretations easy to understand
+through an interesting game
+
+Material
+movement
+
+regenerative material 
+
+recording device 
+
+and 
+
+artistic interactive 
+
+installation
+
+Lightime
+A desktop zoned
+
+lighting table lamp 
+
+using 
+
+FOC and depth detection
+
+Game
+
+Playing
+
+7 of 9
+
+Maps
+
+Game
+
+Set
+
+5 of 9
+
+Maps
+
+Exhibition
+Design
+
+3 of 9
+
+Maps
+
+Hands-on
+
+Play
+
+The age of streaming media has
+revolutionised traditional storage
+media, but what remains has its own
+significance. Starting with CDs and CD
+players, the need to recycle CDs is
+emphasised through the attachment
+of new materials. By modifying the
+laser head of the CD player, for
+example, the expansion of the design
+is emphasised, giving the designer
+community food for thought.
+
+Desktop areas are becoming more
+and more personal and customised,
+so why not just use a zoned light table
+lamp to plan the lighting space on the
+desktop, rather than installing various
+lamps to fit the area in a mobile way?
+
+
+The structure of Lightime is inspired
+by the swing of a pendulum. We have
+also derived this balanced pendulum
+from the way it interacts with us, and
+have implemented balance
+throughout the design.
+
+
