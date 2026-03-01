@@ -12,11 +12,16 @@
     "@react-three/fiber": "^8.15.16",
     "@types/three": "^0.161.2",
     "axios": "^1.6.7",
+    "js-sha256": "^0.11.1",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-spring": "^9.7.3",
-    "three": "^0.161.0"
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1",
+    "three": "^0.161.0",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

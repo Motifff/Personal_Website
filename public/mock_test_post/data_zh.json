@@ -1,0 +1,131 @@
+{
+    "title": "Mock 测试文章",
+    "subtitle": "这是一个测试博客文章，演示所有可用的内容组件",
+    "type": "测试 | 演示",
+    "location": "测试世界",
+    "date": "2026-02-22",
+    "mainContent": [
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Markdown 支持测试"
+        },
+        {
+            "type": "paragraph",
+            "content": "欢迎来到这篇测试博客！这里演示了当前博客系统支持的所有内容组件类型。"
+        },
+        {
+            "type": "paragraph",
+            "content": "现在 **ParaBlock 组件** 支持 Markdown 语法了！你可以使用：\n\n- **粗体文本**\n- *斜体文本*\n- `行内代码`\n- [链接](https://github.com)\n\n还可以使用列表：\n\n1. 有序列表项\n2. 另一项"
+        },
+        {
+            "type": "quote",
+            "text": "这是引用块（QuoteBlock）组件，用于突出显示重要的引用或说明文字。"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "组件演示"
+        },
+        {
+            "type": "paragraph",
+            "content": "**LinkJumper 组件** - 用于跳转到外部链接，演示如下："
+        },
+        {
+            "type": "link",
+            "text": "点击这里访问 GitHub →",
+            "link": "https://github.com"
+        },
+        {
+            "type": "paragraph",
+            "content": "**InArticleImage 组件** - 用于展示图片轮播，支持多张图片自动切换（5秒间隔），鼠标悬停时暂停。"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "http://placehold.it/900x500/4A90E2/ffffff?text=图片+1",
+                    "title": "这是第一张图片的标题"
+                },
+                {
+                    "image": "http://placehold.it/900x500/7B68EE/ffffff?text=图片+2",
+                    "title": "这是第二张图片的标题"
+                },
+                {
+                    "image": "http://placehold.it/900x500/50C878/ffffff?text=图片+3",
+                    "title": "这是第三张图片的标题"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "如上所示，图片组件会自动轮播显示多张图片。每张图片都有自己的标题说明。"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "支持的图片格式"
+        },
+        {
+            "type": "paragraph",
+            "content": "你还可以使用不同的宽高比（aspectRatio）：\n\n- 16/9（宽屏，默认）\n- 4/3（传统显示器）\n- 1/1（正方形）\n- 9/16（竖屏）"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "http://placehold.it/800x600/FF6B6B/ffffff?text=4:3+比例",
+                    "title": "4:3 比例图片"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "关于内容编写"
+        },
+        {
+            "type": "paragraph",
+            "content": "编写博客内容非常简单，只需要在 JSON 文件的 mainContent 数组中添加对象即可。每个对象都有一个 type 属性，指定要使用的组件类型。"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "当前支持的组件类型"
+        },
+        {
+            "type": "paragraph",
+            "content": "1. **paragraph** - 支持 Markdown 的段落组件\n2. **heading** - 标题组件（H1-H5）\n3. **quote** - 引用块组件\n4. **link** - 外部链接组件\n5. **imageBed** - 图片轮播组件"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "更多链接示例"
+        },
+        {
+            "type": "link",
+            "text": "访问我的作品集 →",
+            "link": "https://motifff.github.io"
+        },
+        {
+            "type": "link",
+            "text": "查看 UCL 官网 →",
+            "link": "https://ucl.ac.uk"
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "结束语"
+        },
+        {
+            "type": "paragraph",
+            "content": "这是一个灵活且强大的内容系统，你可以通过组合不同的组件来创建丰富的博客内容。所有组件都遵循一致的设计风格，确保整个网站的视觉统一性。"
+        },
+        {
+            "type": "paragraph",
+            "content": "如需添加新的组件类型，只需：\n1. 在 components/mainPage/component/ 中创建新组件\n2. 在 contentRenderer.js 中添加对应的 case\n3. 在 JSON 中使用新的 type 即可"
+        }
+    ]
+}

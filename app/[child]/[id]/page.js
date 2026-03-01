@@ -2,6 +2,7 @@ import HomeLayout from "@/components/mainPage/layout/homeLayout";
 
 export function generateStaticParams() {
   return [
+    { child: 'blog', id: 'mock_test_post' },
     { child: 'blog', id: 'grad_design_2025' },
     { child: 'blog', id: 'qwen_chat_mock' },
     { child: 'blog', id: 'undergrad_design_2023' },
@@ -16,6 +17,7 @@ export function generateStaticParams() {
     { child: 'blog', id: 'untitled_quantum_game' },
     { child: 'blog', id: 'material_movement' },
     { child: 'blog', id: 'lightime' },
+    { child: '!blog', id: 'mock_test_post' },
     { child: '!blog', id: 'grad_design_2025' },
     { child: '!blog', id: 'qwen_chat_mock' },
     { child: '!blog', id: 'undergrad_design_2023' },

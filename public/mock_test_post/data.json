@@ -1,0 +1,131 @@
+{
+    "title": "Mock Test Post",
+    "subtitle": "A test blog post demonstrating all available content components",
+    "type": "Test | Demo",
+    "location": "Mock World",
+    "date": "2026-02-22",
+    "mainContent": [
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Markdown Support Test"
+        },
+        {
+            "type": "paragraph",
+            "content": "Welcome to this test blog! This demonstrates all content component types supported by the current blog system."
+        },
+        {
+            "type": "paragraph",
+            "content": "The **ParaBlock component** now supports Markdown syntax! You can use:\n\n- **Bold text**\n- *Italic text*\n- `Inline code`\n- [Links](https://github.com)\n\nYou can also use lists:\n\n1. Ordered list item\n2. Another item"
+        },
+        {
+            "type": "quote",
+            "text": "This is a QuoteBlock component for highlighting important quotes or notes."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Component Demo"
+        },
+        {
+            "type": "paragraph",
+            "content": "**LinkJumper component** - For jumping to external links:"
+        },
+        {
+            "type": "link",
+            "text": "Visit GitHub →",
+            "link": "https://github.com"
+        },
+        {
+            "type": "paragraph",
+            "content": "**InArticleImage component** - Displays image carousel with auto-switching (5s interval), pauses on hover."
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "http://placehold.it/900x500/4A90E2/ffffff?text=Image+1",
+                    "title": "First image title"
+                },
+                {
+                    "image": "http://placehold.it/900x500/7B68EE/ffffff?text=Image+2",
+                    "title": "Second image title"
+                },
+                {
+                    "image": "http://placehold.it/900x500/50C878/ffffff?text=Image+3",
+                    "title": "Third image title"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "As shown above, the image component automatically cycles through multiple images. Each image has its own caption."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Supported Image Formats"
+        },
+        {
+            "type": "paragraph",
+            "content": "You can also use different aspect ratios:\n\n- 16/9 (widescreen, default)\n- 4/3 (traditional display)\n- 1/1 (square)\n- 9/16 (portrait)"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "http://placehold.it/800x600/FF6B6B/ffffff?text=4:3+Aspect+Ratio",
+                    "title": "4:3 ratio image"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "About Content Writing"
+        },
+        {
+            "type": "paragraph",
+            "content": "Writing blog content is simple - just add objects to the mainContent array in the JSON file. Each object has a type property specifying which component to use."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Supported Component Types"
+        },
+        {
+            "type": "paragraph",
+            "content": "1. **paragraph** - Paragraph component with Markdown support\n2. **heading** - Heading component (H1-H5)\n3. **quote** - Quote block component\n4. **link** - External link component\n5. **imageBed** - Image carousel component"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "More Link Examples"
+        },
+        {
+            "type": "link",
+            "text": "Visit my portfolio →",
+            "link": "https://motifff.github.io"
+        },
+        {
+            "type": "link",
+            "text": "Visit UCL website →",
+            "link": "https://ucl.ac.uk"
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Conclusion"
+        },
+        {
+            "type": "paragraph",
+            "content": "This is a flexible and powerful content system. You can create rich blog content by combining different components. All components follow consistent design principles to ensure visual unity across the website."
+        },
+        {
+            "type": "paragraph",
+            "content": "To add new component types:\n1. Create new component in components/mainPage/component/\n2. Add corresponding case in contentRenderer.js\n3. Use the new type in JSON"
+        }
+    ]
+}

@@ -73,6 +73,15 @@
         "blog": {
             "content": [
                 {
+                    "title": "Mock Test Post",
+                    "subtitle": "A test blog post demonstrating all available content components",
+                    "type": "Test | Demo",
+                    "location": "Mock World",
+                    "date": "2026-02-22",
+                    "image": "http://placehold.it/900x300",
+                    "link": "mock_test_post"
+                },
+                {
                     "title": "Assistive LLM and Design Strategy",
                     "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions",
                     "type": "Research | MArch",

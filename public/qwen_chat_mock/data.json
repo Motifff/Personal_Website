@@ -1,9 +1,10 @@
 {
     "title": "Qwen Chat Mock",
-    "subtitle": "颠覆传统流量模型，构建以“用户价值”为核心的增值飞轮",
+    "subtitle": "颠覆传统流量模型，构建以”用户价值”为核心的增值飞轮",
     "type": "UX | Interaction",
     "location": "China",
     "date": "2024",
+    "passwordHash": "82bd8dcf86629a2ebd5e7bd806381ebc9bbcf2e3be064c384f30dc5642d76364",
     "mainContent": [
         {
             "type": "paragraph",
