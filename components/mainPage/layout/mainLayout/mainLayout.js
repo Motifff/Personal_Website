@@ -1,4 +1,3 @@
-import LatestColumn from "./latestColumn";
 import MainColumn from "./mainColumn";
 import IdeaColumn from "./ideaColumn";
 
@@ -9,14 +8,12 @@ export default function MainLayout(props) {
             {
                 props.ifFold ?
                     (<>
-                        <LatestColumn ifFold={props.ifFold} />
                         <MainColumn ifFold={props.ifFold} ifDouble={props.if2} />
                     </>
                     )
                     :
                     (
                         <>
-                            <LatestColumn ifFold={props.ifFold} />
                             <MainColumn ifFold={props.ifFold} ifDouble={props.if2} />
                             <IdeaColumn ifFold={props.ifFold} />
                         </>

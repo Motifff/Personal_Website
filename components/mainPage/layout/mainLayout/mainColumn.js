@@ -27,7 +27,7 @@ export default function MainColumn(props) {
 
     return (
         <Suspense fallback={<div>Loading...</div>}>
-            <div style={{ display: "flex", flex: "1 0 0", padding: "16px", flexDirection: "column", alignSelf: "stretch", gap: "16px" }}>
+            <div style={{ display: "flex", flex: "1 0 0", padding: "24px", flexDirection: "column", alignSelf: "stretch", gap: "16px" }}>
                 <Divider text="Headline" />
                 <HeadLineBlock content = {jsonData?.home?.main?.headline}/>
                 <Divider text="Featured Projects" />
