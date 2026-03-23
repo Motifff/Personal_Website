@@ -16,24 +16,32 @@ function AsyncBlogPage(props) {
         const fetchData = async () => {
             if (articleParams !== undefined && articleParams !== null) {
                 console.log(articleParams);
-                try {
-                    const result = await axios("../"+articleParams+"/"+"data_" + language + ".json");
-                    setJsonData(result.data);
-                } catch (e) {
-                    // Fallback
-                    const result = await axios("../"+articleParams+"/"+"data.json");
-                    setJsonData(result.data);
+                if (language === "zh") {
+                    try {
+                        const result = await axios("../"+articleParams+"/data_zh.json");
+                        setJsonData(result.data);
+                        return;
+                    } catch (e) {
+                        // Fallback to default data.json
+                    }
                 }
+
+                const result = await axios("../"+articleParams+"/data.json");
+                setJsonData(result.data);
             }
             else {
-                try {
-                    const result = await axios("./data_" + language + ".json");
-                    setJsonData(result.data.allPageData);
-                } catch (e) {
-                    // Fallback
-                    const result = await axios("./data.json");
-                    setJsonData(result.data.allPageData);
+                if (language === "zh") {
+                    try {
+                        const result = await axios("./data_zh.json");
+                        setJsonData(result.data.allPageData);
+                        return;
+                    } catch (e) {
+                        // Fallback to default data.json
+                    }
                 }
+
+                const result = await axios("./data.json");
+                setJsonData(result.data.allPageData);
             }
         };
         fetchData();

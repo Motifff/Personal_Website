@@ -1,8 +1,10 @@
 import BlogSummaryView from "../../component/blogSummaryView";
 import { useLanguage } from "@/context/LanguageContext";
+import { sortByPriorityThenDate } from "../../utils/prioritySort";
 
 export default function BlogListLayout(props) {
     const { language } = useLanguage();
+    const sortedBlogData = sortByPriorityThenDate(props.blogData);
     const text = {
         en: { title: "Blog" },
         zh: { title: "博客" }
@@ -34,13 +36,12 @@ export default function BlogListLayout(props) {
                 {t.title}
             </div>
             {
-                props.blogData && props.blogData.map((blogItem, index) => (
+                sortedBlogData && sortedBlogData.map((blogItem, index) => (
                     <BlogSummaryView key={index} ifFold={props.ifFold} title={blogItem.title} subtitle={blogItem.subtitle} cotegories={blogItem.type} locations={blogItem.location} image={blogItem.image} date={blogItem.date} link={blogItem.link}/>
                 ))
             }
         </div>
     )
 }
-
 
 
