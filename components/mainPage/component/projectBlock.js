@@ -21,7 +21,7 @@ export default function ProjectBlock(props) {
             const shouldContinue = props.onCardClick();
             if (shouldContinue === false) return;
         }
-        router.push("/blog/"+props.link);
+        router.push("/home/"+props.link);
     }
 
     const springEase = "cubic-bezier(0.22, 1.25, 0.36, 1)";

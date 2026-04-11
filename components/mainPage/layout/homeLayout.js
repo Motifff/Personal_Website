@@ -2,7 +2,7 @@
 
 import { useSpring, animated } from '@react-spring/web'
 import { useState, useEffect} from "react";
-import { usePathname } from 'next/navigation';
+import { usePathname, useParams } from 'next/navigation';
 
 //custom apps
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
@@ -15,12 +15,16 @@ import ContactLayout from './contactLayout/contactLayout';
 import AboutLayout from './aboutLayout/aboutLayout';
 import Footer from '../component/footer';
 
+// BlogLayout is kept for article detail rendering under /home/{link}
+
 export default function HomeLayout() {
   // this is to decide whether we should close the surrounding columns
   const [ifFold, setIfFold] = useState(false);
   // this one is to determine whether use two columns in the design projects area
   const [if2, setIf2] = useState(false);
   const pathname = usePathname()
+  const pageParams = useParams()
+  const articleId = pageParams?.id
   const [timeUp, setTimeup] = useState(false);
 
   const jumpAnimationHomepage = useSpring({
@@ -111,10 +115,10 @@ export default function HomeLayout() {
         </animated.div>
       </animated.div>
       {
-        pathname.includes("home") ? <MainLayout ifFold={ifFold} if2={if2} /> : null
+        pathname.includes("home") && !articleId ? <MainLayout ifFold={ifFold} if2={if2} /> : null
       }
       {
-        pathname.includes("blog") ? <BlogLayout ifFold={ifFold} /> : null
+        pathname.includes("home") && articleId ? <BlogLayout ifFold={ifFold} /> : null
       }
       {
         pathname.includes("about") ? <AboutLayout ifFold={ifFold} if2={if2}/> : null

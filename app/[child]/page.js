@@ -2,7 +2,6 @@ import HomeLayout from "@/components/mainPage/layout/homeLayout";
 
 export function generateStaticParams() {
   return [{ child: 'home' }, { child: '!home' },
-          { child: 'blog' }, { child: '!blog' },
           { child: 'about'},{ child: '!about'},
           { child: 'contacts'},{ child: '!contacts'},{child:"undefined"}
         ]
