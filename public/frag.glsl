@@ -68,10 +68,10 @@ vec3 wind(vec2 pt){
 
     // Add a random position
     float a = 0.0;
-    vec2 vel = vec2(u_time*.4);
+    vec2 vel = vec2(u_time*.2*.5);
     DF += snoise(pos+vel)*.25+.25;
 
-    a = snoise(pos*vec2(cos(u_time*0.3),sin(u_time*0.4))*0.1)*PI;
+    a = snoise(pos*vec2(cos(u_time*0.1),sin(u_time*0.2))*0.1)*PI;
     vel = vec2(cos(a),sin(a));
     DF += snoise(pos+vel)*.25+.25;
 
@@ -155,7 +155,7 @@ vec3 light1(vec2 pt){
 void main() {
 	vec2 st = gl_FragCoord.xy/u_resolution.xy;
     st.x *= u_resolution.x/u_resolution.y;
-    vec3 color = vec3(0.055, 0.063, 0.063);
+    vec3 color = vec3(0.);
 
 	mat2 rM = mat2(cos(90.0), -sin(90.0), sin(90.0), cos(90.0));
 	
