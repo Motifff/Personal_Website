@@ -1,0 +1,32 @@
+{
+    "title": "Assistive LLM and Design Strategy",
+    "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions (2025 研究生毕业设计)",
+    "type": "Research | MArch",
+    "location": "London",
+    "date": "2025",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "本项目是伦敦大学学院（UCL）Design for Performance and Interaction 专业的硕士毕业设计论文。该研究探索了一种创新的用户体验范式：基于大语言模型（LLM）的多利益相关者圆桌讨论模拟系统。旨在帮助设计师在制定策略时，通过模拟拥有不同背景、性格和心理特征的 AI Agent（智能体）之间的辩论与协作，快速获取多元化的视角。项目核心在于构建一个动态的数字环境，并引入“意图可视化（Intent Visualization）”，让用户无需阅读海量文本即可直观追踪 AI 的行为模式与决策倾向。",
+            "credits": ""
+        },
+        {
+            "type": "paragraph",
+            "content": "核心痛点：在传统的设计调研中，收集和整合多方利益相关者（如城市规划师、环保主义者、居民等）的意见面临巨大挑战：信息过载、认知负荷、数据碎片化。",
+            "credits": ""
+        },
+        {
+            "type": "paragraph",
+            "content": "解决方案：Designers’ Roundtable 系统。\n- OneAgent（智能体架构）：每个 Agent 拥有独立的记忆库、性格特征和投票机制。\n- RoundTable（圆桌中枢）：作为集体智慧的中心，负责收集提案、组织投票、并根据获胜提案动态决定下一轮讨论话题。\n- 交互界面：3D 圆桌会议室（沉浸式的视觉隐喻），实时干预（用户可随时暂停会议）。\n- 意图可视化 (Intent Visualization)：利用 LLM 输出的 Embedding 向量和 PCA 降维技术，将抽象的观点转化为可视化的点阵。趋势追踪，立场分析。",
+            "credits": ""
+        },
+        {
+            "type": "paragraph",
+            "content": "核心的设计思考：\n- 从“对话”到“社会模拟”：超越传统的 ChatGPT 问答模式，转向基于 Agent 的社会动力学模拟。\n- 可视化的“思维空间”：提出用高维向量可视化来“看”懂讨论的走向和共识的形成。\n- 人机协同的“导演模式”：用户不再是微观的操作者，而是宏观的“导演”。",
+            "credits": ""
+        }
+    ]
+}
+
+
+

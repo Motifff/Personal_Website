@@ -26,15 +26,16 @@ export default function HomeLayout() {
   const pageParams = useParams()
   const articleId = pageParams?.id
   const [timeUp, setTimeup] = useState(false);
+  const isHomeLanding = pathname.includes("home") && !articleId;
 
   const jumpAnimationHomepage = useSpring({
-    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? pathname.includes("home") ? "21.875vh" : "6.25vh" : "100vh",
+    minHeight: pathname.includes("!") ? isHomeLanding ? "21.875vh" : "6.25vh" : timeUp ? isHomeLanding ? "21.875vh" : "6.25vh" : "100vh",
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? pathname.includes("home") ? "10vh" : "16px" : timeUp ? pathname.includes("home") ? "10vh" : "16px" : "25vh",
-    flexDirection: pathname.includes("home") ? 'column' : 'row',
-    alignItems: pathname.includes('home') ? 'flex-start' : 'center',
+    gap: pathname.includes("!") ? isHomeLanding ? "10vh" : "16px" : timeUp ? isHomeLanding ? "10vh" : "16px" : "25vh",
+    flexDirection: isHomeLanding ? 'column' : 'row',
+    alignItems: isHomeLanding ? 'flex-start' : 'center',
   });
 
   const resizeSet = (windowSize) => {
@@ -84,13 +85,31 @@ export default function HomeLayout() {
           justifyContent: 'flex-end',
           alignItems: 'flex-start',
           gap: 24,
-          position: pathname.includes("home") ? 'relative' : 'sticky',
+          position: isHomeLanding ? 'relative' : 'sticky',
           top: 0,
           zIndex: 100,
-          backgroundColor: pathname.includes("home") ? 'transparent' : 'rgba(0, 0, 0, 0.7)',
-          backdropFilter: pathname.includes("home") ? 'none' : 'blur(10px)',
+          backgroundColor: 'transparent',
+          backdropFilter: 'none',
+          overflow: 'hidden',
           ...jumpAnimationHomepage
         }}>
+        {!isHomeLanding ? (
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              zIndex: -1,
+              overflow: "hidden",
+              pointerEvents: "none",
+            }}
+          >
+            {pathname.includes("home") ? (
+              <ShaderBlock />
+            ) : (
+              <div style={{ width: "100%", height: "100%", backgroundColor: "#18191B" }} />
+            )}
+          </div>
+        ) : null}
         <animated.div className="title"
           style={{
             justifyContent: 'flex-end',
@@ -107,7 +126,7 @@ export default function HomeLayout() {
             alignItems: 'center', 
             justifyContent: 'space-between',
             flex: 1,
-            width: pathname.includes("home") ? '100%' : 'auto' 
+            width: isHomeLanding ? '100%' : 'auto' 
           }}>
             <PagePort isSubpage={true} />
             <LanguageSwitcher />

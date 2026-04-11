@@ -48,6 +48,18 @@ export default function MainColumn(props) {
         return sortByPriorityThenDate(projects);
     }, [jsonData]);
 
+    const metaWidths = useMemo(() => {
+        const longestLocationLength = projectRows.reduce((maxLength, item) => {
+            const currentLength = (item?.location || "").trim().length;
+            return Math.max(maxLength, currentLength);
+        }, 8);
+
+        return {
+            locationWidth: `${Math.max(8, longestLocationLength)}ch`,
+            dateWidth: "9ch",
+        };
+    }, [projectRows]);
+
     const handleHover = useCallback((index) => {
         setActiveIndex(index);
     }, []);
@@ -58,7 +70,7 @@ export default function MainColumn(props) {
                 style={{
                     display: "flex",
                     flexDirection: "column",
-                    gap: "16px",
+                    gap: "8px",
                     width: "100%",
                     padding: "24px",
                 }}
@@ -71,6 +83,7 @@ export default function MainColumn(props) {
                         ifFold={props.ifFold}
                         isExpanded={index === activeIndex}
                         onHover={() => handleHover(index)}
+                        metaWidths={metaWidths}
                     />
                 ))}
             </div>

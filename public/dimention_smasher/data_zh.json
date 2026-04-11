@@ -1,0 +1,27 @@
+{
+    "title": "维度粉碎者",
+    "subtitle": "扩展直播创作者创意空间的软硬件系统",
+    "type": "系统设计",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "imageBed",
+            "content": [
+                {
+                    "title": "欢迎来到我的个人网站",
+                    "image": "http://placehold.it/900x300"
+                },
+                {
+                    "title": "我叫 John Doe",
+                    "image": "http://placehold.it/900x300"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "contents": "这是一段足够长的段落啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+            "credits": "我"
+        }
+    ]
+}

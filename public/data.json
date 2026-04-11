@@ -5,11 +5,11 @@
                 "projects": [
                     {
                         "title": "Qwen Chat Mock",
-                        "subtitle": "颠覆传统流量模型，构建以\"用户价值\"为核心的增值飞轮",
+                        "subtitle": "Disrupting Traditional Traffic Models: Building a Value-Driven Growth Flywheel Centered on User Value",
                         "type": "UX | Interaction",
                         "location": "China",
                         "date": "2024",
-                        "image": "http://placehold.it/900x300",
+                        "image": "main/main1.jpeg",
                         "link": "qwen_chat_mock",
                         "priority": 1
                     },
@@ -19,7 +19,7 @@
                         "type": "Research | MArch",
                         "location": "London",
                         "date": "2025",
-                        "image": "http://placehold.it/900x300",
+                        "image": "main/main1.jpeg",
                         "link": "grad_design_2025",
                         "priority": 2
                     },
@@ -64,12 +64,12 @@
                         "priority": 6
                     },
                     {
-                        "title": "神经辐射场在青瓷艺术创作领域中的设计应用",
-                        "subtitle": "2023 本科毕业设计",
+                        "title": "Design Application of Neural Radiance Fields in Celadon Art Creation",
+                        "subtitle": "2023 Undergraduate Graduation Design",
                         "type": "Industrial Design",
                         "location": "Hangzhou",
                         "date": "2023",
-                        "image": "http://placehold.it/900x300",
+                        "image": "main/main1.jpeg",
                         "link": "undergrad_design_2023",
                         "priority": 7
                     },
@@ -79,17 +79,17 @@
                         "type": "Portfolio",
                         "location": "Hangzhou",
                         "date": "2023",
-                        "image": "http://placehold.it/900x300",
+                        "image": "main/main1.jpeg",
                         "link": "portfolio_2023",
                         "priority": 8
                     },
                     {
-                        "title": "天罡 1# SPACE POET PROJECT",
+                        "title": "Tiangan-1 Space Poet Project",
                         "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
                         "type": "IED",
                         "location": "Shanghai",
                         "date": "02 FEB 24",
-                        "image": "http://placehold.it/300x200",
+                        "image": "main/main1.jpeg",
                         "link": "space_poet_project",
                         "priority": 9
                     },
@@ -99,7 +99,7 @@
                         "type": "IED",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "http://placehold.it/300x200",
+                        "image": "main/main1.jpeg",
                         "link": "time_flowing_on_canal",
                         "priority": 10
                     },
@@ -109,7 +109,7 @@
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "http://placehold.it/300x200",
+                        "image": "main/main1.jpeg",
                         "link": "tea_space",
                         "priority": 11
                     },
@@ -119,7 +119,7 @@
                         "type": "Game",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "http://placehold.it/300x200",
+                        "image": "main/main1.jpeg",
                         "link": "untitled_quantum_game",
                         "priority": 12
                     },
@@ -129,7 +129,7 @@
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "http://placehold.it/300x200",
+                        "image": "main/main1.jpeg",
                         "link": "material_movement",
                         "priority": 13
                     },
@@ -139,17 +139,17 @@
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "http://placehold.it/300x200",
+                        "image": "main/main1.jpeg",
                         "link": "lightime",
                         "priority": 14
                     },
                     {
                         "title": "Mock Test Post",
-                        "subtitle": "这是一个测试博客文章，演示所有可用的内容组件",
+                        "subtitle": "A test blog post demonstrating all available content components",
                         "type": "Test | Demo",
                         "location": "Mock World",
                         "date": "2026-02-22",
-                        "image": "http://placehold.it/900x300",
+                        "image": "main/main1.jpeg",
                         "link": "mock_test_post",
                         "priority": 99
                     }

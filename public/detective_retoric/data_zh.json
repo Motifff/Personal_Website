@@ -1,0 +1,29 @@
+{
+    "title": "侦探修辞",
+    "subtitle": "一个用于唤醒表达谨慎的互动机器人",
+    "type": "人机交互 | 用户体验",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type":"imageBed",
+            "content":[
+                {
+                    "title": "",
+                    "image": "/detective_retoric/images/mainImage.jpg"
+                }
+            ],
+            "aspectRatio": "1.5"
+        },
+        {
+            "type": "paragraph",
+            "content":"该作品希望让观众通过参与互动，体验聊天机器人对信息的扭曲过程。以文字为交流媒介，算法被设计为不断增加系统文本的变量，通过累积和迭代，模拟信息扭曲的过程。",
+            "credits":""
+        },
+        {
+            "type": "link",
+            "text": "视频",
+            "link":"https://www.youtube.com/watch?v=dzWlzplLSGY"
+        }
+    ]
+}

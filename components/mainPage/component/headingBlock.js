@@ -1,5 +1,14 @@
+// 生成 slug 用于锚点跳转
+function generateSlug(text) {
+    return 'heading-' + text
+        .toLowerCase()
+        .replace(/[^a-z0-9\u4e00-\u9fa5]+/g, '-') // 保留中文、英文、数字
+        .replace(/^-+|-+$/g, '') // 去除首尾连字符
+}
+
 export default function HeadingBlock(props) {
     const { level = 3, text } = props
+    const slug = generateSlug(text)
 
     // 根据标题级别设置样式
     const headingStyles = {
@@ -43,9 +52,10 @@ export default function HeadingBlock(props) {
     const style = headingStyles[level] || headingStyles[3]
 
     return (
-        <div style={{
+        <div id={slug} style={{
             color: "#FFF",
             width: "100%",
+            scrollMarginTop: "88px", // 预留 header 高度 + 16px 间距
             ...style
         }}>
             {text}

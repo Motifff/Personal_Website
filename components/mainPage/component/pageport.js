@@ -13,6 +13,13 @@ export default function PagePort(props){
 
     const handleButtonClick = (n) => {
         const currentPath = pathname;
+        const isBangMode = currentPath.includes("!");
+
+        if (n === "home" && (currentPath.includes("/home/") || currentPath.includes("/!home/"))) {
+            router.replace(isBangMode ? "/!home" : "/home");
+            return;
+        }
+
         if(!currentPath.includes(n)){
             if(!props.isSubpage){
                 router.push(`/${n}`);
