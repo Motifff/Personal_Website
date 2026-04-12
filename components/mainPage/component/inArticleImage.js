@@ -5,12 +5,10 @@ import { useSpring, animated } from '@react-spring/web';
  * 仅随 currentIndex / 图片 URL 更新，避免父组件进度条 RAF 高频 setState 打断 spring。
  * 切换时只做淡入，不用 translateX：横向百分比位移在首帧布局未稳定时容易残留，表现为静态时整体偏右，点击切换后才归位。
  */
-const ArticleImageSlide = memo(function ArticleImageSlide({ imageSrc, slideKey }) {
+const ArticleImageSlide = memo(function ArticleImageSlide({ imageSrc }) {
     const slideAnimation = useSpring({
         opacity: 1,
         from: { opacity: 0.72 },
-        reset: true,
-        key: slideKey,
         config: { duration: 220 },
     });
 
@@ -107,8 +105,8 @@ export default function InArticleImage(props) {
                 {/* 图片容器：独立 memo 层，避免进度条 RAF 打断 spring */}
                 {slide ? (
                     <ArticleImageSlide
+                        key={currentIndex}
                         imageSrc={slide.image}
-                        slideKey={currentIndex}
                     />
                 ) : null}
                 {/* 底部信息层 */}
