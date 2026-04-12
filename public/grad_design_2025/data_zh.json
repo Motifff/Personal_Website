@@ -24,6 +24,18 @@
             "type": "paragraph",
             "content": "核心的设计思考：\n- 从“对话”到“社会模拟”：超越传统的 ChatGPT 问答模式，转向基于 Agent 的社会动力学模拟。\n- 可视化的“思维空间”：提出用高维向量可视化来“看”懂讨论的走向和共识的形成。\n- 人机协同的“导演模式”：用户不再是微观的操作者，而是宏观的“导演”。",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "项目主视觉"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/grad_design_2025/images/main1.png", "title": "" }
+            ]
         }
     ]
 }

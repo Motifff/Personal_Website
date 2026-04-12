@@ -9,7 +9,7 @@
                         "type": "UX | Interaction",
                         "location": "China",
                         "date": "2024",
-                        "image": "main/main1.jpeg",
+                        "image": "qwen_chat_mock/images/main1.png",
                         "link": "qwen_chat_mock",
                         "priority": 1
                     },
@@ -19,7 +19,7 @@
                         "type": "Research | MArch",
                         "location": "London",
                         "date": "2025",
-                        "image": "main/main1.jpeg",
+                        "image": "grad_design_2025/images/main1.png",
                         "link": "grad_design_2025",
                         "priority": 2
                     },
@@ -29,27 +29,27 @@
                         "type": "HCI | UX",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "detective_retoric/images/mainImage.jpg",
+                        "image": "detective_retoric/images/main1.jpg",
                         "link": "detective_retoric",
                         "priority": 3
                     },
                     {
-                        "title": "Myo-Clear APP ",
+                        "title": "Myo-Clear APP",
                         "subtitle": "Myopic App Design using Lidar and Computer Vision",
                         "type": "UX",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "myo_clear_app/images/mainImage.jpg",
+                        "image": "myo_clear_app/images/main1.jpg",
                         "link": "myo_clear_app",
                         "priority": 4
                     },
                     {
                         "title": "Enhanced Spine",
-                        "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
+                        "subtitle": "Spinal augmentation device that combines futuristic and speculative design",
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "enhanced_spine/images/mainImage.jpg",
+                        "image": "enhanced_spine/images/main1.jpg",
                         "link": "enhanced_spine",
                         "priority": 5
                     },
@@ -64,24 +64,34 @@
                         "priority": 6
                     },
                     {
-                        "title": "Design Application of Neural Radiance Fields in Celadon Art Creation",
-                        "subtitle": "2023 Undergraduate Graduation Design",
-                        "type": "Industrial Design",
-                        "location": "Hangzhou",
-                        "date": "2023",
-                        "image": "main/main1.jpeg",
-                        "link": "undergrad_design_2023",
-                        "priority": 7
+                        "title": "ATH",
+                        "subtitle": "Project description",
+                        "type": "Project",
+                        "location": "Location",
+                        "date": "2024",
+                        "image": "ath/images/main1.png",
+                        "link": "ath",
+                        "priority": 8
                     },
                     {
-                        "title": "2023 Design Portfolio",
-                        "subtitle": "Interaction & Industrial Design Works",
-                        "type": "Portfolio",
+                        "title": "All Things Arise • Putuo Blessing",
+                        "subtitle": "Jewelry Design Project",
+                        "type": "Jewelry Design",
                         "location": "Hangzhou",
-                        "date": "2023",
-                        "image": "main/main1.jpeg",
-                        "link": "portfolio_2023",
-                        "priority": 8
+                        "date": "2024",
+                        "image": "all_things_arise/images/main1.png",
+                        "link": "all_things_arise",
+                        "priority": 9
+                    },
+                    {
+                        "title": "A Glimpse into JBL Internship",
+                        "subtitle": "Internship Experience at JBL",
+                        "type": "Internship",
+                        "location": "Location",
+                        "date": "2024",
+                        "image": "jbl_internship/images/main1.png",
+                        "link": "jbl_internship",
+                        "priority": 10
                     },
                     {
                         "title": "Tiangan-1 Space Poet Project",
@@ -89,9 +99,9 @@
                         "type": "IED",
                         "location": "Shanghai",
                         "date": "02 FEB 24",
-                        "image": "main/main1.jpeg",
+                        "image": "space_poet_project/images/SPACE POET PROJECT.JPG",
                         "link": "space_poet_project",
-                        "priority": 9
+                        "priority": 11
                     },
                     {
                         "title": "The Time Flowing on the Canal",
@@ -99,9 +109,9 @@
                         "type": "IED",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "main/main1.jpeg",
+                        "image": "time_flowing_on_canal/images/main1.JPG",
                         "link": "time_flowing_on_canal",
-                        "priority": 10
+                        "priority": 12
                     },
                     {
                         "title": "Interactive Art Design - Tea Space",
@@ -109,29 +119,29 @@
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "main/main1.jpeg",
+                        "image": "tea_space/images/Interactive Art Design for Tea Space.jpg",
                         "link": "tea_space",
-                        "priority": 11
+                        "priority": 13
                     },
                     {
                         "title": "Untitled Quantum Game",
-                        "subtitle": "A quantum  science game using the Unity engine",
+                        "subtitle": "A quantum science game using the Unity engine",
                         "type": "Game",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "main/main1.jpeg",
+                        "image": "untitled_quantum_game/images/main1.png",
                         "link": "untitled_quantum_game",
-                        "priority": 12
+                        "priority": 14
                     },
                     {
                         "title": "Material Movement",
-                        "subtitle": "regenerative material recording device and artistic interactive installation",
+                        "subtitle": "Regenerative material recording device and artistic interactive installation",
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "main/main1.jpeg",
+                        "image": "material_movement/images/main1.JPG",
                         "link": "material_movement",
-                        "priority": 13
+                        "priority": 15
                     },
                     {
                         "title": "Lightime",
@@ -139,9 +149,9 @@
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "main/main1.jpeg",
+                        "image": "lightime/images/main1.JPG",
                         "link": "lightime",
-                        "priority": 14
+                        "priority": 16
                     },
                     {
                         "title": "Mock Test Post",

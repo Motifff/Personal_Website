@@ -1,0 +1,38 @@
+{
+    "title": "All Things Arise • Putuo Blessing",
+    "subtitle": "Jewelry Design Project",
+    "type": "Jewelry Design",
+    "location": "Hangzhou",
+    "date": "2024",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "A **jewelry** study rooted in **Putuo blessing** symbolism—**All Things Arise** frames ornament as **portable prayer**: small enough to wear daily, dense enough to carry **cultural coordinates** (sea, incense, circuit-like paths of devotion).",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design intent"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **Blessing as pattern**: motifs repeat with variation like **mantra loops**.\n- **Material voice**: metal + stone read **calm**, not loud luxury.\n- **Wearable scale**: pieces must survive **real light**—studio and street.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Collection stills"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/all_things_arise/images/main1.png", "title": "" },
+                { "image": "/Personal_Website/all_things_arise/images/putuo.PNG", "title": "" },
+                { "image": "/Personal_Website/all_things_arise/images/putuo1.PNG", "title": "" }
+            ]
+        }
+    ]
+}

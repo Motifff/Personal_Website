@@ -6,24 +6,79 @@
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type":"imageBed",
-            "content":[
-                {
-                    "title": "",
-                    "image": "/detective_retoric/images/mainImage.jpg"
-                }
-            ],
-            "aspectRatio": "1.5"
+            "type": "paragraph",
+            "content": "This project is an **HCI / experiential** piece: visitors participate in a dialogue medium where an algorithm continuously adds variables to the system text—accumulating and iterating to **simulate how information distorts** as it passes through chatbot-style mediation.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Problem"
         },
         {
             "type": "paragraph",
-            "content":"The work hopes to let the audience experience the process of distortion of information by chatbot through the participation of the audience. Using text as the communication medium, the algorithm is designed to continuously increase the variables of the system text, accumulate and iterate, and simulate the process of information distortion.",
-            "credits":""
+            "content": "**Core pain points:**\n- Distortion is **invisible**: people rarely see how their wording is amplified, filtered, or reframed.\n- Users **unwittingly** take part in reshaping meaning.\n- There is little **reflective distance** from algorithmic behavior.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Solution"
+        },
+        {
+            "type": "paragraph",
+            "content": "**Detective Rhetoric** is an interactive robot that lets people **live through** distortion rather than only reading about it.\n\n- **Cumulative variables**: system text layers stack and drift to mimic real-world information drift.\n- **Participatory loop**: input → machine reframing → compare original vs. bent output.\n- **Reflective trigger**: contrast makes caution around expression tangible.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Mental model"
+        },
+        {
+            "type": "paragraph",
+            "content": "User **writes** → robot **mutates text over turns** → user **inspects delta** → awareness of rhetoric risk **updates**.\n\nCompared with a static demo, the user is inside the pipeline—not an observer only.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Interaction sequence"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/detective_retoric/images/main1.jpg", "title": "Overview" },
+                { "image": "/Personal_Website/detective_retoric/images/p1.jpg", "title": "Step 1" },
+                { "image": "/Personal_Website/detective_retoric/images/p2.jpg", "title": "Step 2" },
+                { "image": "/Personal_Website/detective_retoric/images/p3.jpg", "title": "Step 3" },
+                { "image": "/Personal_Website/detective_retoric/images/p4.jpg", "title": "Step 4" },
+                { "image": "/Personal_Website/detective_retoric/images/p5.jpg", "title": "Step 5" },
+                { "image": "/Personal_Website/detective_retoric/images/p6.jpg", "title": "Step 6" }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Process & documentation"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/detective_retoric/images/mainImage.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0829.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0928.JPG", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0930.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0977.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/2811668066398_.pic_hd.jpg", "title": "" }
+            ]
         },
         {
             "type": "link",
-            "text": "Video",
-            "link":"https://www.youtube.com/watch?v=dzWlzplLSGY"
+            "text": "Video →",
+            "link": "https://www.youtube.com/watch?v=dzWlzplLSGY"
         }
     ]
 }

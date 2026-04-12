@@ -6,24 +6,79 @@
     "date": "2024年2月2日",
     "mainContent": [
         {
-            "type":"imageBed",
-            "content":[
-                {
-                    "title": "",
-                    "image": "/detective_retoric/images/mainImage.jpg"
-                }
-            ],
-            "aspectRatio": "1.5"
+            "type": "paragraph",
+            "content": "这是一件 **人机交互 / 体验向** 的作品：观众在文字对话媒介中参与互动，算法持续为系统文本叠加变量，通过累积与迭代，**模拟信息在类聊天机器人链路中被扭曲的过程**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "问题"
         },
         {
             "type": "paragraph",
-            "content":"该作品希望让观众通过参与互动，体验聊天机器人对信息的扭曲过程。以文字为交流媒介，算法被设计为不断增加系统文本的变量，通过累积和迭代，模拟信息扭曲的过程。",
-            "credits":""
+            "content": "**核心痛点：**\n- 失真往往**不可见**：人们很难察觉自己的表述如何被放大、过滤或改写。\n- 用户常常**无意识**地参与意义的重塑。\n- 对算法行为缺少**可反思的距离**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "方案"
+        },
+        {
+            "type": "paragraph",
+            "content": "**侦探修辞**是一台互动机器人，让人**亲历**扭曲，而不是只阅读结论。\n\n- **累积变量**：系统文本层层叠加、漂移，贴近真实的信息漂移。\n- **参与式回路**：输入 → 机器改写 → 对照原文与变形结果。\n- **反思触发**：用直观对比，把「表达的谨慎」变成可感知经验。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "心智模型"
+        },
+        {
+            "type": "paragraph",
+            "content": "用户 **书写** → 机器人在多轮中 **持续改写文本** → 用户 **查看差异** → 对修辞风险的意识 **被更新**。\n\n与静态展示相比，用户处在链路之中，而不只是旁观者。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "交互序列"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/detective_retoric/images/main1.jpg", "title": "总览" },
+                { "image": "/Personal_Website/detective_retoric/images/p1.jpg", "title": "步骤 1" },
+                { "image": "/Personal_Website/detective_retoric/images/p2.jpg", "title": "步骤 2" },
+                { "image": "/Personal_Website/detective_retoric/images/p3.jpg", "title": "步骤 3" },
+                { "image": "/Personal_Website/detective_retoric/images/p4.jpg", "title": "步骤 4" },
+                { "image": "/Personal_Website/detective_retoric/images/p5.jpg", "title": "步骤 5" },
+                { "image": "/Personal_Website/detective_retoric/images/p6.jpg", "title": "步骤 6" }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "过程与记录"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/detective_retoric/images/mainImage.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0829.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0928.JPG", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0930.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/IMG_0977.png", "title": "" },
+                { "image": "/Personal_Website/detective_retoric/images/2811668066398_.pic_hd.jpg", "title": "" }
+            ]
         },
         {
             "type": "link",
-            "text": "视频",
-            "link":"https://www.youtube.com/watch?v=dzWlzplLSGY"
+            "text": "视频 →",
+            "link": "https://www.youtube.com/watch?v=dzWlzplLSGY"
         }
     ]
 }

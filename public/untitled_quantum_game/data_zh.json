@@ -1,0 +1,37 @@
+{
+    "title": "未命名量子游戏",
+    "subtitle": "使用 Unity 引擎制作的量子科学游戏",
+    "type": "游戏",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "基于 **Unity** 的原型，把 **量子科学** 转译为 **可玩的规则**——不是教材贴片，而是 **机制优先** 的学习：不确定性、观测与态成为玩家反复操练的 **动词**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计焦点"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **机制即概念**：每个关卡只教 **一个** 想法。\n- **容错友好**：错误直觉会导出 **可读** 的结果。\n- **美术可扩**：先保证清晰，再谈奇观。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "主视觉"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/untitled_quantum_game/images/main1.png", "title": "" },
+                { "image": "/Personal_Website/untitled_quantum_game/images/2691667803218_.pic_hd.jpg", "title": "" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "title": "A Glimpse into JBL Internship",
+    "subtitle": "Internship Experience at JBL",
+    "type": "Internship",
+    "location": "Location",
+    "date": "2024",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "A concise record of an **internship at JBL**: how **consumer-audio** orgs translate brand promise into **roadmaps**, **acoustic targets**, and **go-to-market** rhythms—useful if you care about **hardware-software-sound** alignment.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Role & scope"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **Cross-team translation**: design ↔ engineering ↔ marketing checkpoints.\n- **Prototype literacy**: listening to **tuning iterations** as decisions, not taste.\n- **Documentation discipline**: specs and decks as **shared memory**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Key learnings"
+        },
+        {
+            "type": "paragraph",
+            "content": "1. **Sound is negotiated**: targets live in measurable curves *and* narrative adjectives.\n2. **Schedule shapes quality**: the last 10% is often **calendar**, not genius.\n3. **Brand is constraint**: a useful one—creativity within **recognizable timbre**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Internship snapshot"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/jbl_internship/images/main1.png", "title": "" }
+            ]
+        }
+    ]
+}

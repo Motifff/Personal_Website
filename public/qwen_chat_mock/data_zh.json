@@ -2,7 +2,7 @@
     "title": "Qwen Chat Mock",
     "subtitle": "颠覆传统流量模型，构建以”用户价值”为核心的增值飞轮",
     "type": "UX | Interaction",
-    "location": "China",
+    "location": "中国",
     "date": "2024",
     "passwordHash": "82bd8dcf86629a2ebd5e7bd806381ebc9bbcf2e3be064c384f30dc5642d76364",
     "mainContent": [
@@ -20,9 +20,30 @@
             "type": "paragraph",
             "content": "核心的设计思考：\n- 从“被动等待”到“主动掌握”：受 Cursor Tab 启发，将内容填充交互提升维度。\n- 创造心流体验：通过在线强化学习模型承接用户意图，自动补齐任务间的断点。\n- 智能连续性：不仅仅是预测下一个词，而是连接思维的跳跃。\n- 语义缩放 (Semantic Zoom)：受 Sensecape 启发，解决跨端协作和长上下文追踪的挑战。",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "高保真流程（序列）"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/qwen_chat_mock/images/000.jpg", "title": "000" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/001.jpg", "title": "001" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/002.jpg", "title": "002" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/003.jpg", "title": "003" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/004.jpg", "title": "004" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/005.jpg", "title": "005" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/006.jpg", "title": "006" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/007.jpg", "title": "007" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/008.jpg", "title": "008" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/009.jpg", "title": "009" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/010.jpg", "title": "010" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/011.jpg", "title": "011" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/012.jpg", "title": "012" }
+            ]
         }
     ]
 }
-
-
-

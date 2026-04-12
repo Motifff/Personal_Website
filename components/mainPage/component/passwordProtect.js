@@ -1,15 +1,20 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, createContext, useContext } from 'react'
 import { sha256 } from 'js-sha256'
 import Name from './name'
 import PagePort from './pageport'
 import LanguageSwitcher from './languageSwitcher'
 
+// 创建密码 Context，供子组件（如 iframe）使用
+const PasswordContext = createContext(null)
+export const usePassword = () => useContext(PasswordContext)
+
 export default function PasswordProtect({ children, passwordHash, showHeader = false }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [input, setInput] = useState('')
   const [hasError, setHasError] = useState(false)
+  const [password, setPassword] = useState('') // 存储明文密码供子组件使用
 
   // 防止页面滚动
   useEffect(() => {
@@ -31,13 +36,20 @@ export default function PasswordProtect({ children, passwordHash, showHeader = f
 
     if (inputHash === passwordHash) {
       setIsAuthenticated(true)
+      setPassword(input) // 保存明文密码
       setHasError(false)
     } else {
       setHasError(true)
     }
   }
 
-  if (isAuthenticated) return children
+  if (isAuthenticated) {
+    return (
+      <PasswordContext.Provider value={password}>
+        {children}
+      </PasswordContext.Provider>
+    )
+  }
 
   return (
     <div style={{

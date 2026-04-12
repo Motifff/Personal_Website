@@ -1,0 +1,48 @@
+{
+    "title": "The Time Flowing on the Canal",
+    "subtitle": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
+    "type": "IED",
+    "location": "Hangzhou",
+    "date": "02 FEB 24",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "A **documentary IED** project from the **Social Narrative Studio (CAA)** on the **Beijing–Hangzhou Grand Canal**: treating the waterway as **living time**—commerce, ecology, memory, and migration folded into **one longitudinal story**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Narrative focus"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **Time as current**: slow civic change vs. fast urban renewal.\n- **Voices along the bank**: social narrative as **collage**, not a single hero arc.\n- **Place truth**: images anchor claims; text explains **why this stretch matters now**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Stills (sequence)"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/time_flowing_on_canal/images/main1.JPG", "title": "" },
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal.JPG",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal2.JPG",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal3.JPG",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

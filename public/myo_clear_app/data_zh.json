@@ -1,21 +1,61 @@
 {
-    "title": "Myo-Clear APP ",
+    "title": "近视防护 APP",
     "subtitle": "基于激光雷达和计算机视觉的近视应用设计",
     "type": "用户体验",
     "location": "杭州",
     "date": "2024年2月2日",
     "mainContent": [
         {
-            "type": "imageBed",
-            "links": [
-                "",
-                ""
-            ]
+            "type": "paragraph",
+            "content": "面向 **近视防护** 的 **产品 / 体验** 探索：把 **激光雷达** 与 **计算机视觉** 用于距离、姿态与屏幕习惯的可读化，让手机成为 **克制的陪伴**，而不是新的视疲劳来源。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "痛点"
         },
         {
             "type": "paragraph",
-            "contents": "",
+            "content": "- **风险不可见**：距离与时长往往要到不适才被感知。\n- **反馈弱**：泛泛提醒容易被忽略。\n- **情境碎片化**：距离、光线与使用很少被读成同一条叙事。",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "方案"
+        },
+        {
+            "type": "paragraph",
+            "content": "**Myo-Clear** 用 **感知驱动** 的界面组织信息：\n\n- **空间感知**：借助 LiDAR 提示观看距离与环境。\n- **视觉管线**：CV 辅助识别与视疲劳相关的行为模式。\n- **可行动的界面**：把原始信号翻译成 **清晰、低负担** 的干预。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "- 从 **指责** 到 **引导**：优先让人理解，而不是说教。\n- 从 **手填记录** 到 **环境感知**：减少用户劳动。\n- 从 **单一指标** 到 **整体姿态**：产品叙事贴近真实使用。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "界面流程"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/myo_clear_app/images/main1.jpg", "title": "封面" },
+                { "image": "/Personal_Website/myo_clear_app/images/1.jpg", "title": "界面 1" },
+                { "image": "/Personal_Website/myo_clear_app/images/2.jpg", "title": "界面 2" },
+                { "image": "/Personal_Website/myo_clear_app/images/3.jpg", "title": "界面 3" },
+                { "image": "/Personal_Website/myo_clear_app/images/4.jpg", "title": "界面 4" },
+                { "image": "/Personal_Website/myo_clear_app/images/5.jpg", "title": "界面 5" }
+            ]
         }
     ]
 }

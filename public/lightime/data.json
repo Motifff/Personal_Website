@@ -1,0 +1,51 @@
+{
+    "title": "Lightime",
+    "subtitle": "A desktop zoned lighting table lamp using FOC and depth detection",
+    "type": "DEng",
+    "location": "Hangzhou",
+    "date": "02 FEB 24",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "A **desktop lamp** that uses **FOC motor control** and **depth sensing** to create **zoned lighting** on the table—different tasks get **different pools of light** without a complex UI. The object argues for **quiet automation**: the desk understands **where you are working**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Problem"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **One-tube-fits-all** lamps waste energy and create glare.\n- **Manual dimming** is too slow when tasks switch quickly.\n- Depth offers **spatial priors** that knobs do not.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Solution"
+        },
+        {
+            "type": "paragraph",
+            "content": "**Lightime** couples **FOC** (smooth, precise beam steering / intensity shaping) with **depth detection**:\n\n- **Zones**: map tabletop regions to **light recipes**.\n- **Low UI**: behavior is mostly **ambient**; exceptions are simple overrides.\n- **Hardware clarity**: the prototype reads as **lamp + sensing**, not a gadget pile.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Prototype & visualization"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/lightime/images/main1.JPG", "title": "" },
+                { "image": "/Personal_Website/lightime/images/light_time1.jpg", "title": "" },
+                { "image": "/Personal_Website/lightime/images/light_time4.png", "title": "" },
+                { "image": "/Personal_Website/lightime/images/light_time5.png", "title": "" },
+                { "image": "/Personal_Website/lightime/images/Light_time_vis.png", "title": "" },
+                { "image": "/Personal_Website/lightime/images/info.jpg", "title": "" }
+            ]
+        }
+    ]
+}

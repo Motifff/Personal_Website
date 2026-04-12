@@ -1,0 +1,28 @@
+{
+    "title": "ATH",
+    "subtitle": "Project description here",
+    "type": "Project",
+    "location": "Location",
+    "date": "2024",
+    "passwordHash": "82bd8dcf86629a2ebd5e7bd806381ebc9bbcf2e3be064c384f30dc5642d76364",
+    "mainContent": [
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/ath/images/main1.png", "title": "" }
+            ]
+        },
+        {
+            "type": "iframe",
+            "encryptedLink": "Tiu0aGgDqlkg2qQEjHzQmIeAsZMVOnQHw2Wm28vkpttQe4T5lM6LHIToRJqrvMQTMwzh1lHVwzNFmFl+P97IbQ==",
+            "aspectRatio": "16/9",
+            "title": "ATH Video"
+        },
+        {
+            "type": "paragraph",
+            "encryptedContent": "5Y69AuEd4Rt90q27Hxpo05rmkwNnNnzTrRuwZgrpRzKVxhwH0YvV/eDiWI3VabUN",
+            "credits": ""
+        }
+    ]
+}

@@ -139,11 +139,17 @@ export default function HomeProjectRow(props) {
                         width: ifFold ? "100%" : "480px",
                         height: s.progress.to([0, 1], [0, 256]),
                         flexShrink: 0,
-                        opacity: s.progress,
                         overflow: "hidden",
                     }}
                 >
-                    {imageSrc ? <MediaMaskImage src={imageSrc} alt={project?.title || ""} sampleSize={12} /> : null}
+                    {/* 内部固定高度，避免 Canvas 重绘 */}
+                    <div style={{
+                        width: ifFold ? "100%" : "480px",
+                        height: "256px",
+                        opacity: s.progress,
+                    }}>
+                        {imageSrc ? <MediaMaskImage src={imageSrc} alt={project?.title || ""} sampleSize={12} /> : null}
+                    </div>
                 </animated.div>
 
                 {/* Right: meta (expanded) */}

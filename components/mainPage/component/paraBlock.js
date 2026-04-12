@@ -5,26 +5,124 @@ import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
+import { usePassword } from './passwordProtect'
+import { decryptContent } from '@/utils/crypto'
 
 export default function ParaBlock(props) {
-    const [htmlContent, setHtmlContent] = useState(props.text || '')
+    const password = usePassword()
+    const [htmlContent, setHtmlContent] = useState('')
+    const [isDecrypting, setIsDecrypting] = useState(false)
+    const [decryptError, setDecryptError] = useState(false)
 
+    const isEncrypted = !!props.encryptedContent
+    const rawText = props.text || ''
+
+    // 解密 + Markdown 处理
     useEffect(() => {
-        const processMarkdown = async () => {
+        const processContent = async () => {
+            let textToProcess = rawText
+
+            // 如果有加密内容且有密码，尝试解密
+            if (isEncrypted && password) {
+                setIsDecrypting(true)
+                setDecryptError(false)
+
+                const decrypted = await decryptContent(props.encryptedContent, password)
+                if (decrypted) {
+                    textToProcess = decrypted
+                } else {
+                    setDecryptError(true)
+                }
+                setIsDecrypting(false)
+            }
+
+            // Markdown 渲染
             try {
                 const result = await unified()
                     .use(remarkParse)
                     .use(remarkGfm)
                     .use(remarkHtml)
-                    .process(props.text || '')
+                    .process(textToProcess)
                 setHtmlContent(String(result))
             } catch (error) {
-                setHtmlContent((props.text || '').replace(/\n/g, '<br/>'))
+                setHtmlContent(textToProcess.replace(/\n/g, '<br/>'))
             }
         }
 
-        processMarkdown()
-    }, [props.text])
+        processContent()
+    }, [rawText, isEncrypted, password, props.encryptedContent])
+
+    // 加密内容但无密码
+    if (isEncrypted && !password) {
+        return (
+            <div style={{
+                display: "flex",
+                padding: "16px 0",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                alignSelf: "stretch",
+                flex: 1
+            }}>
+                <div style={{
+                    color: "#666",
+                    fontSize: "16px",
+                    fontWeight: "400",
+                    lineHeight: "130%",
+                }}>
+                    🔒 加密内容需要密码解锁
+                </div>
+            </div>
+        )
+    }
+
+    // 解密中
+    if (isDecrypting) {
+        return (
+            <div style={{
+                display: "flex",
+                padding: "16px 0",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                alignSelf: "stretch",
+                flex: 1
+            }}>
+                <div style={{
+                    color: "#666",
+                    fontSize: "16px",
+                    fontWeight: "400",
+                    lineHeight: "130%",
+                }}>
+                    解密中...
+                </div>
+            </div>
+        )
+    }
+
+    // 解密失败
+    if (decryptError) {
+        return (
+            <div style={{
+                display: "flex",
+                padding: "16px 0",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                alignSelf: "stretch",
+                flex: 1
+            }}>
+                <div style={{
+                    color: "#FF6B6B",
+                    fontSize: "16px",
+                    fontWeight: "400",
+                    lineHeight: "130%",
+                }}>
+                    解密失败
+                </div>
+            </div>
+        )
+    }
 
     return (
         <div style={{

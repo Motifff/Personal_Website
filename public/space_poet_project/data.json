@@ -1,21 +1,43 @@
 {
-    "title": "天罡 1# SPACE POET PROJECT",
+    "title": "Tiangan-1 Space Poet Project",
     "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
     "type": "IED",
     "location": "Shanghai",
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type": "imageBed",
-            "links": [
-                "",
-                ""
-            ]
+            "type": "paragraph",
+            "content": "An **IED** collaboration between **China Academy of Art** and **Shanghai Aerospace Exploration Media**: a **space-poetic** narrative object that connects **popular imagination of orbit** with **poetic storytelling**—positioning art and aerospace outreach as **shared cultural infrastructure**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Intent"
         },
         {
             "type": "paragraph",
-            "contents": "",
+            "content": "- Make **distant space programs** emotionally near through **metaphor and scene**.\n- Bridge **engineering credibility** with **artistic ambiguity** (the “poet” lens).\n- Produce **documentation** that works both as exhibition material and public communication.",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Scene documentation"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/space_poet_project/images/SPACE%20POET%20PROJECT.JPG",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/space_poet_project/images/39151668506764_.pic_hd.jpg",
+                    "title": ""
+                }
+            ]
         }
     ]
 }

@@ -1,5 +1,33 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, memo } from "react";
 import { useSpring, animated } from '@react-spring/web';
+
+/**
+ * 仅随 currentIndex / 图片 URL 更新，避免父组件进度条 RAF 高频 setState 打断 spring。
+ * 切换时只做淡入，不用 translateX：横向百分比位移在首帧布局未稳定时容易残留，表现为静态时整体偏右，点击切换后才归位。
+ */
+const ArticleImageSlide = memo(function ArticleImageSlide({ imageSrc, slideKey }) {
+    const slideAnimation = useSpring({
+        opacity: 1,
+        from: { opacity: 0.72 },
+        reset: true,
+        key: slideKey,
+        config: { duration: 220 },
+    });
+
+    return (
+        <animated.div
+            style={{
+                position: "absolute",
+                inset: 0,
+                backgroundImage: `url(${imageSrc})`,
+                backgroundPosition: "center center",
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                ...slideAnimation,
+            }}
+        />
+    );
+});
 
 export default function InArticleImage(props) {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -61,15 +89,7 @@ export default function InArticleImage(props) {
         startTimeRef.current = performance.now(); // 重置计时
     };
 
-    // 滑动动画：从左往右
-    const slideAnimation = useSpring({
-        opacity: 1,
-        transform: 'translateX(0%)',
-        from: { opacity: 0.5, transform: 'translateX(5%)' },
-        reset: true,
-        key: currentIndex,
-        config: { duration: 200 },
-    });
+    const slide = content?.[currentIndex];
 
     return (
         content !== undefined ? (
@@ -84,17 +104,13 @@ export default function InArticleImage(props) {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
                 >
-                {/* 图片容器 */}
-                <animated.div
-                    style={{
-                        position: 'absolute',
-                        inset: 0,
-                        backgroundImage: `url(${content[currentIndex].image})`,
-                        backgroundPosition: "50% 50%",
-                        backgroundSize: "cover",
-                        ...slideAnimation,
-                    }}
-                />
+                {/* 图片容器：独立 memo 层，避免进度条 RAF 打断 spring */}
+                {slide ? (
+                    <ArticleImageSlide
+                        imageSrc={slide.image}
+                        slideKey={currentIndex}
+                    />
+                ) : null}
                 {/* 底部信息层 */}
                 <div
                     style={{
@@ -109,6 +125,7 @@ export default function InArticleImage(props) {
                         transition: 'background-color 0.5s ease',
                         position: 'relative',
                         zIndex: 1,
+                        minHeight: 0,
                     }}>
                     {/* 进度条指示器 */}
                     {totalImages > 1 ? (

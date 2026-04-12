@@ -6,16 +6,56 @@
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type": "imageBed",
-            "links": [
-                "",
-                ""
-            ]
+            "type": "paragraph",
+            "content": "A **UX / product** exploration for **myopia care**: combining **LiDAR** sensing and **computer vision** to make distance, posture, and screen habits legible—so the phone becomes a **calm coach** instead of another source of eye strain.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Pain points"
         },
         {
             "type": "paragraph",
-            "contents": "",
+            "content": "- **Invisible risk**: users do not feel proximity or duration until symptoms appear.\n- **Weak feedback loops**: generic reminders are easy to ignore.\n- **Fragmented context**: distance, lighting, and usage are rarely read as one story.",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Solution"
+        },
+        {
+            "type": "paragraph",
+            "content": "**Myo-Clear** proposes a **sensing-informed** interface:\n\n- **Spatial awareness**: LiDAR-backed cues for viewing distance and environment.\n- **Vision pipeline**: CV assists in recognizing behaviors that correlate with strain.\n- **Actionable UI**: translate raw signals into **clear, low-friction** interventions.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "- From **blame** to **guidance**: prioritize comprehension over scolding.\n- From **manual logging** to **ambient sensing**: reduce user labor.\n- From **single metrics** to **holistic posture**: align product narrative with lived use.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Interface flow"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/myo_clear_app/images/main1.jpg", "title": "Cover" },
+                { "image": "/Personal_Website/myo_clear_app/images/1.jpg", "title": "Screen 1" },
+                { "image": "/Personal_Website/myo_clear_app/images/2.jpg", "title": "Screen 2" },
+                { "image": "/Personal_Website/myo_clear_app/images/3.jpg", "title": "Screen 3" },
+                { "image": "/Personal_Website/myo_clear_app/images/4.jpg", "title": "Screen 4" },
+                { "image": "/Personal_Website/myo_clear_app/images/5.jpg", "title": "Screen 5" }
+            ]
         }
     ]
 }

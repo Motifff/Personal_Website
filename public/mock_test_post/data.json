@@ -73,7 +73,7 @@
         },
         {
             "type": "imageBed",
-            "aspectRatio": "4/3",
+            "aspectRatio": "16/9",
             "content": [
                 {
                     "image": "http://placehold.it/800x600/FF6B6B/ffffff?text=4:3+Aspect+Ratio",

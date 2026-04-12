@@ -1,0 +1,37 @@
+{
+    "title": "Untitled Quantum Game",
+    "subtitle": "A quantum science game using the Unity engine",
+    "type": "Game",
+    "location": "Hangzhou",
+    "date": "02 FEB 24",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "A **Unity** prototype that turns **quantum science** into **playable rules**—not a textbook overlay, but **mechanics-first** learning: uncertainty, observation, and state become **verbs** the player rehearses.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design focus"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **Mechanic = concept**: each level teaches **one** idea.\n- **Fail-friendly**: wrong intuition produces **readable** outcomes.\n- **Scalable art**: visuals support clarity before spectacle.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Key art"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/untitled_quantum_game/images/main1.png", "title": "" },
+                { "image": "/Personal_Website/untitled_quantum_game/images/2691667803218_.pic_hd.jpg", "title": "" }
+            ]
+        }
+    ]
+}

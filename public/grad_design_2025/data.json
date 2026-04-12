@@ -24,6 +24,18 @@
             "type": "paragraph",
             "content": "Core Design Thinking:\n- From \"Dialogue\" to \"Social Simulation\": Moving beyond traditional ChatGPT Q&A mode toward Agent-based social dynamics simulation.\n- Visualized \"Thought Space\": Proposing high-dimensional vector visualization to \"see\" the direction of discussions and the formation of consensus.\n- Human-AI Collaborative \"Director Mode\": Users are no longer micro-level operators, but macro-level \"directors.\"",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Project visual"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/grad_design_2025/images/main1.png", "title": "" }
+            ]
         }
     ]
 }
