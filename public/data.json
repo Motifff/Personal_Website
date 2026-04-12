@@ -1,213 +1,170 @@
 {
     "allPageData": {
         "home": {
-            "latest": [
-                {
-                    "title": "Add new features to the Information Architecture",
-                    "subtitle": "Personal Project Progress",
-                    "time": "2016-01-01",
-                    "image": "http://placehold.it/900x300"
-                }
-            ],
             "main": {
-                "headline": [
-                    {
-                        "title": "Project | Simulating Multi-Stakeholder Roundtable Discussions",
-                        "image": "main/main1.jpeg"
-                    },
-                    {
-                        "title": "Announcement | “Detective Rhetoric” has been invited to join the exhibition",
-                        "image": "main/main2.jpeg"
-                    },
-                    {
-                        "title": "Manifesto | Bridging Divides: Designing Reality to Unite Humanity",
-                        "image": "main/main3.jpg"
-                    }
-                ],
                 "projects": [
+                    {
+                        "title": "Qwen Chat Mock",
+                        "subtitle": "Disrupting Traditional Traffic Models: Building a Value-Driven Growth Flywheel Centered on User Value",
+                        "type": "UX | Interaction",
+                        "location": "China",
+                        "date": "2024",
+                        "image": "qwen_chat_mock/images/main1.png",
+                        "link": "qwen_chat_mock",
+                        "priority": 1
+                    },
+                    {
+                        "title": "Assistive LLM and Design Strategy",
+                        "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions",
+                        "type": "Research | MArch",
+                        "location": "London",
+                        "date": "2025",
+                        "image": "grad_design_2025/images/main1.png",
+                        "link": "grad_design_2025",
+                        "priority": 2
+                    },
                     {
                         "title": "Detective Rhetoric",
                         "subtitle": "An interactive robot for awakening caution of expression",
-                        "type": "Human Computer Interaction",
-                        "image": "detective_retoric/images/mainImage.jpg",
-                        "link": "detective_retoric"
+                        "type": "HCI | UX",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "detective_retoric/images/main1.jpg",
+                        "link": "detective_retoric",
+                        "priority": 3
                     },
                     {
-                        "title": "Myo-Clear APP ",
+                        "title": "Myo-Clear APP",
                         "subtitle": "Myopic App Design using Lidar and Computer Vision",
-                        "type": "Interaction Design",
-                        "image": "myo_clear_app/images/mainImage.jpg",
-                        "link": "myo_clear_app"
+                        "type": "UX",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "myo_clear_app/images/main1.jpg",
+                        "link": "myo_clear_app",
+                        "priority": 4
                     },
                     {
                         "title": "Enhanced Spine",
-                        "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
-                        "type": "Industrial Design",
-                        "image": "enhanced_spine/images/mainImage.jpg",
-                        "link": "enhanced_spine"
+                        "subtitle": "Spinal augmentation device that combines futuristic and speculative design",
+                        "type": "DEng",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "enhanced_spine/images/main1.jpg",
+                        "link": "enhanced_spine",
+                        "priority": 5
                     },
                     {
                         "title": "Dimention Smasher",
-                        "subtitle": "Hardware and software system for expanding live streamers' creativity space",
-                        "type": "System Design",
+                        "subtitle": "A set of hardware and software system for expanding live streamers' creativity space",
+                        "type": "PD",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
                         "image": "dimention_smasher/images/mainImage.jpg",
-                        "link": "dimention_smasher"
-                    }
-                ],
-                "memo": [
-                    {
-                        "title": "Can the learning rate of a neural network in 3D space be visualized by a ball?",
-                        "subtitle": "Ideas",
-                        "time": "2016-01-01",
-                        "image": "http://placehold.it/900x300"
+                        "link": "dimention_smasher",
+                        "priority": 6
                     },
                     {
-                        "title": "What is more important is that the machine is made of hydraulic instead of Raw motors, which create human like movements, as is the essence of human muscle.",
-                        "subtitle": "Memo",
-                        "time": "2016-01-01",
-                        "image": "http://placehold.it/900x300"
+                        "title": "ATH",
+                        "subtitle": "Project description",
+                        "type": "Project",
+                        "location": "Location",
+                        "date": "2024",
+                        "image": "ath/images/main1.png",
+                        "link": "ath",
+                        "priority": 8
+                    },
+                    {
+                        "title": "All Things Arise • Putuo Blessing",
+                        "subtitle": "Jewelry Design Project",
+                        "type": "Jewelry Design",
+                        "location": "Hangzhou",
+                        "date": "2024",
+                        "image": "all_things_arise/images/main1.png",
+                        "link": "all_things_arise",
+                        "priority": 9
+                    },
+                    {
+                        "title": "A Glimpse into JBL Internship",
+                        "subtitle": "Internship Experience at JBL",
+                        "type": "Internship",
+                        "location": "Location",
+                        "date": "2024",
+                        "image": "jbl_internship/images/main1.png",
+                        "link": "jbl_internship",
+                        "priority": 10
+                    },
+                    {
+                        "title": "Tiangan-1 Space Poet Project",
+                        "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
+                        "type": "IED",
+                        "location": "Shanghai",
+                        "date": "02 FEB 24",
+                        "image": "space_poet_project/images/SPACE POET PROJECT.JPG",
+                        "link": "space_poet_project",
+                        "priority": 11
+                    },
+                    {
+                        "title": "The Time Flowing on the Canal",
+                        "subtitle": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
+                        "type": "IED",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "time_flowing_on_canal/images/main1.JPG",
+                        "link": "time_flowing_on_canal",
+                        "priority": 12
+                    },
+                    {
+                        "title": "Interactive Art Design - Tea Space",
+                        "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
+                        "type": "DEng",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "tea_space/images/Interactive Art Design for Tea Space.jpg",
+                        "link": "tea_space",
+                        "priority": 13
+                    },
+                    {
+                        "title": "Untitled Quantum Game",
+                        "subtitle": "A quantum science game using the Unity engine",
+                        "type": "Game",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "untitled_quantum_game/images/main1.png",
+                        "link": "untitled_quantum_game",
+                        "priority": 14
+                    },
+                    {
+                        "title": "Material Movement",
+                        "subtitle": "Regenerative material recording device and artistic interactive installation",
+                        "type": "DEng",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "material_movement/images/main1.JPG",
+                        "link": "material_movement",
+                        "priority": 15
+                    },
+                    {
+                        "title": "Lightime",
+                        "subtitle": "A desktop zoned lighting table lamp using FOC and depth detection",
+                        "type": "DEng",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "lightime/images/main1.JPG",
+                        "link": "lightime",
+                        "priority": 16
+                    },
+                    {
+                        "title": "Mock Test Post",
+                        "subtitle": "A test blog post demonstrating all available content components",
+                        "type": "Test | Demo",
+                        "location": "Mock World",
+                        "date": "2026-02-22",
+                        "image": "main/main1.jpeg",
+                        "link": "mock_test_post",
+                        "priority": 99
                     }
                 ]
             }
-        },
-        "blog": {
-            "content": [
-                {
-                    "title": "Mock Test Post",
-                    "subtitle": "这是一个测试博客文章，演示所有可用的内容组件",
-                    "type": "Test | Demo",
-                    "location": "Mock World",
-                    "date": "2026-02-22",
-                    "image": "http://placehold.it/900x300",
-                    "link": "mock_test_post"
-                },
-                {
-                    "title": "Assistive LLM and Design Strategy",
-                    "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions",
-                    "type": "Research | MArch",
-                    "location": "London",
-                    "date": "2025",
-                    "image": "http://placehold.it/900x300",
-                    "link": "grad_design_2025"
-                },
-                {
-                    "title": "Qwen Chat Mock",
-                    "subtitle": "颠覆传统流量模型，构建以“用户价值”为核心的增值飞轮",
-                    "type": "UX | Interaction",
-                    "location": "China",
-                    "date": "2024",
-                    "image": "http://placehold.it/900x300",
-                    "link": "qwen_chat_mock"
-                },
-                {
-                    "title": "神经辐射场在青瓷艺术创作领域中的设计应用",
-                    "subtitle": "2023 本科毕业设计",
-                    "type": "Industrial Design",
-                    "location": "Hangzhou",
-                    "date": "2023",
-                    "image": "http://placehold.it/900x300",
-                    "link": "undergrad_design_2023"
-                },
-                {
-                    "title": "2023 Design Portfolio",
-                    "subtitle": "Interaction & Industrial Design Works",
-                    "type": "Portfolio",
-                    "location": "Hangzhou",
-                    "date": "2023",
-                    "image": "http://placehold.it/900x300",
-                    "link": "portfolio_2023"
-                },
-                {
-                    "title": "Detective Rhetoric",
-                    "subtitle": "An interactive robot for awakening caution of expression",
-                    "type": "HCI | UX",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "detective_retoric/images/mainImage.jpg",
-                    "link": "detective_retoric"
-                },
-                {
-                    "title": "Myo-Clear APP ",
-                    "subtitle": "Myopic App Design using Lidar and Computer Vision",
-                    "type": "UX",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "myo_clear_app/images/mainImage.jpg",
-                    "link": "myo_clear_app"
-                },
-                {
-                    "title": "Enhanced Spine",
-                    "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
-                    "type": "DEng",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "enhanced_spine/images/mainImage.jpg",
-                    "link": "enhanced_spine"
-                },
-                {
-                    "title": "Dimention Smasher",
-                    "subtitle": "A set of hardware and software system for expanding live streamers' creativity space",
-                    "type": "PD",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "dimention_smasher/images/mainImage.jpg",
-                    "link": "dimention_smasher"
-                },
-                {
-                    "title": "天罡 1# SPACE POET PROJECT",
-                    "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
-                    "type": "IED",
-                    "location": "Shanghai",
-                    "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
-                    "link": "space_poet_project"
-                },
-                {
-                    "title": "The Time Flowing on the Canal",
-                    "subtitle": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
-                    "type": "IED",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
-                    "link": "time_flowing_on_canal"
-                },
-                {
-                    "title": "Interactive Art Design - Tea Space",
-                    "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
-                    "type": "DEng",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
-                    "link": "tea_space"
-                },
-                {
-                    "title": "Untitled Quantum Game",
-                    "subtitle": "A quantum  science game using the Unity engine",
-                    "type": "Game",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
-                    "link": "untitled_quantum_game"
-                },
-                {
-                    "title": "Material Movement",
-                    "subtitle": "regenerative material recording device and artistic interactive installation",
-                    "type": "DEng",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
-                    "link": "material_movement"
-                },
-                {
-                    "title": "Lightime",
-                    "subtitle": "A desktop zoned lighting table lamp using FOC and depth detection",
-                    "type": "DEng",
-                    "location": "Hangzhou",
-                    "date": "02 FEB 24",
-                    "image": "http://placehold.it/300x200",
-                    "link": "lightime"
-                }
-            ]
         },
         "about": {
             "latest": [],

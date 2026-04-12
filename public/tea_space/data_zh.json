@@ -1,0 +1,43 @@
+{
+    "title": "交互艺术设计 - 茶空间",
+    "subtitle": "作为技术顾问协助研究生设计交互装置与机械结构",
+    "type": "DEng",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "**茶空间** 方向的 **空间 / 装置** 协作：以 **技术顾问** 身份支持研究生同伴——落地 **交互装置** 与 **机械结构**。设计目标是 **克制的触感**：仪式、湿气、触碰与运动被读作 **同一氛围**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计意图"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **茶作为间隙**：让房间慢下来；技术 **不抢戏**。\n- **机械诚实**：关节、行程与限位本身就是 **叙事**。\n- **顾问角色**：把工作室概念翻译成 **可制造** 的约束。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "空间影像"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/tea_space/images/Interactive%20Art%20Design%20for%20Tea%20Space.jpg",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/tea_space/images/Interactive%20Art%20Design%20for%20Tea%20Space1.JPG",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

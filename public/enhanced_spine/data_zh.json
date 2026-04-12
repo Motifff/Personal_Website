@@ -1,0 +1,62 @@
+{
+    "title": "增强脊柱",
+    "subtitle": "结合未来主义与推测性设计的脊柱增强装置",
+    "type": "DEng",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "一件 **推测性设计工程（DEng）** 作品：原型化 **脊柱增强** 可穿戴物，在 **临床姿态逻辑** 与 **未来主义材料语言** 之间搭桥。目标不仅是机构草图，更是一个 **可信的文化物件**——追问身体如何与支持性技术接口。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "问题"
+        },
+        {
+            "type": "paragraph",
+            "content": "- 日常 **护具** 常显「医疗感」，带来社交压力。\n- **推测性** 作品若脱离 **真实生物力学线索**，容易流于装饰。\n- 需要 **可想象的穿戴**：在照片与影像中仍能落在 **人体尺度** 上。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "方案"
+        },
+        {
+            "type": "paragraph",
+            "content": "**增强脊柱** 提出 **混合式脊柱辅助** 叙事：\n\n- **支撑叙事**：讲清载荷路径与姿态意图。\n- **未来形态语言**：曲面、接缝与光作为 **语义**，而非纯视觉。\n- **可穿戴尺度**：在影像中可被读作 **贴身物件**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "心智模型"
+        },
+        {
+            "type": "paragraph",
+            "content": "用户 **佩戴** → **反馈**（视觉 / 结构线索）提示对齐 → 观者把脊柱重新读作 **生物与假体之间的协商边界**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "实物与过程"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/enhanced_spine/images/main1.jpg", "title": "主视觉" },
+                { "image": "/Personal_Website/enhanced_spine/images/1.jpg", "title": "研究 1" },
+                { "image": "/Personal_Website/enhanced_spine/images/2.jpg", "title": "研究 2" },
+                { "image": "/Personal_Website/enhanced_spine/images/3.jpg", "title": "研究 3" },
+                { "image": "/Personal_Website/enhanced_spine/images/4.jpg", "title": "研究 4" },
+                { "image": "/Personal_Website/enhanced_spine/images/5.jpg", "title": "研究 5" },
+                { "image": "/Personal_Website/enhanced_spine/images/mainImage.png", "title": "" }
+            ]
+        }
+    ]
+}

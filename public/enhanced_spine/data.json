@@ -6,16 +6,57 @@
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type": "imageBed",
-            "links": [
-                "",
-                ""
-            ]
+            "type": "paragraph",
+            "content": "A **speculative DEng** piece that prototypes a **spinal augmentation** wearable—bridging **clinical posture logic** with a **futurist material language**. The goal is not only a mechanism sketch but a **believable cultural object** that asks how bodies might interface with supportive tech.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Problem"
         },
         {
             "type": "paragraph",
-            "contents": "",
+            "content": "- Everyday **support devices** often look medical and are socially stigmatized.\n- **Speculative** work can feel decorative unless tethered to **real biomechanical cues**.\n- Users need **imaginable adoption**: something that could plausibly sit on a body.",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Solution"
+        },
+        {
+            "type": "paragraph",
+            "content": "**Enhanced Spine** proposes a **hybrid spine assist**:\n\n- **Support narrative**: articulate load paths and posture intent.\n- **Futurist form language**: surfaces, seams, and glow as **semantic**, not only aesthetic.\n- **Wearable scale**: designed to be read at **human scale** in photos and film.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Mental model"
+        },
+        {
+            "type": "paragraph",
+            "content": "User **wears device** → **feedback** (visual / structural cues) suggests alignment → audience **re-reads** the spine as a **negotiated boundary** between biology and prosthesis.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Artifact & process"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/enhanced_spine/images/main1.jpg", "title": "Hero" },
+                { "image": "/Personal_Website/enhanced_spine/images/1.jpg", "title": "Study 1" },
+                { "image": "/Personal_Website/enhanced_spine/images/2.jpg", "title": "Study 2" },
+                { "image": "/Personal_Website/enhanced_spine/images/3.jpg", "title": "Study 3" },
+                { "image": "/Personal_Website/enhanced_spine/images/4.jpg", "title": "Study 4" },
+                { "image": "/Personal_Website/enhanced_spine/images/5.jpg", "title": "Study 5" },
+                { "image": "/Personal_Website/enhanced_spine/images/mainImage.png", "title": "" }
+            ]
         }
     ]
 }

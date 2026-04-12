@@ -3,7 +3,6 @@ import { useEffect, useState, Suspense } from "react";
 import axios from "axios";
 import { useLanguage } from "@/context/LanguageContext";
 
-import BlogListLayout from "./blogListLayout";
 import ArticleLayout from "./openArticle/articleLayout";
 
 function AsyncBlogPage(props) {
@@ -13,43 +12,31 @@ function AsyncBlogPage(props) {
     const { language } = useLanguage();
 
     useEffect(() => {
+        if (!articleParams) return;
+
         const fetchData = async () => {
-            if (articleParams !== undefined && articleParams !== null) {
-                console.log(articleParams);
+            if (language === "zh") {
                 try {
-                    const result = await axios("../"+articleParams+"/"+"data_" + language + ".json");
+                    const result = await axios("/Personal_Website/" + articleParams + "/data_zh.json");
                     setJsonData(result.data);
+                    return;
                 } catch (e) {
-                    // Fallback
-                    const result = await axios("../"+articleParams+"/"+"data.json");
-                    setJsonData(result.data);
+                    // Fallback to default data.json
                 }
             }
-            else {
-                try {
-                    const result = await axios("./data_" + language + ".json");
-                    setJsonData(result.data.allPageData);
-                } catch (e) {
-                    // Fallback
-                    const result = await axios("./data.json");
-                    setJsonData(result.data.allPageData);
-                }
-            }
+
+            const result = await axios("/Personal_Website/" + articleParams + "/data.json");
+            setJsonData(result.data);
         };
         fetchData();
     }, [language, articleParams]);
 
+    if (!articleParams) return null;
+
     return (
         <div className="mainContent" style={{ display: "flex", flexDirection: props.ifFold ? "column" : "row", backgroundColor: "#18191B" }}>
-            {articleParams === undefined ? (
-                <BlogListLayout ifFold={props.ifFold} blogData={jsonData ? jsonData.blog.content : []} />
-            ) : (
-                <>
-                {
-                    jsonData === null ? null :
-                        <ArticleLayout ifFold={props.ifFold} articleData={jsonData}/>
-                }
-                </>
+            {jsonData === null ? null : (
+                <ArticleLayout ifFold={props.ifFold} articleData={jsonData} />
             )}
         </div>
     );

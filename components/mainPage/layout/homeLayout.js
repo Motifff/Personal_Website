@@ -2,7 +2,7 @@
 
 import { useSpring, animated } from '@react-spring/web'
 import { useState, useEffect} from "react";
-import { usePathname } from 'next/navigation';
+import { usePathname, useParams } from 'next/navigation';
 
 //custom apps
 import ShaderBlock from "@/components/mainPage/component/shaderBackground";
@@ -15,22 +15,27 @@ import ContactLayout from './contactLayout/contactLayout';
 import AboutLayout from './aboutLayout/aboutLayout';
 import Footer from '../component/footer';
 
+// BlogLayout is kept for article detail rendering under /home/{link}
+
 export default function HomeLayout() {
   // this is to decide whether we should close the surrounding columns
   const [ifFold, setIfFold] = useState(false);
   // this one is to determine whether use two columns in the design projects area
   const [if2, setIf2] = useState(false);
   const pathname = usePathname()
+  const pageParams = useParams()
+  const articleId = pageParams?.id
   const [timeUp, setTimeup] = useState(false);
+  const isHomeLanding = pathname.includes("home") && !articleId;
 
   const jumpAnimationHomepage = useSpring({
-    minHeight: pathname.includes("!") ? pathname.includes("home") ? "21.875vh" : "6.25vh" : timeUp ? pathname.includes("home") ? "21.875vh" : "6.25vh" : "100vh",
+    minHeight: pathname.includes("!") ? isHomeLanding ? "21.875vh" : "6.25vh" : timeUp ? isHomeLanding ? "21.875vh" : "6.25vh" : "100vh",
   });
 
   const jumpAnimationTitle = useSpring({
-    gap: pathname.includes("!") ? pathname.includes("home") ? "10vh" : "16px" : timeUp ? pathname.includes("home") ? "10vh" : "16px" : "25vh",
-    flexDirection: pathname.includes("home") ? 'column' : 'row',
-    alignItems: pathname.includes('home') ? 'flex-start' : 'center',
+    gap: pathname.includes("!") ? isHomeLanding ? "10vh" : "16px" : timeUp ? isHomeLanding ? "10vh" : "16px" : "25vh",
+    flexDirection: isHomeLanding ? 'column' : 'row',
+    alignItems: isHomeLanding ? 'flex-start' : 'center',
   });
 
   const resizeSet = (windowSize) => {
@@ -80,13 +85,31 @@ export default function HomeLayout() {
           justifyContent: 'flex-end',
           alignItems: 'flex-start',
           gap: 24,
-          position: pathname.includes("home") ? 'relative' : 'sticky',
+          position: isHomeLanding ? 'relative' : 'sticky',
           top: 0,
           zIndex: 100,
-          backgroundColor: pathname.includes("home") ? 'transparent' : 'rgba(0, 0, 0, 0.7)',
-          backdropFilter: pathname.includes("home") ? 'none' : 'blur(10px)',
+          backgroundColor: 'transparent',
+          backdropFilter: 'none',
+          overflow: 'hidden',
           ...jumpAnimationHomepage
         }}>
+        {!isHomeLanding ? (
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              zIndex: -1,
+              overflow: "hidden",
+              pointerEvents: "none",
+            }}
+          >
+            {pathname.includes("home") ? (
+              <ShaderBlock />
+            ) : (
+              <div style={{ width: "100%", height: "100%", backgroundColor: "#18191B" }} />
+            )}
+          </div>
+        ) : null}
         <animated.div className="title"
           style={{
             justifyContent: 'flex-end',
@@ -103,7 +126,7 @@ export default function HomeLayout() {
             alignItems: 'center', 
             justifyContent: 'space-between',
             flex: 1,
-            width: pathname.includes("home") ? '100%' : 'auto' 
+            width: isHomeLanding ? '100%' : 'auto' 
           }}>
             <PagePort isSubpage={true} />
             <LanguageSwitcher />
@@ -111,10 +134,10 @@ export default function HomeLayout() {
         </animated.div>
       </animated.div>
       {
-        pathname.includes("home") ? <MainLayout ifFold={ifFold} if2={if2} /> : null
+        pathname.includes("home") && !articleId ? <MainLayout ifFold={ifFold} if2={if2} /> : null
       }
       {
-        pathname.includes("blog") ? <BlogLayout ifFold={ifFold} /> : null
+        pathname.includes("home") && articleId ? <BlogLayout ifFold={ifFold} /> : null
       }
       {
         pathname.includes("about") ? <AboutLayout ifFold={ifFold} if2={if2}/> : null

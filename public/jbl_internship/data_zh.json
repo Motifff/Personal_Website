@@ -1,0 +1,46 @@
+{
+    "title": "JBL实习一览",
+    "subtitle": "JBL实习经历",
+    "type": "实习",
+    "location": "地点",
+    "date": "2024",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "在 **JBL** 实习的简要记录：消费音频团队如何把品牌承诺落实为 **路线图**、**声学指标** 与 **上市节奏**——若你关心 **硬件—软件—听感** 的对齐，这段经历是切片样本。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "职责与范围"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **跨团队翻译**：设计 ↔ 工程 ↔ 市场 的节点对齐。\n- **原型素养**：把 **调音迭代** 读作决策，而非口味。\n- **文档纪律**：规格与幻灯片作为 **共同记忆**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "关键收获"
+        },
+        {
+            "type": "paragraph",
+            "content": "1. **声音是被协商的**：指标既在曲线里，也在形容词的叙事里。\n2. **进度表塑造品质**：最后 10% 常常是 **日程**，而非灵感。\n3. **品牌是约束**：有用的那种——在 **可识别的音色** 里做创造。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "实习掠影"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/jbl_internship/images/main1.png", "title": "" }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "title": "Qwen Chat Mock",
-    "subtitle": "颠覆传统流量模型，构建以”用户价值”为核心的增值飞轮",
+    "subtitle": "Disrupting Traditional Traffic Models: Building a Value-Driven Growth Flywheel Centered on User Value",
     "type": "UX | Interaction",
     "location": "China",
     "date": "2024",
@@ -8,21 +8,42 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "本项目旨在颠覆传统的 DAU 流量模型，构建以“用户价值”为核心的增值飞轮。通过多模态的“智能连续性输入”，赋予用户对 AI 生成内容的实时掌控感，将用户的碎片化意图高效转化为数字资产。最终，将移动设备从低效的工具升级为跨端的“意图遥控器”，让 AI 成为用户的心智延伸和价值放大器。",
+            "content": "This project aims to disrupt the traditional DAU traffic model and build a value-driven growth flywheel centered on user value. Through multi-modal intelligent continuous input, users are empowered with real-time control over AI-generated content, efficiently transforming fragmented user intentions into digital assets. Ultimately, mobile devices are upgraded from inefficient tools to cross-platform intention controllers, making AI an extension of the user's mind and a value amplifier.",
             "credits": ""
         },
         {
             "type": "paragraph",
-            "content": "核心功能（High Fidelity Mock）：\n- 即时反馈：以半透明、非打扰的方式实时提供完整内容。\n- 静默高效输入：支持文字、语音、App 动线等多种模态输入。\n- 上下文编辑器视图：识别生成命令后自动进入特定上下文，利用光标、浏览上下文等静默模态提供预测内容。\n- 行为可控：用户可随时通过语音等方式介入和打断流式输出。\n- 主动服务：利用在线强化学习模型，从“被动响应”转向“主动服务”。\n- 信息对齐压缩：将复杂指令和长上下文压缩为“语义锚点”。",
+            "content": "Core Features (High Fidelity Mock):\n- Instant Feedback: Provides complete content in real-time through semi-transparent, non-intrusive display.\n- Silent Efficient Input: Supports multiple input modalities including text, voice, and app navigation.\n- Context Editor View: Automatically enters specific context after recognizing generation commands, using silent modalities like cursor and browsing context to provide predictive content.\n- Controllable Behavior: Users can intervene and interrupt streaming output at any time through voice or other means.\n- Proactive Service: Transitions from passive response to proactive service using online reinforcement learning models.\n- Information Alignment Compression: Compresses complex instructions and long contexts into semantic anchors.",
             "credits": ""
         },
         {
             "type": "paragraph",
-            "content": "核心的设计思考：\n- 从“被动等待”到“主动掌握”：受 Cursor Tab 启发，将内容填充交互提升维度。\n- 创造心流体验：通过在线强化学习模型承接用户意图，自动补齐任务间的断点。\n- 智能连续性：不仅仅是预测下一个词，而是连接思维的跳跃。\n- 语义缩放 (Semantic Zoom)：受 Sensecape 启发，解决跨端协作和长上下文追踪的挑战。",
+            "content": "Core Design Thinking:\n- From Passive Waiting to Active Control: Inspired by Cursor Tab, elevating content filling interaction to a higher dimension.\n- Creating Flow Experience: Using online reinforcement learning models to capture user intentions and automatically bridge gaps between tasks.\n- Intelligent Continuity: Not just predicting the next word, but connecting conceptual leaps.\n- Semantic Zoom: Inspired by Sensecape, addressing challenges in cross-device collaboration and long-context tracking.",
             "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "High-fidelity flow (sequence)"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/qwen_chat_mock/images/000.jpg", "title": "000" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/001.jpg", "title": "001" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/002.jpg", "title": "002" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/003.jpg", "title": "003" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/004.jpg", "title": "004" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/005.jpg", "title": "005" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/006.jpg", "title": "006" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/007.jpg", "title": "007" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/008.jpg", "title": "008" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/009.jpg", "title": "009" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/010.jpg", "title": "010" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/011.jpg", "title": "011" },
+                { "image": "/Personal_Website/qwen_chat_mock/images/012.jpg", "title": "012" }
+            ]
         }
     ]
 }
-
-
-

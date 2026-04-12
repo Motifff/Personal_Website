@@ -155,7 +155,7 @@ vec3 light1(vec2 pt){
 void main() {
 	vec2 st = gl_FragCoord.xy/u_resolution.xy;
     st.x *= u_resolution.x/u_resolution.y;
-    vec3 color = vec3(0.);
+    vec3 color = vec3(0.055, 0.063, 0.063);
 
 	mat2 rM = mat2(cos(90.0), -sin(90.0), sin(90.0), cos(90.0));
 	

@@ -1,0 +1,43 @@
+{
+    "title": "天罡 1# SPACE POET PROJECT",
+    "subtitle": "中国美术学院与上海航天探索传媒的合作项目",
+    "type": "交互体验设计",
+    "location": "上海",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "**交互与体验设计（IED）** 联合项目：**中国美术学院** × **上海航天探索传媒**。以 **太空诗性** 叙事连接 **轨道想象** 与 **诗意讲述**，把艺术与航天传播放在 **同一套文化基础设施** 里。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计意图"
+        },
+        {
+            "type": "paragraph",
+            "content": "- 用 **隐喻与场景** 让 **遥远的航天计划** 在情感上靠近公众。\n- 在 **工程可信** 与 **艺术含混**（「诗人」视角）之间搭桥。\n- 产出同时服务 **展览物料** 与 **公众传播** 的记录性影像。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "现场记录"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/space_poet_project/images/SPACE%20POET%20PROJECT.JPG",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/space_poet_project/images/39151668506764_.pic_hd.jpg",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

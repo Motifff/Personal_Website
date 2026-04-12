@@ -1,0 +1,38 @@
+{
+    "title": "万物生 • 普陀祈福",
+    "subtitle": "珠宝设计项目",
+    "type": "珠宝设计",
+    "location": "杭州",
+    "date": "2024",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "以 **普陀祈福** 为文化支点的 **珠宝** 研究——**万物生** 把饰品理解为 **可佩戴的祝祷**：足够小以进入日常，又足够密实以携带 **文化坐标**（海、香、近似诵念的纹样回路）。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计意图"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **祝福即纹样**：图腾以 **曼陀罗式** 的变奏重复。\n- **材料语气**：金属与石材追求 **静**，而非喧哗的奢华。\n- **可穿戴尺度**：作品需承受 **真实光线**——影棚与街道。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "系列静物"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/all_things_arise/images/main1.png", "title": "" },
+                { "image": "/Personal_Website/all_things_arise/images/putuo.PNG", "title": "" },
+                { "image": "/Personal_Website/all_things_arise/images/putuo1.PNG", "title": "" }
+            ]
+        }
+    ]
+}

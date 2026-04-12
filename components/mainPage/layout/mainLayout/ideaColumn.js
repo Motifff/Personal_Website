@@ -19,7 +19,7 @@ export default function IdeaColumn(props) {
     const t = text[language] || text.en;
 
     return (
-        <div style={{display: "flex",flexDirection:"column",width:props.ifFold?null:"384px",padding:"16px",gap:"16px"}}>
+        <div style={{display: "flex",flexDirection:"column",width:props.ifFold?null:"384px",padding:"24px",gap:"16px"}}>
             <Divider text={t.divider}/>
             <MemoBlock 
                 subtitle={t.subtitle} 

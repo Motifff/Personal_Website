@@ -1,0 +1,38 @@
+{
+    "title": "Material Movement",
+    "subtitle": "Regenerative material recording device and artistic interactive installation",
+    "type": "DEng",
+    "location": "Hangzhou",
+    "date": "02 FEB 24",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "A **DEng installation** that pairs a **regenerative material recorder** with **interactive art**: movement of matter becomes **legible data** and **sensory scene** at once—asking visitors to feel **cycles** instead of only endpoints.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Spatial intent"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **Material honesty**: show grain, wear, and repair as **features**.\n- **Recording as ritual**: the device slows observation.\n- **Interaction**: visitors **co-produce** the archive with their presence.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Installation views"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/material_movement/images/main1.JPG", "title": "" },
+                { "image": "/Personal_Website/material_movement/images/Material_movement.jpg", "title": "" },
+                { "image": "/Personal_Website/material_movement/images/2801668061651_.pic_hd.jpg", "title": "" }
+            ]
+        }
+    ]
+}

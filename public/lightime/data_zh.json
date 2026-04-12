@@ -1,0 +1,51 @@
+{
+    "title": "光时",
+    "subtitle": "使用 FOC 与深度检测的桌面分区照明台灯",
+    "type": "DEng",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "一盏 **桌面台灯**：以 **FOC 电机控制** 与 **深度感知** 在桌面上形成 **分区照明**——不同任务对应 **不同光池**，而不需要复杂界面。主张 **安静的自动化**：桌子理解 **你正在哪里工作**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "问题"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **一根管照全场** 既费电又易眩光。\n- 任务切换快时 **手动调光** 跟不上。\n- 深度提供旋钮难以给出的 **空间先验**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "方案"
+        },
+        {
+            "type": "paragraph",
+            "content": "**光时** 将 **FOC**（顺滑、可精确控光 / 指向）与 **深度检测** 配对：\n\n- **分区**：把桌面区域映射到 **光配方**。\n- **弱界面**：行为以 **环境式** 为主，例外是简单覆盖操作。\n- **硬件可读**：原型被读作 **灯 + 感知**，而不是 gadget 堆叠。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "原型与可视化"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/lightime/images/main1.JPG", "title": "" },
+                { "image": "/Personal_Website/lightime/images/light_time1.jpg", "title": "" },
+                { "image": "/Personal_Website/lightime/images/light_time4.png", "title": "" },
+                { "image": "/Personal_Website/lightime/images/light_time5.png", "title": "" },
+                { "image": "/Personal_Website/lightime/images/Light_time_vis.png", "title": "" },
+                { "image": "/Personal_Website/lightime/images/info.jpg", "title": "" }
+            ]
+        }
+    ]
+}

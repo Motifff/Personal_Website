@@ -1,0 +1,48 @@
+{
+    "title": "运河上的时间流淌",
+    "subtitle": "中国美术学院社会叙事工作室创作的京杭大运河纪录片项目",
+    "type": "交互体验设计",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "**社会叙事工作室（国美）** 发起的 **京杭大运河** **纪录片 / IED** 项目：把河道当作 **流动的时间**——商贸、生态、记忆与迁徙被编入 **一条纵深的叙事**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "叙事焦点"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **时间如水流**：缓慢的市井变迁与快速的城市更新并置。\n- **岸线声部**：社会叙事以 **拼贴** 呈现，而非单一英雄弧光。\n- **地方真实**：影像锚定现场，文字解释 **这一段为何在当下重要**。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "静帧（序列）"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/time_flowing_on_canal/images/main1.JPG", "title": "" },
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal.JPG",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal2.JPG",
+                    "title": ""
+                },
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal3.JPG",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

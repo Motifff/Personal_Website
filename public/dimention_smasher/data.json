@@ -6,22 +6,72 @@
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type": "imageBed",
-            "content": [
-                {
-                    "title": "Welcome to my personal website",
-                    "image": "http://placehold.it/900x300"
-                },
-                {
-                    "title": "My name is John Doe",
-                    "image": "http://placehold.it/900x300"
-                }
-            ]
+            "type": "paragraph",
+            "content": "A **hardware + software system** for **live creators**: it **expands the creative space** beyond a flat camera frame—giving streamers **new spatial affordances** (layers, props, interactions) without forcing a heavier production pipeline.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Pain points"
         },
         {
             "type": "paragraph",
-            "contents": "This is A paragraph that is long enough ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-            "credits": "Me"
+            "content": "- **Single-plane** streaming flattens performance and novelty.\n- **Toolchains** that add depth often demand **studio-grade** skill and setup.\n- Creators need **playful iteration**, not only post-production polish.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Solution"
+        },
+        {
+            "type": "paragraph",
+            "content": "**Dimension Smasher** couples **physical interfaces** with **real-time software**:\n\n- **Spatial smashing**: break the default rectangle into composable creative zones.\n- **Streamer-first loop**: fast try → observe chat feedback → adjust layout.\n- **System thinking**: firmware, visuals, and interaction cues stay **one product**.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Mental model"
+        },
+        {
+            "type": "paragraph",
+            "content": "Creator **sets scene** → **hardware + software** remap space → **audience** reads a wider performance field → creator **tunes** live.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Product sequence"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/dimention_smasher/images/main1.png", "title": "Overview" },
+                { "image": "/Personal_Website/dimention_smasher/images/p1.jpg", "title": "Frame 1" },
+                { "image": "/Personal_Website/dimention_smasher/images/p2.jpg", "title": "Frame 2" },
+                { "image": "/Personal_Website/dimention_smasher/images/p3.jpg", "title": "Frame 3" },
+                { "image": "/Personal_Website/dimention_smasher/images/p4.jpg", "title": "Frame 4" },
+                { "image": "/Personal_Website/dimention_smasher/images/p5.jpg", "title": "Frame 5" }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Device & renderings"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/dimention_smasher/images/DimentionSmasher1.png", "title": "" },
+                { "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.png", "title": "" },
+                { "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.jpg", "title": "" },
+                { "image": "/Personal_Website/dimention_smasher/images/mainImage.jpg", "title": "" },
+                { "image": "/Personal_Website/dimention_smasher/images/mainImage.png", "title": "" }
+            ]
         }
     ]
 }

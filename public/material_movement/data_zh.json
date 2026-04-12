@@ -1,0 +1,38 @@
+{
+    "title": "物质运动",
+    "subtitle": "再生材料记录装置与艺术交互装置",
+    "type": "DEng",
+    "location": "杭州",
+    "date": "2024年2月2日",
+    "mainContent": [
+        {
+            "type": "paragraph",
+            "content": "**设计工程（DEng）装置**：将 **再生材料记录器** 与 **交互艺术** 并置——物质的运动同时成为 **可读数据** 与 **感官现场**，邀请观众感受 **循环** 而不只是终点。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "空间意图"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **材料诚实**：把肌理、磨损与修补当作 **特征**。\n- **记录即仪式**：设备让观看慢下来。\n- **交互**：观众以在场 **共同生产** 档案。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "装置现场"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/material_movement/images/main1.JPG", "title": "" },
+                { "image": "/Personal_Website/material_movement/images/Material_movement.jpg", "title": "" },
+                { "image": "/Personal_Website/material_movement/images/2801668061651_.pic_hd.jpg", "title": "" }
+            ]
+        }
+    ]
+}
