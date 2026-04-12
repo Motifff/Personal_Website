@@ -53,14 +53,17 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      # 根据当前 Pages 站点解析 base_path，兼顾两种访问方式：
+      # - 默认域名 project pages：https://user.github.io/<repo>/  → base_path 为 "/<repo>"
+      # - 自定义域名（站点在根路径）：https://example.com/        → base_path 为 ""
+      # 见 https://github.com/actions/configure-pages/blob/main/action.yml outputs.base_path
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v4
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
+      - name: Print Pages base path (debug)
+        run: |
+          echo "base_url=${{ steps.pages.outputs.base_url }}"
+          echo "base_path=${{ steps.pages.outputs.base_path }}"
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -74,6 +77,9 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
+        env:
+          # 与 next.config.js / lib/assetBase.js 中 NEXT_PUBLIC_BASE_PATH 一致（构建期注入）
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

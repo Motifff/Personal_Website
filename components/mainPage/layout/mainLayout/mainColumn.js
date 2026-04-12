@@ -5,6 +5,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { Suspense } from "react";
 import { sortByPriorityThenDate } from "../../utils/prioritySort";
 import HomeProjectRow from "../../component/homeProjectRow";
+import { assetUrl } from "@/lib/assetBase";
 
 export default function MainColumn(props) {
     const [jsonData, setJsonData] = useState(null);
@@ -16,7 +17,7 @@ export default function MainColumn(props) {
             try {
                 if (language === "zh") {
                     try {
-                        const result = await axios("/Personal_Website/data_zh.json");
+                        const result = await axios(assetUrl("/data_zh.json"));
                         setJsonData(result.data.allPageData);
                         return;
                     } catch (e) {
@@ -24,7 +25,7 @@ export default function MainColumn(props) {
                     }
                 }
 
-                const result = await axios("/Personal_Website/data.json");
+                const result = await axios(assetUrl("/data.json"));
                 setJsonData(result.data.allPageData);
             } catch (error) {
                 console.error("Failed to load home page data:", error);

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, memo } from "react";
 import { useSpring, animated } from '@react-spring/web';
+import { resolveMediaUrl } from "@/lib/assetBase";
 
 /**
  * 仅随 currentIndex / 图片 URL 更新，避免父组件进度条 RAF 高频 setState 打断 spring。
@@ -106,7 +107,7 @@ export default function InArticleImage(props) {
                 {slide ? (
                     <ArticleImageSlide
                         key={currentIndex}
-                        imageSrc={slide.image}
+                        imageSrc={resolveMediaUrl(slide.image)}
                     />
                 ) : null}
                 {/* 底部信息层 */}

@@ -4,6 +4,7 @@ import axios from "axios";
 import { useLanguage } from "@/context/LanguageContext";
 
 import ArticleLayout from "./openArticle/articleLayout";
+import { assetUrl } from "@/lib/assetBase";
 
 function AsyncBlogPage(props) {
     const pageParams = useParams();
@@ -17,7 +18,7 @@ function AsyncBlogPage(props) {
         const fetchData = async () => {
             if (language === "zh") {
                 try {
-                    const result = await axios("/Personal_Website/" + articleParams + "/data_zh.json");
+                    const result = await axios(assetUrl("/" + articleParams + "/data_zh.json"));
                     setJsonData(result.data);
                     return;
                 } catch (e) {
@@ -25,7 +26,7 @@ function AsyncBlogPage(props) {
                 }
             }
 
-            const result = await axios("/Personal_Website/" + articleParams + "/data.json");
+            const result = await axios(assetUrl("/" + articleParams + "/data.json"));
             setJsonData(result.data);
         };
         fetchData();

@@ -3,13 +3,12 @@ import { usePathname, useRouter } from "next/navigation";
 import { useSpring, animated } from "@react-spring/web";
 import HomeProjectMeta from "./homeProjectMeta";
 import MediaMaskImage from "./mediaMaskImage";
+import { resolveMediaUrl } from "@/lib/assetBase";
 
 function normalizeImageSrc(src) {
     if (!src || typeof src !== "string") return "";
     if (src.startsWith("http://") || src.startsWith("https://")) return src;
-    if (src.startsWith("/")) return src;
-    // 本地路径需要添加 /Personal_Website 前缀（部署在子路径）
-    return `/Personal_Website/${src}`;
+    return resolveMediaUrl(src);
 }
 
 function getDisciplineLabel(project) {

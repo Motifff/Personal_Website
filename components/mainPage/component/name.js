@@ -29,7 +29,8 @@ export default function Name(props) {
   })
 
   const handleButtonClick = () => {
-    router.push("https://motifff.github.io/Personal_Website/")
+    const homeBasePath = pathname?.includes("!home") ? "/!home" : "/home";
+    router.push(homeBasePath);
   }
 
   return (
