@@ -7,37 +7,48 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "An **IED** collaboration between **China Academy of Art** and **Shanghai Aerospace Exploration Media**: a **space-poetic** narrative object that connects **popular imagination of orbit** with **poetic storytelling**—positioning art and aerospace outreach as **shared cultural infrastructure**.",
+            "content": "An IED collaboration connecting popular imagination of orbit with poetic storytelling. Sculptural installations evoke the Tiangan-1 satellite, blending engineering authenticity with artistic vision.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Intent"
+            "text": "Satellite Sculpture"
         },
         {
             "type": "paragraph",
-            "content": "- Make **distant space programs** emotionally near through **metaphor and scene**.\n- Bridge **engineering credibility** with **artistic ambiguity** (the “poet” lens).\n- Produce **documentation** that works both as exhibition material and public communication.",
+            "content": "A close-up of the Tiangan-1 satellite sculpture suspended by wires. Internal LED illumination creates a sense of life within the mechanical shell.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Scene documentation"
+            "text": "Installation View"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "3/2",
             "content": [
                 {
-                    "image": "/Personal_Website/space_poet_project/images/SPACE%20POET%20PROJECT.JPG",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/space_poet_project/images/39151668506764_.pic_hd.jpg",
-                    "title": ""
+                    "image": "/Personal_Website/space_poet_project/images/SPACE POET PROJECT.JPG",
+                    "title": "Tiangan-1 sculpture installation with internal LED illumination, suspended by wires in exhibition space"
                 }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The full installation shows the sculpture suspended in the exhibition space, evoking orbital weightlessness through its hanging presentation.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "Technical satellite designs become hanging installations audiences can walk around. Light creates life within the mechanical shell. Suspension evokes both orbital weightlessness and theatrical revelation.",
+            "credits": ""
         }
     ]
 }

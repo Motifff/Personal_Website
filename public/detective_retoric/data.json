@@ -1,83 +1,169 @@
 {
-    "title": "Detective Rhetoric",
-    "subtitle": "An interactive robot for awakening caution of expression",
-    "type": "HCI | UX",
-    "location": "Hangzhou",
+    "title": "流言侦探",
+    "subtitle": "一个用于唤醒表达谨慎的互动机器人",
+    "type": "人机交互 | 用户体验",
+    "location": "杭州",
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type": "paragraph",
-            "content": "This project is an **HCI / experiential** piece: visitors participate in a dialogue medium where an algorithm continuously adds variables to the system text—accumulating and iterating to **simulate how information distorts** as it passes through chatbot-style mediation.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Problem"
-        },
-        {
-            "type": "paragraph",
-            "content": "**Core pain points:**\n- Distortion is **invisible**: people rarely see how their wording is amplified, filtered, or reframed.\n- Users **unwittingly** take part in reshaping meaning.\n- There is little **reflective distance** from algorithmic behavior.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Solution"
-        },
-        {
-            "type": "paragraph",
-            "content": "**Detective Rhetoric** is an interactive robot that lets people **live through** distortion rather than only reading about it.\n\n- **Cumulative variables**: system text layers stack and drift to mimic real-world information drift.\n- **Participatory loop**: input → machine reframing → compare original vs. bent output.\n- **Reflective trigger**: contrast makes caution around expression tangible.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Mental model"
-        },
-        {
-            "type": "paragraph",
-            "content": "User **writes** → robot **mutates text over turns** → user **inspects delta** → awareness of rhetoric risk **updates**.\n\nCompared with a static demo, the user is inside the pipeline—not an observer only.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Interaction sequence"
-        },
-        {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/detective_retoric/images/main1.jpg", "title": "Overview" },
-                { "image": "/Personal_Website/detective_retoric/images/p1.jpg", "title": "Step 1" },
-                { "image": "/Personal_Website/detective_retoric/images/p2.jpg", "title": "Step 2" },
-                { "image": "/Personal_Website/detective_retoric/images/p3.jpg", "title": "Step 3" },
-                { "image": "/Personal_Website/detective_retoric/images/p4.jpg", "title": "Step 4" },
-                { "image": "/Personal_Website/detective_retoric/images/p5.jpg", "title": "Step 5" },
-                { "image": "/Personal_Website/detective_retoric/images/p6.jpg", "title": "Step 6" }
+                {
+                    "image": "/Personal_Website/detective_retoric/images/mainImage.png",
+                    "title": "流言侦探 — 装置全景"
+                }
             ]
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Process & documentation"
+            "text": "灵感"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/detective_retoric/images/mainImage.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0829.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0928.JPG", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0930.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0977.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/2811668066398_.pic_hd.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/detective_retoric/images/main1.jpg",
+                    "title": "灵感来源 — The Verge 报道、1650万聊天机器人、9-15%转发率"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "1650万活跃聊天/评论机器人与9-15%的复制转发率，使信息失真在算法层面被大规模放大。我们如何用公共数据训练AI，而不将人性中最糟的一面注入其中？",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "机制"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p1.jpg",
+                    "title": "机制 — 数据再现、社交网络、双向行为、语言维度缩减"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "信息失真的四大驱动力：数据再现、社交网络、双向行为、语言维度缩减。信息被处理重组，为叙述者创造改写机会；友谊与建议构成传播基础；冲突与亲密都在重塑信息；丰富表达在反复传递中被扁平化。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "概念"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p2.jpg",
+                    "title": "概念 — 线性通信模型：编码 → 噪音 → 解码"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "基本架构：编码 → 噪音 → 解码。注意力衍生的噪音——当编码器和解码器都作为受众时，噪音成为最重要变量。LSTM模型的注意力与人类不同，产生有意义的失真现象。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "演进"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p3.jpg",
+                    "title": "演进 — 中文语法框架、设计草图、渲染草图"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "以中文语法（定语、主语、谓语、宾语、状语、补语）作为失真结构框架。流程：猜测原始信息 → 选择问题处拉动杠杆 → 机器覆盖操作 → 机器将输入加入历史。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "原型"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p4.jpg",
+                    "title": "原型 — 机械设计、程序架构、主板、编码"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "机械设计、程序架构（模块化）、主板设计（树莓派）、编码（失真算法与交互逻辑）。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "展览"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p5.jpg",
+                    "title": "展览现场 — 观众互动"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "展览现场观众与装置互动，通过杠杆操作体验信息失真过程。",
+            "credits": ""
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p6.jpg",
+                    "title": "机器人雕塑"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip1.png",
+                    "title": "金属轮组件"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip2.JPG",
+                    "title": "框架组装"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip3.png",
+                    "title": "电机安装"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip4.png",
+                    "title": "CAD 建模"
+                }
             ]
         },
         {
             "type": "link",
-            "text": "Video →",
+            "text": "视频 →",
             "link": "https://www.youtube.com/watch?v=dzWlzplLSGY"
         }
     ]

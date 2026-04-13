@@ -41,24 +41,6 @@
             "content": "**InArticleImage 组件** - 用于展示图片轮播，支持多张图片自动切换（5秒间隔），鼠标悬停时暂停。"
         },
         {
-            "type": "imageBed",
-            "aspectRatio": "16/9",
-            "content": [
-                {
-                    "image": "http://placehold.it/900x500/4A90E2/ffffff?text=图片+1",
-                    "title": "这是第一张图片的标题"
-                },
-                {
-                    "image": "http://placehold.it/900x500/7B68EE/ffffff?text=图片+2",
-                    "title": "这是第二张图片的标题"
-                },
-                {
-                    "image": "http://placehold.it/900x500/50C878/ffffff?text=图片+3",
-                    "title": "这是第三张图片的标题"
-                }
-            ]
-        },
-        {
             "type": "paragraph",
             "content": "如上所示，图片组件会自动轮播显示多张图片。每张图片都有自己的标题说明。"
         },
@@ -70,21 +52,6 @@
         {
             "type": "paragraph",
             "content": "你还可以使用不同的宽高比（aspectRatio）：\n\n- 16/9（宽屏，默认）\n- 4/3（传统显示器）\n- 1/1（正方形）\n- 9/16（竖屏）"
-        },
-        {
-            "type": "imageBed",
-            "aspectRatio": "16/9",
-            "content": [
-                {
-                    "image": "http://placehold.it/800x600/FF6B6B/ffffff?text=4:3+比例",
-                    "title": "4:3 比例图片"
-                }
-            ]
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "关于内容编写"
         },
         {
             "type": "paragraph",

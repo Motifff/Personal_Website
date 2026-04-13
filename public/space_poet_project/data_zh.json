@@ -7,37 +7,48 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "**交互与体验设计（IED）** 联合项目：**中国美术学院** × **上海航天探索传媒**。以 **太空诗性** 叙事连接 **轨道想象** 与 **诗意讲述**，把艺术与航天传播放在 **同一套文化基础设施** 里。",
+            "content": "交互与体验设计联合项目：以太空诗性叙事连接轨道想象与诗意讲述。创作了唤起天罡 1# 卫星的雕塑装置，将工程真实性与艺术视野相融合。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "设计意图"
+            "text": "卫星雕塑"
         },
         {
             "type": "paragraph",
-            "content": "- 用 **隐喻与场景** 让 **遥远的航天计划** 在情感上靠近公众。\n- 在 **工程可信** 与 **艺术含混**（「诗人」视角）之间搭桥。\n- 产出同时服务 **展览物料** 与 **公众传播** 的记录性影像。",
+            "content": "天罡 1# 卫星雕塑的特写镜头，由钢索悬挂。内部 LED 照明在机械外壳内创造生命感。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "现场记录"
+            "text": "装置现场"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "3/2",
             "content": [
                 {
-                    "image": "/Personal_Website/space_poet_project/images/SPACE%20POET%20PROJECT.JPG",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/space_poet_project/images/39151668506764_.pic_hd.jpg",
-                    "title": ""
+                    "image": "/Personal_Website/space_poet_project/images/SPACE POET PROJECT.JPG",
+                    "title": "天罡 1# 雕塑装置，内部 LED 照明，由钢索悬挂在展览空间中"
                 }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "完整装置展示雕塑在展览空间中的悬挂状态，通过悬挂呈现唤起轨道失重感。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "技术卫星设计转化为可环绕体验的悬挂装置。光在机械外壳内创造生命感。悬挂唤起轨道失重与戏剧性揭示。",
+            "credits": ""
         }
     ]
 }

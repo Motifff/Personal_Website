@@ -1,62 +1,148 @@
 {
     "title": "Enhanced Spine",
-    "subtitle": "Spinal augmentation device that combines futuristic and  speculative design",
+    "subtitle": "A spinal augmentation device that bridges futurism and speculative design",
     "type": "DEng",
     "location": "Hangzhou",
     "date": "02 FEB 24",
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **speculative DEng** piece that prototypes a **spinal augmentation** wearable—bridging **clinical posture logic** with a **futurist material language**. The goal is not only a mechanism sketch but a **believable cultural object** that asks how bodies might interface with supportive tech.",
+            "content": "**Enhanced Spine** is a speculative DEng project prototyping a **spinal augmentation wearable** — combining **clinical biomechanics** with a **futurist material language**. It addresses the growing crisis of spinal health in a generation defined by sedentary work, educational pressure, and chronic postural degradation.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Problem"
-        },
-        {
-            "type": "paragraph",
-            "content": "- Everyday **support devices** often look medical and are socially stigmatized.\n- **Speculative** work can feel decorative unless tethered to **real biomechanical cues**.\n- Users need **imaginable adoption**: something that could plausibly sit on a body.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Solution"
-        },
-        {
-            "type": "paragraph",
-            "content": "**Enhanced Spine** proposes a **hybrid spine assist**:\n\n- **Support narrative**: articulate load paths and posture intent.\n- **Futurist form language**: surfaces, seams, and glow as **semantic**, not only aesthetic.\n- **Wearable scale**: designed to be read at **human scale** in photos and film.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Mental model"
-        },
-        {
-            "type": "paragraph",
-            "content": "User **wears device** → **feedback** (visual / structural cues) suggests alignment → audience **re-reads** the spine as a **negotiated boundary** between biology and prosthesis.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Artifact & process"
+            "text": "Background: The Crisis of Involution"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "7732/4976",
             "content": [
-                { "image": "/Personal_Website/enhanced_spine/images/main1.jpg", "title": "Hero" },
-                { "image": "/Personal_Website/enhanced_spine/images/1.jpg", "title": "Study 1" },
-                { "image": "/Personal_Website/enhanced_spine/images/2.jpg", "title": "Study 2" },
-                { "image": "/Personal_Website/enhanced_spine/images/3.jpg", "title": "Study 3" },
-                { "image": "/Personal_Website/enhanced_spine/images/4.jpg", "title": "Study 4" },
-                { "image": "/Personal_Website/enhanced_spine/images/5.jpg", "title": "Study 5" },
-                { "image": "/Personal_Website/enhanced_spine/images/mainImage.png", "title": "" }
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/3.jpg",
+                    "title": "Background — multitasking, involuting achievement, and research framework"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Academic and career competition force young people into relentless sedentary labor. The spine is a **structural lever point** connecting nerve signaling, muscle tension, and organ positioning. By starting from the spine, Enhanced Spine targets the root architecture of postural collapse rather than its surface symptoms.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "From Massage to Augmentation"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/1.jpg",
+                    "title": "Concept Service Map — from osteopathy awareness to implant integration"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "\"Young people of today no longer need massage — they need osteopathy.\" Enhanced Spine proposes a **graduated service model**: starting with **non-invasive patches**, progressing to **micro-needle arrays**, and ultimately — for those who choose — a **surgical implant** that becomes a permanent extension of the body.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Core Mechanism"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/2.jpg",
+                    "title": "Design Delivery — component breakdown and core mechanism"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Four interacting systems: **Spine Support** uses coils to modulate a magnetic field for dynamic reinforcement. **Momentum Restoration** recovers kinetic energy. **Force Feedback** generates somatic heat for tactile awareness. **Somatic Sensory** modules use modular, skin-friendly materials.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Conduction: A Three-Stage Journey"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/5.jpg",
+                    "title": "Design Conduction and Stage Difference — spine, muscle, and nerve intervention"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "**First Stage**: Removable patches for pain relief and awareness. **Second Stage**: Micro-needle arrays for deeper intervention as users adapt. **Third Stage**: A permanent implant providing continuous movement stabilization and energy recovery — transforming sedentary strain into active enhancement.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Product Features"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/4.jpg",
+                    "title": "Product Poster — advanced cooling, smart patches, wireless charge"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Built around **modularity and accessibility**: advanced cooling system, smart exterior patches, wireless charging, skin-friendly materials, and an integrated implant system. The project imagines a commercial ecosystem with loans and free trials, raising the ethical question of whether enhancement should be a luxury or a public good.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "The Artifact"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4096/3574",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/main1.jpg",
+                    "title": "Enhanced Spine — exploded view of the implant system"
+                },
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/mainImage.png",
+                    "title": "Enhanced Spine — detailed implant assembly on spine model"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The final artifact — a rendered implant assembly — crystallizes the project's core tension. It is simultaneously **medical and speculative, functional and uncomfortable**. The larger question it raises is cultural: at what point does support become augmentation, and augmentation become necessity?",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Reflection"
+        },
+        {
+            "type": "paragraph",
+            "content": "Enhanced Spine offers a **grounded speculation**: beginning with real data about scoliosis and postural collapse, asking what a **responsible** enhancement technology might look like. The graduated service model gives users **agency** at every stage. The speculative framing invites viewers to consider not just what the device does, but what its existence says about us.",
+            "credits": ""
         }
     ]
 }

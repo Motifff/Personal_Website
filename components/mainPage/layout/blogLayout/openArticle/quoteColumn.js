@@ -6,6 +6,7 @@ import { useQuoteContext } from "./articleLayout"
 export default function QuoteColumn(props) {
     const { quoteData } = useQuoteContext() || {}
 
+    // 没有 quote 数据时不显示任何内容
     if (!quoteData || quoteData.length === 0) {
         return (
             <div style={{
@@ -13,9 +14,7 @@ export default function QuoteColumn(props) {
                 flexDirection: "column",
                 width: "256px",
                 padding: "16px",
-            }}>
-                <Divider text="Quote" />
-            </div>
+            }} />
         )
     }
 
@@ -26,7 +25,7 @@ export default function QuoteColumn(props) {
             width: "256px",
             padding: "16px",
             position: "relative",
-            alignSelf: "stretch", // 确保与其他列高度同步
+            alignSelf: "stretch",
         }}>
             <Divider text="Quote" />
             {quoteData.map((quote, index) => (

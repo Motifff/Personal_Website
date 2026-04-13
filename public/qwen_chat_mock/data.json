@@ -1,6 +1,6 @@
 {
-    "title": "Qwen Chat Mock",
-    "subtitle": "Disrupting Traditional Traffic Models: Building a Value-Driven Growth Flywheel Centered on User Value",
+    "title": "Qwen Chat",
+    "subtitle": "从工具到协作者：以用户价值为中心的 AI 交互设计",
     "type": "UX | Interaction",
     "location": "China",
     "date": "2024",
@@ -8,42 +8,135 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "This project aims to disrupt the traditional DAU traffic model and build a value-driven growth flywheel centered on user value. Through multi-modal intelligent continuous input, users are empowered with real-time control over AI-generated content, efficiently transforming fragmented user intentions into digital assets. Ultimately, mobile devices are upgraded from inefficient tools to cross-platform intention controllers, making AI an extension of the user's mind and a value amplifier.",
+            "content": "项目探索如何打破传统 DAU 流量模型，构建以用户价值为中心的增长飞轮。用户不再满足于被动接收算法推荐，而是寻求能理解并放大其意图的**智能协作者**——通过多模态\"智能连续输入\"，赋予用户对 AI 生成内容的实时掌控感。",
             "credits": ""
-        },
-        {
-            "type": "paragraph",
-            "content": "Core Features (High Fidelity Mock):\n- Instant Feedback: Provides complete content in real-time through semi-transparent, non-intrusive display.\n- Silent Efficient Input: Supports multiple input modalities including text, voice, and app navigation.\n- Context Editor View: Automatically enters specific context after recognizing generation commands, using silent modalities like cursor and browsing context to provide predictive content.\n- Controllable Behavior: Users can intervene and interrupt streaming output at any time through voice or other means.\n- Proactive Service: Transitions from passive response to proactive service using online reinforcement learning models.\n- Information Alignment Compression: Compresses complex instructions and long contexts into semantic anchors.",
-            "credits": ""
-        },
-        {
-            "type": "paragraph",
-            "content": "Core Design Thinking:\n- From Passive Waiting to Active Control: Inspired by Cursor Tab, elevating content filling interaction to a higher dimension.\n- Creating Flow Experience: Using online reinforcement learning models to capture user intentions and automatically bridge gaps between tasks.\n- Intelligent Continuity: Not just predicting the next word, but connecting conceptual leaps.\n- Semantic Zoom: Inspired by Sensecape, addressing challenges in cross-device collaboration and long-context tracking.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "High-fidelity flow (sequence)"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/qwen_chat_mock/images/000.jpg", "title": "000" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/001.jpg", "title": "001" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/002.jpg", "title": "002" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/003.jpg", "title": "003" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/004.jpg", "title": "004" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/005.jpg", "title": "005" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/006.jpg", "title": "006" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/007.jpg", "title": "007" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/008.jpg", "title": "008" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/009.jpg", "title": "009" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/010.jpg", "title": "010" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/011.jpg", "title": "011" },
-                { "image": "/Personal_Website/qwen_chat_mock/images/012.jpg", "title": "012" }
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/000.jpg"
+                }
             ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/001.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/002.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/003.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/004.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/005.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/006.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/007.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/008.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/009.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/010.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/011.jpg"
+                }
+            ]
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "16/9",
+            "content": [
+                {
+                    "image": "/Personal_Website/qwen_chat_mock/images/012.jpg"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Key Takeaways"
+        },
+        {
+            "type": "paragraph",
+            "content": "- **从工具到协创**：用户寻求智能协作者，而非单纯工具\n- **智能连续性**：从「预测下一个词」到「连接概念跳跃」\n- **直达最终上下文**：手机作为「意图发射器」远程操控桌面 Agent\n- **价值回归**：从消费功能到协创价值",
+            "credits": ""
         }
     ]
 }

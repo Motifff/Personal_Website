@@ -2,16 +2,37 @@
     "title": "ATH",
     "subtitle": "项目描述",
     "type": "项目",
-    "location": "地点",
+    "location": "杭州",
     "date": "2024",
     "passwordHash": "82bd8dcf86629a2ebd5e7bd806381ebc9bbcf2e3be064c384f30dc5642d76364",
     "mainContent": [
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "8/5",
             "content": [
-                { "image": "/Personal_Website/ath/images/main1.png", "title": "" }
+                {
+                    "image": "/Personal_Website/ath/images/alphabox.png",
+                    "title": "AlphaBox"
+                },
+                {
+                    "image": "/Personal_Website/ath/images/alphaboxStorybook.png",
+                    "title": "AlphaBox Storybook"
+                },
+                {
+                    "image": "/Personal_Website/ath/images/tryai.png",
+                    "title": "TryAI"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "ATH 是一个加密的项目条目。内容——包括文字描述和视频链接——以加密形式存储，需要密码才能解密和查看。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "项目素材"
         },
         {
             "type": "iframe",

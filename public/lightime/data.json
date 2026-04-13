@@ -7,45 +7,128 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **desktop lamp** that uses **FOC motor control** and **depth sensing** to create **zoned lighting** on the table—different tasks get **different pools of light** without a complex UI. The object argues for **quiet automation**: the desk understands **where you are working**.",
+            "content": "A desktop lamp using FOC motor control and depth sensing to create zoned lighting on a table. Different tasks get different pools of light without complex UI — the desk understands where you are working and steers light accordingly.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Problem"
+            "text": "Product Render"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/main1.JPG",
+                    "title": "3D render of the Lightime desk lamp with wooden base and articulated arm"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "- **One-tube-fits-all** lamps waste energy and create glare.\n- **Manual dimming** is too slow when tasks switch quickly.\n- Depth offers **spatial priors** that knobs do not.",
+            "content": "The pendulum-inspired form balances aesthetics and function. The wooden base houses the FOC motor while the articulated arm enables precise beam steering.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Solution"
+            "text": "Concept Poster"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "2581/1592",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/light_time5.png",
+                    "title": "Concept poster showing zoned lighting, skeletal tracking, FOC motor, and emotional feedback"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "**Lightime** couples **FOC** (smooth, precise beam steering / intensity shaping) with **depth detection**:\n\n- **Zones**: map tabletop regions to **light recipes**.\n- **Low UI**: behavior is mostly **ambient**; exceptions are simple overrides.\n- **Hardware clarity**: the prototype reads as **lamp + sensing**, not a gadget pile.",
+            "content": "The poster communicates the full design vision: FOC-controlled lighting zones, hand tracking, and a pet-like mechanical response that gives the lamp personality.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Prototype & visualization"
+            "text": "System Diagram"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "3315/2366",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/light_time4.png",
+                    "title": "System diagram showing skeletal tracking, zoned lighting, FOC motor, and emotional feedback loop"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The system maps the tabletop into lighting zones based on hand position. FOC motor steers the light beam while emotional feedback adds a responsive, alive quality.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Exhibition Setup"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/light_time1.jpg",
+                    "title": "Lightime prototype on exhibition table alongside traditional desk lamp for comparison"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Side-by-side comparison with a conventional lamp. The physical prototype demonstrates the pendulum structure and real-time light steering in an exhibition context.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Interaction Design"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/lightime/images/main1.JPG", "title": "" },
-                { "image": "/Personal_Website/lightime/images/light_time1.jpg", "title": "" },
-                { "image": "/Personal_Website/lightime/images/light_time4.png", "title": "" },
-                { "image": "/Personal_Website/lightime/images/light_time5.png", "title": "" },
-                { "image": "/Personal_Website/lightime/images/Light_time_vis.png", "title": "" },
-                { "image": "/Personal_Website/lightime/images/info.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/lightime/images/Light_time_vis.png",
+                    "title": "Visualization of the zoned lighting system and user interaction"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Passive supervision combined with active user interaction. The lamp follows hand gestures unconsciously, creating a natural, gesture-driven lighting experience.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Sensor Detail"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/info.jpg",
+                    "title": "Depth detection sensor module mounted on the lamp arm"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The depth sensor is integrated into the lamp arm housing, enabling real-time 3D hand tracking without external cameras or markers.",
+            "credits": ""
         }
     ]
 }

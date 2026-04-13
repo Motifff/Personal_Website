@@ -2,42 +2,26 @@
     "title": "A Glimpse into JBL Internship",
     "subtitle": "Internship Experience at JBL",
     "type": "Internship",
-    "location": "Location",
+    "location": "Shenzhen",
     "date": "2024",
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A concise record of an **internship at JBL**: how **consumer-audio** orgs translate brand promise into **roadmaps**, **acoustic targets**, and **go-to-market** rhythms—useful if you care about **hardware-software-sound** alignment.",
+            "content": "JBL 深圳实习期间，参与真无线耳机配套应用的 UI 设计——屏幕保护自定义流程与空间音效设置面板。",
             "credits": ""
         },
         {
-            "type": "heading",
-            "level": 2,
-            "text": "Role & scope"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Cross-team translation**: design ↔ engineering ↔ marketing checkpoints.\n- **Prototype literacy**: listening to **tuning iterations** as decisions, not taste.\n- **Documentation discipline**: specs and decks as **shared memory**.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Key learnings"
-        },
-        {
-            "type": "paragraph",
-            "content": "1. **Sound is negotiated**: targets live in measurable curves *and* narrative adjectives.\n2. **Schedule shapes quality**: the last 10% is often **calendar**, not genius.\n3. **Brand is constraint**: a useful one—creativity within **recognizable timbre**.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Internship snapshot"
+            "type": "imageCollage",
+            "aspectRatio": "16/9",
+            "content": [
+                { "image": "/Personal_Website/jbl_internship/images/1.1.png", "title": "" },
+                { "image": "/Personal_Website/jbl_internship/images/1.2.jpg", "title": "" },
+                { "image": "/Personal_Website/jbl_internship/images/1.3.png", "title": "" }
+            ]
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "15/8",
             "content": [
                 { "image": "/Personal_Website/jbl_internship/images/main1.png", "title": "" }
             ]

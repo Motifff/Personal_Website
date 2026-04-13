@@ -54,3 +54,7 @@ body::-webkit-scrollbar,
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}

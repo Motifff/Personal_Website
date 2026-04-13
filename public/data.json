@@ -4,6 +4,16 @@
             "main": {
                 "projects": [
                     {
+                        "title": "ATH",
+                        "subtitle": "Project description",
+                        "type": "Mass Platform",
+                        "location": "Location",
+                        "date": "2024",
+                        "image": "ath/images/main1.png",
+                        "link": "ath",
+                        "priority": 1
+                    },
+                    {
                         "title": "Qwen Chat Mock",
                         "subtitle": "Disrupting Traditional Traffic Models: Building a Value-Driven Growth Flywheel Centered on User Value",
                         "type": "UX | Interaction",
@@ -11,7 +21,7 @@
                         "date": "2024",
                         "image": "qwen_chat_mock/images/main1.png",
                         "link": "qwen_chat_mock",
-                        "priority": 1
+                        "priority": 2
                     },
                     {
                         "title": "Assistive LLM and Design Strategy",
@@ -21,7 +31,7 @@
                         "date": "2025",
                         "image": "grad_design_2025/images/main1.png",
                         "link": "grad_design_2025",
-                        "priority": 2
+                        "priority": 3
                     },
                     {
                         "title": "Detective Rhetoric",
@@ -31,26 +41,16 @@
                         "date": "02 FEB 24",
                         "image": "detective_retoric/images/main1.jpg",
                         "link": "detective_retoric",
-                        "priority": 3
-                    },
-                    {
-                        "title": "Myo-Clear APP",
-                        "subtitle": "Myopic App Design using Lidar and Computer Vision",
-                        "type": "UX",
-                        "location": "Hangzhou",
-                        "date": "02 FEB 24",
-                        "image": "myo_clear_app/images/main1.jpg",
-                        "link": "myo_clear_app",
                         "priority": 4
                     },
                     {
-                        "title": "Enhanced Spine",
-                        "subtitle": "Spinal augmentation device that combines futuristic and speculative design",
-                        "type": "DEng",
-                        "location": "Hangzhou",
-                        "date": "02 FEB 24",
-                        "image": "enhanced_spine/images/main1.jpg",
-                        "link": "enhanced_spine",
+                        "title": "A Glimpse into JBL Internship",
+                        "subtitle": "Internship Experience at JBL",
+                        "type": "Internship",
+                        "location": "Location",
+                        "date": "2024",
+                        "image": "jbl_internship/images/main1.png",
+                        "link": "jbl_internship",
                         "priority": 5
                     },
                     {
@@ -64,74 +64,14 @@
                         "priority": 6
                     },
                     {
-                        "title": "ATH",
-                        "subtitle": "Project description",
-                        "type": "Project",
-                        "location": "Location",
-                        "date": "2024",
-                        "image": "ath/images/main1.png",
-                        "link": "ath",
-                        "priority": 8
-                    },
-                    {
-                        "title": "All Things Arise • Putuo Blessing",
-                        "subtitle": "Jewelry Design Project",
-                        "type": "Jewelry Design",
-                        "location": "Hangzhou",
-                        "date": "2024",
-                        "image": "all_things_arise/images/main1.png",
-                        "link": "all_things_arise",
-                        "priority": 9
-                    },
-                    {
-                        "title": "A Glimpse into JBL Internship",
-                        "subtitle": "Internship Experience at JBL",
-                        "type": "Internship",
-                        "location": "Location",
-                        "date": "2024",
-                        "image": "jbl_internship/images/main1.png",
-                        "link": "jbl_internship",
-                        "priority": 10
-                    },
-                    {
-                        "title": "Tiangan-1 Space Poet Project",
-                        "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
-                        "type": "IED",
-                        "location": "Shanghai",
-                        "date": "02 FEB 24",
-                        "image": "space_poet_project/images/SPACE POET PROJECT.JPG",
-                        "link": "space_poet_project",
-                        "priority": 11
-                    },
-                    {
-                        "title": "The Time Flowing on the Canal",
-                        "subtitle": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
-                        "type": "IED",
-                        "location": "Hangzhou",
-                        "date": "02 FEB 24",
-                        "image": "time_flowing_on_canal/images/main1.JPG",
-                        "link": "time_flowing_on_canal",
-                        "priority": 12
-                    },
-                    {
-                        "title": "Interactive Art Design - Tea Space",
-                        "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
+                        "title": "Lightime",
+                        "subtitle": "A desktop zoned lighting table lamp using FOC and depth detection",
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "tea_space/images/Interactive Art Design for Tea Space.jpg",
-                        "link": "tea_space",
-                        "priority": 13
-                    },
-                    {
-                        "title": "Untitled Quantum Game",
-                        "subtitle": "A quantum science game using the Unity engine",
-                        "type": "Game",
-                        "location": "Hangzhou",
-                        "date": "02 FEB 24",
-                        "image": "untitled_quantum_game/images/main1.png",
-                        "link": "untitled_quantum_game",
-                        "priority": 14
+                        "image": "lightime/images/main1.JPG",
+                        "link": "lightime",
+                        "priority": 7
                     },
                     {
                         "title": "Material Movement",
@@ -141,17 +81,77 @@
                         "date": "02 FEB 24",
                         "image": "material_movement/images/main1.JPG",
                         "link": "material_movement",
-                        "priority": 15
+                        "priority": 8
                     },
                     {
-                        "title": "Lightime",
-                        "subtitle": "A desktop zoned lighting table lamp using FOC and depth detection",
+                        "title": "Untitled Quantum Game",
+                        "subtitle": "A quantum science game using the Unity engine",
+                        "type": "Game",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "untitled_quantum_game/images/main1.png",
+                        "link": "untitled_quantum_game",
+                        "priority": 9
+                    },
+                    {
+                        "title": "Myo-Clear APP",
+                        "subtitle": "Myopic App Design using Lidar and Computer Vision",
+                        "type": "UX",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "myo_clear_app/images/main1.jpg",
+                        "link": "myo_clear_app",
+                        "priority": 10
+                    },
+                    {
+                        "title": "Enhanced Spine",
+                        "subtitle": "Spinal augmentation device that combines futuristic and speculative design",
                         "type": "DEng",
                         "location": "Hangzhou",
                         "date": "02 FEB 24",
-                        "image": "lightime/images/main1.JPG",
-                        "link": "lightime",
-                        "priority": 16
+                        "image": "enhanced_spine/images/main1.jpg",
+                        "link": "enhanced_spine",
+                        "priority": 11
+                    },
+                    {
+                        "title": "All Things Arise • Putuo Blessing",
+                        "subtitle": "Jewelry Design Project",
+                        "type": "Jewelry Design",
+                        "location": "Hangzhou",
+                        "date": "2024",
+                        "image": "all_things_arise/images/main1.png",
+                        "link": "all_things_arise",
+                        "priority": 12
+                    },
+                    {
+                        "title": "Tiangan-1 Space Poet Project",
+                        "subtitle": "Collaborative project between China Academy of Art and Shanghai Aerospace Exploration Media",
+                        "type": "IED",
+                        "location": "Shanghai",
+                        "date": "02 FEB 24",
+                        "image": "space_poet_project/images/SPACE POET PROJECT.JPG",
+                        "link": "space_poet_project",
+                        "priority": 13
+                    },
+                    {
+                        "title": "The Time Flowing on the Canal",
+                        "subtitle": "A documentary project on the Beijing-Hangzhou Grand Canal created by the Social Narrative Studio of the China Academy of Art",
+                        "type": "IED",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "time_flowing_on_canal/images/main1.JPG",
+                        "link": "time_flowing_on_canal",
+                        "priority": 14
+                    },
+                    {
+                        "title": "Interactive Art Design - Tea Space",
+                        "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
+                        "type": "DEng",
+                        "location": "Hangzhou",
+                        "date": "02 FEB 24",
+                        "image": "tea_space/images/Interactive Art Design for Tea Space.jpg",
+                        "link": "tea_space",
+                        "priority": 15
                     },
                     {
                         "title": "Mock Test Post",
@@ -161,7 +161,7 @@
                         "date": "2026-02-22",
                         "image": "main/main1.jpeg",
                         "link": "mock_test_post",
-                        "priority": 99
+                        "priority": 16
                     }
                 ]
             }

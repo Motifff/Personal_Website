@@ -4,6 +4,16 @@
             "main": {
                 "projects": [
                     {
+                        "title": "ATH",
+                        "subtitle": "项目描述",
+                        "type": "Mass Platform",
+                        "location": "地点",
+                        "date": "2024",
+                        "image": "ath/images/main1.png",
+                        "link": "ath",
+                        "priority": 1
+                    },
+                    {
                         "title": "Qwen Chat Mock",
                         "subtitle": "颠覆传统流量模型，构建以\"用户价值\"为核心的增值飞轮",
                         "type": "UX | Interaction",
@@ -11,7 +21,7 @@
                         "date": "2024",
                         "image": "qwen_chat_mock/images/main1.png",
                         "link": "qwen_chat_mock",
-                        "priority": 1
+                        "priority": 2
                     },
                     {
                         "title": "Assistive LLM and Design Strategy",
@@ -21,7 +31,7 @@
                         "date": "2025",
                         "image": "grad_design_2025/images/main1.png",
                         "link": "grad_design_2025",
-                        "priority": 2
+                        "priority": 3
                     },
                     {
                         "title": "侦探修辞",
@@ -31,26 +41,16 @@
                         "date": "02 FEB 24",
                         "image": "detective_retoric/images/main1.jpg",
                         "link": "detective_retoric",
-                        "priority": 3
-                    },
-                    {
-                        "title": "近视防护 APP",
-                        "subtitle": "基于激光雷达和计算机视觉的近视应用设计",
-                        "type": "用户体验",
-                        "location": "杭州",
-                        "date": "02 FEB 24",
-                        "image": "myo_clear_app/images/main1.jpg",
-                        "link": "myo_clear_app",
                         "priority": 4
                     },
                     {
-                        "title": "增强脊柱",
-                        "subtitle": "结合未来主义与推测性设计的脊柱增强装置",
-                        "type": "DEng",
-                        "location": "杭州",
-                        "date": "02 FEB 24",
-                        "image": "enhanced_spine/images/main1.jpg",
-                        "link": "enhanced_spine",
+                        "title": "JBL实习一览",
+                        "subtitle": "JBL实习经历",
+                        "type": "实习",
+                        "location": "地点",
+                        "date": "2024",
+                        "image": "jbl_internship/images/main1.png",
+                        "link": "jbl_internship",
                         "priority": 5
                     },
                     {
@@ -64,74 +64,14 @@
                         "priority": 6
                     },
                     {
-                        "title": "ATH",
-                        "subtitle": "项目描述",
-                        "type": "项目",
-                        "location": "地点",
-                        "date": "2024",
-                        "image": "ath/images/main1.png",
-                        "link": "ath",
-                        "priority": 8
-                    },
-                    {
-                        "title": "万物生 • 普陀祈福",
-                        "subtitle": "珠宝设计项目",
-                        "type": "珠宝设计",
-                        "location": "杭州",
-                        "date": "2024",
-                        "image": "all_things_arise/images/main1.png",
-                        "link": "all_things_arise",
-                        "priority": 9
-                    },
-                    {
-                        "title": "JBL实习一览",
-                        "subtitle": "JBL实习经历",
-                        "type": "实习",
-                        "location": "地点",
-                        "date": "2024",
-                        "image": "jbl_internship/images/main1.png",
-                        "link": "jbl_internship",
-                        "priority": 10
-                    },
-                    {
-                        "title": "天罡一号 太空诗人项目",
-                        "subtitle": "中国美术学院与上海航天探索传媒的合作项目",
-                        "type": "交互体验设计",
-                        "location": "上海",
-                        "date": "02 FEB 24",
-                        "image": "space_poet_project/images/SPACE POET PROJECT.JPG",
-                        "link": "space_poet_project",
-                        "priority": 11
-                    },
-                    {
-                        "title": "运河上的时间流淌",
-                        "subtitle": "中国美术学院社会叙事工作室创作的京杭大运河纪录片项目",
-                        "type": "交互体验设计",
-                        "location": "杭州",
-                        "date": "02 FEB 24",
-                        "image": "time_flowing_on_canal/images/main1.JPG",
-                        "link": "time_flowing_on_canal",
-                        "priority": 12
-                    },
-                    {
-                        "title": "交互艺术设计 - 茶空间",
-                        "subtitle": "作为技术顾问协助研究生设计交互装置和机械结构",
+                        "title": "光时",
+                        "subtitle": "使用 FOC 和深度检测的桌面分区照明台灯",
                         "type": "DEng",
                         "location": "杭州",
                         "date": "02 FEB 24",
-                        "image": "tea_space/images/Interactive Art Design for Tea Space.jpg",
-                        "link": "tea_space",
-                        "priority": 13
-                    },
-                    {
-                        "title": "未命名量子游戏",
-                        "subtitle": "使用 Unity 引擎制作的量子科学游戏",
-                        "type": "游戏",
-                        "location": "杭州",
-                        "date": "02 FEB 24",
-                        "image": "untitled_quantum_game/images/main1.png",
-                        "link": "untitled_quantum_game",
-                        "priority": 14
+                        "image": "lightime/images/main1.JPG",
+                        "link": "lightime",
+                        "priority": 7
                     },
                     {
                         "title": "物质运动",
@@ -141,17 +81,77 @@
                         "date": "02 FEB 24",
                         "image": "material_movement/images/main1.JPG",
                         "link": "material_movement",
-                        "priority": 15
+                        "priority": 8
                     },
                     {
-                        "title": "光时",
-                        "subtitle": "使用 FOC 和深度检测的桌面分区照明台灯",
+                        "title": "未命名量子游戏",
+                        "subtitle": "使用 Unity 引擎制作的量子科学游戏",
+                        "type": "游戏",
+                        "location": "杭州",
+                        "date": "02 FEB 24",
+                        "image": "untitled_quantum_game/images/main1.png",
+                        "link": "untitled_quantum_game",
+                        "priority": 9
+                    },
+                    {
+                        "title": "近视防护 APP",
+                        "subtitle": "基于激光雷达和计算机视觉的近视应用设计",
+                        "type": "用户体验",
+                        "location": "杭州",
+                        "date": "02 FEB 24",
+                        "image": "myo_clear_app/images/main1.jpg",
+                        "link": "myo_clear_app",
+                        "priority": 10
+                    },
+                    {
+                        "title": "增强脊柱",
+                        "subtitle": "结合未来主义与推测性设计的脊柱增强装置",
                         "type": "DEng",
                         "location": "杭州",
                         "date": "02 FEB 24",
-                        "image": "lightime/images/main1.JPG",
-                        "link": "lightime",
-                        "priority": 16
+                        "image": "enhanced_spine/images/main1.jpg",
+                        "link": "enhanced_spine",
+                        "priority": 11
+                    },
+                    {
+                        "title": "万物生 • 普陀祈福",
+                        "subtitle": "珠宝设计项目",
+                        "type": "珠宝设计",
+                        "location": "杭州",
+                        "date": "2024",
+                        "image": "all_things_arise/images/main1.png",
+                        "link": "all_things_arise",
+                        "priority": 12
+                    },
+                    {
+                        "title": "天罡一号 太空诗人项目",
+                        "subtitle": "中国美术学院与上海航天探索传媒的合作项目",
+                        "type": "交互体验设计",
+                        "location": "上海",
+                        "date": "02 FEB 24",
+                        "image": "space_poet_project/images/SPACE POET PROJECT.JPG",
+                        "link": "space_poet_project",
+                        "priority": 13
+                    },
+                    {
+                        "title": "运河上的时间流淌",
+                        "subtitle": "中国美术学院社会叙事工作室创作的京杭大运河纪录片项目",
+                        "type": "交互体验设计",
+                        "location": "杭州",
+                        "date": "02 FEB 24",
+                        "image": "time_flowing_on_canal/images/main1.JPG",
+                        "link": "time_flowing_on_canal",
+                        "priority": 14
+                    },
+                    {
+                        "title": "交互艺术设计 - 茶空间",
+                        "subtitle": "作为技术顾问协助研究生设计交互装置和机械结构",
+                        "type": "DEng",
+                        "location": "杭州",
+                        "date": "02 FEB 24",
+                        "image": "tea_space/images/Interactive Art Design for Tea Space.jpg",
+                        "link": "tea_space",
+                        "priority": 15
                     },
                     {
                         "title": "Mock 测试文章",
@@ -161,7 +161,7 @@
                         "date": "2026-02-22",
                         "image": "main/main1.jpeg",
                         "link": "mock_test_post",
-                        "priority": 99
+                        "priority": 16
                     }
                 ]
             }

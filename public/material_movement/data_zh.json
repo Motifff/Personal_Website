@@ -7,32 +7,78 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "**设计工程（DEng）装置**：将 **再生材料记录器** 与 **交互艺术** 并置——物质的运动同时成为 **可读数据** 与 **感官现场**，邀请观众感受 **循环** 而不只是终点。",
+            "content": "设计工程装置：将废弃 CD 播放器的激光头改造为创意光写入工具。物质的运动同时成为可读数据与感官现场。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "空间意图"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **材料诚实**：把肌理、磨损与修补当作 **特征**。\n- **记录即仪式**：设备让观看慢下来。\n- **交互**：观众以在场 **共同生产** 档案。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "装置现场"
+            "text": "项目概览"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/material_movement/images/main1.JPG", "title": "" },
-                { "image": "/Personal_Website/material_movement/images/Material_movement.jpg", "title": "" },
-                { "image": "/Personal_Website/material_movement/images/2801668061651_.pic_hd.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/material_movement/images/Material_movement.jpg",
+                    "title": "项目海报：展示再生装置、Arduino 电路图与安装照片"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "海报传达完整概念：通过 Arduino 驱动的激光改造回收过时媒体，创造新型材料记录仪器。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "内部机构"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "3/2",
+            "content": [
+                {
+                    "image": "/Personal_Website/material_movement/images/main1.JPG",
+                    "title": "改装 CD 播放器机构，配有 Arduino Uno 电路板和接线图"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "透明外壳揭示内部机械结构——Arduino Uno 编排电机速度、LED 序列和传感器反馈，实现交互光写入。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "光衍射"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/material_movement/images/2801668061651_.pic_hd.jpg",
+                    "title": "俯视视角：被激光照射的划痕 CD 旋转，产生彩色衍射光图案"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "划痕 CD 表面将激光衍射成彩色图案，通过运动和光将物理纹理转化为可见的视觉数据。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "从终点到循环。与其丢弃旧硬件，项目追问重新读取熟悉之物时会涌现什么新材料。设备让观察慢下来——观众参与的是转化过程。",
+            "credits": ""
         }
     ]
 }

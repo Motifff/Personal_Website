@@ -7,31 +7,48 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "基于 **Unity** 的原型，把 **量子科学** 转译为 **可玩的规则**——不是教材贴片，而是 **机制优先** 的学习：不确定性、观测与态成为玩家反复操练的 **动词**。",
+            "content": "基于 Unity 的原型，把量子科学转译为可玩的规则——不确定性、观测与态成为玩家反复操练的动词。游戏包含 9 张地图中的 7 张，跨越多个环境。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "设计焦点"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **机制即概念**：每个关卡只教 **一个** 想法。\n- **容错友好**：错误直觉会导出 **可读** 的结果。\n- **美术可扩**：先保证清晰，再谈奇观。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "主视觉"
+            "text": "游戏海报"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/untitled_quantum_game/images/main1.png", "title": "" },
-                { "image": "/Personal_Website/untitled_quantum_game/images/2691667803218_.pic_hd.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/untitled_quantum_game/images/main1.png",
+                    "title": "游戏海报：展示 7/9 地图、游戏机制面板、展览设计与动手体验装置"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "海报传达完整项目范围：等距解谜地图、游戏机制面板和实体展览装置，创造混合学习环境。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "标题画面"
+        },
+        {
+            "type": "paragraph",
+            "content": "等距标题画面介绍游戏的视觉语言——量子方块与几何形态为机制优先的学习体验定调。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "方程式变为通过试错发现的互动规则。失败产生可读结果——错误直觉是学习路径的一部分。等距清晰度让注意力聚焦于量子概念。",
+            "credits": ""
         }
     ]
 }

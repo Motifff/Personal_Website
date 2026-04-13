@@ -5,16 +5,32 @@ import { sha256 } from 'js-sha256'
 import Name from './name'
 import PagePort from './pageport'
 import LanguageSwitcher from './languageSwitcher'
+import { useLanguage } from '@/context/LanguageContext'
 
 // 创建密码 Context，供子组件（如 iframe）使用
 const PasswordContext = createContext(null)
 export const usePassword = () => useContext(PasswordContext)
+
+// 多语言文本
+const texts = {
+  zh: {
+    title: '密码',
+    subtitle: '需要输入密码以访问'
+  },
+  en: {
+    title: 'Password',
+    subtitle: 'Enter password to access'
+  }
+}
 
 export default function PasswordProtect({ children, passwordHash, showHeader = false }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [input, setInput] = useState('')
   const [hasError, setHasError] = useState(false)
   const [password, setPassword] = useState('') // 存储明文密码供子组件使用
+  const { language } = useLanguage()
+
+  const t = texts[language] || texts.zh
 
   // 防止页面滚动
   useEffect(() => {
@@ -148,7 +164,7 @@ export default function PasswordProtect({ children, passwordHash, showHeader = f
                 lineHeight: '1.3',
                 whiteSpace: 'pre-wrap'
               }}>
-                密码
+                {t.title}
               </div>
             </div>
 
@@ -163,7 +179,7 @@ export default function PasswordProtect({ children, passwordHash, showHeader = f
               whiteSpace: 'pre-wrap',
               marginTop: '4px'
             }}>
-              需要输入密码以访问
+              {t.subtitle}
             </div>
           </div>
 

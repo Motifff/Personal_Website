@@ -1,5 +1,5 @@
 {
-    "title": "All Things Arise • Putuo Blessing",
+    "title": "All Things Arise - Putuo Blessing",
     "subtitle": "Jewelry Design Project",
     "type": "Jewelry Design",
     "location": "Hangzhou",
@@ -7,32 +7,35 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **jewelry** study rooted in **Putuo blessing** symbolism—**All Things Arise** frames ornament as **portable prayer**: small enough to wear daily, dense enough to carry **cultural coordinates** (sea, incense, circuit-like paths of devotion).",
+            "content": "A jewelry study rooted in Putuo blessing symbolism. Ornament as portable prayer — small enough to wear daily, dense enough to carry cultural coordinates. The collection features gold line art with lotus, pagoda, and cloud motifs alongside jade pieces.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Design intent"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Blessing as pattern**: motifs repeat with variation like **mantra loops**.\n- **Material voice**: metal + stone read **calm**, not loud luxury.\n- **Wearable scale**: pieces must survive **real light**—studio and street.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Collection stills"
+            "text": "Collection"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/all_things_arise/images/main1.png", "title": "" },
-                { "image": "/Personal_Website/all_things_arise/images/putuo.PNG", "title": "" },
-                { "image": "/Personal_Website/all_things_arise/images/putuo1.PNG", "title": "" }
+                { "image": "/Personal_Website/all_things_arise/images/main1.png", "title": "Six jewelry designs: gold lotus and pagoda line art, jade donut pendant, textured gold disc" }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Six designs in gold and jade — lotus and pagoda motifs repeat with variation like mantra loops. Circular composition evokes completeness in Buddhist symbolism.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "From decoration to devotion. Each piece carries narrative weight beyond material value. Gold line drawings translate traditional iconography into contemporary graphic form.",
+            "credits": ""
         }
     ]
 }

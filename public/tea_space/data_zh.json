@@ -7,37 +7,58 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "**茶空间** 方向的 **空间 / 装置** 协作：以 **技术顾问** 身份支持研究生同伴——落地 **交互装置** 与 **机械结构**。设计目标是 **克制的触感**：仪式、湿气、触碰与运动被读作 **同一氛围**。",
+            "content": "茶空间交互装置的技术顾问协作。设计目标是克制的触感：仪式、湿气、触碰与运动被读作同一氛围。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "设计意图"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **茶作为间隙**：让房间慢下来；技术 **不抢戏**。\n- **机械诚实**：关节、行程与限位本身就是 **叙事**。\n- **顾问角色**：把工作室概念翻译成 **可制造** 的约束。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "空间影像"
+            "text": "竹结构"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "1280/1493",
             "content": [
                 {
-                    "image": "/Personal_Website/tea_space/images/Interactive%20Art%20Design%20for%20Tea%20Space.jpg",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/tea_space/images/Interactive%20Art%20Design%20for%20Tea%20Space1.JPG",
-                    "title": ""
+                    "image": "/Personal_Website/tea_space/images/Interactive Art Design for Tea Space.jpg",
+                    "title": "黑暗中悬挂的竹十字结构，投下精心的阴影，地面标记「请勿攀爬」"
                 }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "十字形竹装置悬挂于黑暗中，其阴影成为互动元素。地面上的圆形标记邀请下方观众谨慎参与。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "纸艺装置"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1280/905",
+            "content": [
+                {
+                    "image": "/Personal_Website/tea_space/images/Interactive Art Design for Tea Space1.JPG",
+                    "title": "展览空间中的精细剪纸艺术装置，配有几何模型与光影投射"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "精细剪纸艺术创造分层光影，以有机细腻感补充机械元素。几何模型陈列于展示台上。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "技术服务于氛围。竹、纸、铜、木协同工作——十字结构投下的阴影本身就成为材料。",
+            "credits": ""
         }
     ]
 }

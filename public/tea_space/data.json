@@ -1,43 +1,64 @@
 {
     "title": "Interactive Art Design - Tea Space",
-    "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures.",
+    "subtitle": "Assisting postgraduate students as technical advisors in designing interactive devices and creating mechanical structures",
     "type": "DEng",
     "location": "Hangzhou",
     "date": "02 FEB 24",
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **space / installation** collaboration: acting as **technical advisor** for postgraduate peers—**interactive devices** and **mechanical structures** for a **tea-space** experience. The design goal is **quiet tactility**: ritual, humidity, touch, and motion read as **one atmosphere**.",
+            "content": "Technical advisor collaboration for a tea-space interactive installation. The design goal is quiet tactility: ritual, humidity, touch, and motion read as one unified atmosphere.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Design intent"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Tea as interval**: slow the room; technology should **not hijack** attention.\n- **Mechanical honesty**: joints, travel, and stops are part of the **story**.\n- **Advisor role**: translate studio concepts into **buildable** constraints.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Space photography"
+            "text": "Bamboo Structure"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "1280/1493",
             "content": [
                 {
-                    "image": "/Personal_Website/tea_space/images/Interactive%20Art%20Design%20for%20Tea%20Space.jpg",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/tea_space/images/Interactive%20Art%20Design%20for%20Tea%20Space1.JPG",
-                    "title": ""
+                    "image": "/Personal_Website/tea_space/images/Interactive Art Design for Tea Space.jpg",
+                    "title": "Bamboo cross structure suspended in darkness, casting a deliberate shadow with circular floor marker reading 'Do not climb'"
                 }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "A cross-shaped bamboo installation hangs in darkness, its shadow becoming an interactive element. A floor marker invites careful engagement from visitors below.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Paper Art Installation"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1280/905",
+            "content": [
+                {
+                    "image": "/Personal_Website/tea_space/images/Interactive Art Design for Tea Space1.JPG",
+                    "title": "Intricate paper-cut art installation with geometric models and shadow projections in the exhibition space"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Fine paper-cut art creates layered light and shadow, complementing mechanical elements with organic delicacy. Geometric models sit alongside the installation on display tables.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "Technology serves the mood, not the other way around. Bamboo, paper, brass, and wood work together — the shadow cast by the cross structure becomes material itself.",
+            "credits": ""
         }
     ]
 }

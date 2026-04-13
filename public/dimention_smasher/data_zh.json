@@ -1,76 +1,146 @@
 {
     "title": "维度粉碎者",
     "subtitle": "扩展直播创作者创意空间的软硬件系统",
-    "type": "系统设计",
+    "type": "PD",
     "location": "杭州",
-    "date": "2024年2月2日",
+    "date": "2024年2月",
     "mainContent": [
         {
-            "type": "paragraph",
-            "content": "面向 **直播创作者** 的 **软硬件一体** 系统：在默认的平面镜头之外 **扩展创意空间**，提供新的 **空间 affordance**（层次、道具、互动），同时避免把流程拖进 **重型演播室** 门槛。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "痛点"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **单平面** 直播容易让表演与新鲜感变扁。\n- 增加纵深的工具链常要求 **专业级** 技能与搭建。\n- 创作者更需要 **可快速试错** 的玩法，而不只是后期精修。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "方案"
-        },
-        {
-            "type": "paragraph",
-            "content": "**维度粉碎者** 将 **实体界面** 与 **实时软件** 配对：\n\n- **空间粉碎**：把默认画幅拆成可组合的创意区域。\n- **主播闭环**：快速尝试 → 观察弹幕反馈 → 调整布局。\n- **系统视角**：固件、画面与交互线索保持 **同一产品**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "心智模型"
-        },
-        {
-            "type": "paragraph",
-            "content": "主播 **布场** → **硬件 + 软件** 重映射空间 → **观众** 读到更宽的表演场 → 主播 **实时微调**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "产品序列"
-        },
-        {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4940/2488",
             "content": [
-                { "image": "/Personal_Website/dimention_smasher/images/main1.png", "title": "总览" },
-                { "image": "/Personal_Website/dimention_smasher/images/p1.jpg", "title": "画幅 1" },
-                { "image": "/Personal_Website/dimention_smasher/images/p2.jpg", "title": "画幅 2" },
-                { "image": "/Personal_Website/dimention_smasher/images/p3.jpg", "title": "画幅 3" },
-                { "image": "/Personal_Website/dimention_smasher/images/p4.jpg", "title": "画幅 4" },
-                { "image": "/Personal_Website/dimention_smasher/images/p5.jpg", "title": "画幅 5" }
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/main1.png",
+                    "title": "维度粉碎者 — 首页主视觉"
+                }
             ]
         },
         {
+            "type": "paragraph",
+            "content": "**维度粉碎者**——融合硬件与软件的产品设计，帮助直播创作者摆脱单一平面镜头的束缚，提供新的空间可能性。",
+            "credits": ""
+        },
+        {
             "type": "heading",
             "level": 2,
-            "text": "设备与渲染"
+            "text": "问题与背景"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "7732/4976",
             "content": [
-                { "image": "/Personal_Website/dimention_smasher/images/DimentionSmasher1.png", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.png", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.jpg", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/mainImage.jpg", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/mainImage.png", "title": "" }
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p1.jpg",
+                    "title": "桌面研究与一手访谈 — 21%成功率、1145%增长"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "单平面让表演变扁。设置门槛高——创作者必须在直播的同时操作相机、灯光、绿幕。21%成功率，1145%增长压力——市场蓬勃发展但工具尚未跟上。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "虚拟生产技术现状"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p5.jpg",
+                    "title": "虚拟生产技术全景与当前痛点"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "镜头畸变、色彩失真、光源变化、前景背景融合不真实。笨重设备、复杂设置和昂贵系统使虚拟生产对个体主播遥不可及。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "方案与核心设计"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p2.jpg",
+                    "title": "系统设计与产品线划分 — 入门级、中级、高端"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "物理界面 + 实时软件。流水线：相机输入 → 图像分割 → 提取3D → 空间锚点 → 渲染 → 直播输出。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "硬件方案"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p3.jpg",
+                    "title": "硬件爆炸图 — OLED、LiDAR、UWB、按钮、旋钮、PCB、电池"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "OLED屏幕、LiDAR传感器、UWB传感器、自定义按钮、旋钮与选择器、PCB主板、电池与USB-C。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "软件方案"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p4.jpg",
+                    "title": "软件方案与App设计 — 痛点、流水线、图层编辑器"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "流水线：设置 → 前景 → 中景（基于LiDAR景深） → 背景（真实光线采集+融合） → 输出。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "产品渲染"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "3/2",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/DimentionSmasher1.png",
+                    "title": "产品渲染 — NerCase 设备"
+                },
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.png",
+                    "title": "产品渲染 — 备用视角"
+                },
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/main1.png",
+                    "title": "维度粉碎者 — 首页主视觉"
+                }
             ]
         }
     ]

@@ -7,42 +7,98 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **documentary IED** project from the **Social Narrative Studio (CAA)** on the **Beijing–Hangzhou Grand Canal**: treating the waterway as **living time**—commerce, ecology, memory, and migration folded into **one longitudinal story**.",
+            "content": "A documentary and interactive experience design project treating the Grand Canal as living time. Visitors navigate a multi-sensory exhibition through physical models, projection mapping, and telescopic views.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Narrative focus"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Time as current**: slow civic change vs. fast urban renewal.\n- **Voices along the bank**: social narrative as **collage**, not a single hero arc.\n- **Place truth**: images anchor claims; text explains **why this stretch matters now**.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Stills (sequence)"
+            "text": "Diorama Detail"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/time_flowing_on_canal/images/main1.JPG", "title": "" },
                 {
-                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal.JPG",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal2.JPG",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal3.JPG",
-                    "title": ""
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The Time Flowing on the Canal.JPG",
+                    "title": "Detailed diorama of the Grand Canal showing traditional buildings, bridges, and waterways in a dark wooden box"
                 }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "A finely crafted diorama in a dark wooden box captures the canal's traditional architecture, bridges, and waterways in miniature.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Exhibition Space"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/main1.JPG",
+                    "title": "Exhibition space with bamboo railings creating pathways, wall projections showing canal scenes"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Bamboo railings create guided pathways through the gallery. Wall projections immerse visitors in canal scenes at multiple scales.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Telescopic View"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1/1",
+            "content": [
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The Time Flowing on the Canal2.JPG",
+                    "title": "View through a telescope/peephole showing historical canal scene with traditional architecture"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Looking through a telescope reveals a historical canal view — traditional buildings and boats along the waterway, creating an intimate micro-perspective.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Paper Art & Models"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "2/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The Time Flowing on the Canal3.JPG",
+                    "title": "Paper-cut art and geometric models displayed alongside project documentation"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Paper-cut installations and geometric models sit alongside project binders, showing the research and craft behind the narrative design.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "Documentary research becomes immersive spatial narrative. Visitors move between macro and micro scales. Bamboo and wood evoke the canal's historical architecture, grounding narrative in tactile reality.",
+            "credits": ""
         }
     ]
 }

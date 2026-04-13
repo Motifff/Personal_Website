@@ -1,27 +1,48 @@
 {
     "title": "ATH",
-    "subtitle": "Project description here",
-    "type": "Project",
-    "location": "Location",
+    "subtitle": "项目描述",
+    "type": "项目",
+    "location": "杭州",
     "date": "2024",
     "passwordHash": "82bd8dcf86629a2ebd5e7bd806381ebc9bbcf2e3be064c384f30dc5642d76364",
     "mainContent": [
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "8/5",
             "content": [
-                { "image": "/Personal_Website/ath/images/main1.png", "title": "" }
+                {
+                    "image": "/Personal_Website/ath/images/alphabox.png",
+                    "title": "AlphaBox"
+                },
+                {
+                    "image": "/Personal_Website/ath/images/alphaboxStorybook.png",
+                    "title": "AlphaBox Storybook"
+                },
+                {
+                    "image": "/Personal_Website/ath/images/tryai.png",
+                    "title": "TryAI"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "ATH 是一个加密的项目条目。内容——包括文字描述和视频链接——以加密形式存储，需要密码才能解密和查看。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "项目素材"
         },
         {
             "type": "iframe",
             "encryptedLink": "Tiu0aGgDqlkg2qQEjHzQmIeAsZMVOnQHw2Wm28vkpttQe4T5lM6LHIToRJqrvMQTMwzh1lHVwzNFmFl+P97IbQ==",
             "aspectRatio": "16/9",
-            "title": "ATH Video"
+            "title": "ATH 视频"
         },
         {
             "type": "paragraph",
-            "encryptedContent": "5Y69AuEd4Rt90q27Hxpo05rmkwNnNnzTrRuwZgrpRzKVxhwH0YvV/eDiWI3VabUN",
+            "encryptedContent": "ml87jAPewB2G5juQ+cXpsvcEcGgQhIIpF1l4lvNdHQhsu/y7+6TS2yE/GZbxm68U",
             "credits": ""
         }
     ]

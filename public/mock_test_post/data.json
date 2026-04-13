@@ -41,24 +41,6 @@
             "content": "**InArticleImage component** - Displays image carousel with auto-switching (5s interval), pauses on hover."
         },
         {
-            "type": "imageBed",
-            "aspectRatio": "16/9",
-            "content": [
-                {
-                    "image": "http://placehold.it/900x500/4A90E2/ffffff?text=Image+1",
-                    "title": "First image title"
-                },
-                {
-                    "image": "http://placehold.it/900x500/7B68EE/ffffff?text=Image+2",
-                    "title": "Second image title"
-                },
-                {
-                    "image": "http://placehold.it/900x500/50C878/ffffff?text=Image+3",
-                    "title": "Third image title"
-                }
-            ]
-        },
-        {
             "type": "paragraph",
             "content": "As shown above, the image component automatically cycles through multiple images. Each image has its own caption."
         },
@@ -70,21 +52,6 @@
         {
             "type": "paragraph",
             "content": "You can also use different aspect ratios:\n\n- 16/9 (widescreen, default)\n- 4/3 (traditional display)\n- 1/1 (square)\n- 9/16 (portrait)"
-        },
-        {
-            "type": "imageBed",
-            "aspectRatio": "16/9",
-            "content": [
-                {
-                    "image": "http://placehold.it/800x600/FF6B6B/ffffff?text=4:3+Aspect+Ratio",
-                    "title": "4:3 ratio image"
-                }
-            ]
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "About Content Writing"
         },
         {
             "type": "paragraph",

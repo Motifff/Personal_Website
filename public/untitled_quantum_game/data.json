@@ -7,31 +7,48 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **Unity** prototype that turns **quantum science** into **playable rules**—not a textbook overlay, but **mechanics-first** learning: uncertainty, observation, and state become **verbs** the player rehearses.",
+            "content": "A Unity prototype turning quantum science into playable mechanics. Uncertainty, observation, and state become verbs the player rehearses through 7 of 9 maps across multiple environments.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Design focus"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Mechanic = concept**: each level teaches **one** idea.\n- **Fail-friendly**: wrong intuition produces **readable** outcomes.\n- **Scalable art**: visuals support clarity before spectacle.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Key art"
+            "text": "Game Poster"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/untitled_quantum_game/images/main1.png", "title": "" },
-                { "image": "/Personal_Website/untitled_quantum_game/images/2691667803218_.pic_hd.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/untitled_quantum_game/images/main1.png",
+                    "title": "Game poster showing 7 of 9 maps, game mechanics panel, exhibition design, and hands-on play installations"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The poster communicates the full project scope: isometric puzzle maps, game mechanics panels, and physical exhibition installations creating a hybrid learning environment.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Title Screen"
+        },
+        {
+            "type": "paragraph",
+            "content": "The isometric title screen introduces the game's visual language — quantum cubes and geometric forms set the tone for a mechanics-first learning experience.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "Equations become interactive rules discovered through trial and error. Failure produces readable outcomes — wrong intuition is part of the learning path. Isometric clarity keeps focus on quantum concepts.",
+            "credits": ""
         }
     ]
 }

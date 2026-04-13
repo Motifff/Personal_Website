@@ -7,45 +7,128 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "一盏 **桌面台灯**：以 **FOC 电机控制** 与 **深度感知** 在桌面上形成 **分区照明**——不同任务对应 **不同光池**，而不需要复杂界面。主张 **安静的自动化**：桌子理解 **你正在哪里工作**。",
+            "content": "一盏桌面台灯：以 FOC 电机控制与深度感知在桌面上形成分区照明。不同任务对应不同光池，无需复杂界面——桌子理解你正在哪里工作并引导光线。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "问题"
+            "text": "产品渲染"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/main1.JPG",
+                    "title": "光时台灯 3D 渲染图，木质底座与可调节臂"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "- **一根管照全场** 既费电又易眩光。\n- 任务切换快时 **手动调光** 跟不上。\n- 深度提供旋钮难以给出的 **空间先验**。",
+            "content": "摆锤启发的形式平衡美学与功能。木质底座容纳 FOC 电机，可调节臂实现精确光束导向。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "方案"
+            "text": "概念海报"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "2581/1592",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/light_time5.png",
+                    "title": "概念海报：展示分区照明、骨骼追踪、FOC 电机和情感反馈"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "**光时** 将 **FOC**（顺滑、可精确控光 / 指向）与 **深度检测** 配对：\n\n- **分区**：把桌面区域映射到 **光配方**。\n- **弱界面**：行为以 **环境式** 为主，例外是简单覆盖操作。\n- **硬件可读**：原型被读作 **灯 + 感知**，而不是 gadget 堆叠。",
+            "content": "海报传达完整设计愿景：FOC 控制照明区域、手势追踪，以及赋予台灯个性的类宠物机械反馈。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "原型与可视化"
+            "text": "系统图"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "3315/2366",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/light_time4.png",
+                    "title": "系统图：骨骼追踪、分区照明、FOC 电机与情感反馈循环"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "系统根据手部位置将桌面映射为照明区域。FOC 电机导向光束，情感反馈赋予台灯响应性。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "展览现场"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/light_time1.jpg",
+                    "title": "光时原型在展览桌上展示，与传统台灯并列对比"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "与传统台灯并列对比。物理原型展示摆锤结构和实时光束导向，置于展览环境中。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "交互设计"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/lightime/images/main1.JPG", "title": "" },
-                { "image": "/Personal_Website/lightime/images/light_time1.jpg", "title": "" },
-                { "image": "/Personal_Website/lightime/images/light_time4.png", "title": "" },
-                { "image": "/Personal_Website/lightime/images/light_time5.png", "title": "" },
-                { "image": "/Personal_Website/lightime/images/Light_time_vis.png", "title": "" },
-                { "image": "/Personal_Website/lightime/images/info.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/lightime/images/Light_time_vis.png",
+                    "title": "分区照明系统与用户交互可视化"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "被动感知与主动交互结合。台灯无意识地跟随手势，创造自然的手势驱动照明体验。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "传感器细节"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/lightime/images/info.jpg",
+                    "title": "安装在灯臂上的深度检测传感器模块"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "深度传感器集成于灯臂外壳内，实现实时 3D 手势追踪，无需外部相机或标记。",
+            "credits": ""
         }
     ]
 }

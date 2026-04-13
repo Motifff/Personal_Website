@@ -1,4 +1,5 @@
 import InArticleImage from "./inArticleImage";
+import ImageCollage from "./imageCollage";
 import ParaBlock from "./paraBlock";
 import LinkJumper from "./linkJumper";
 import HeadingBlock from "./headingBlock";
@@ -10,6 +11,10 @@ export default function ContentRenderer({ item }) {
         case "imageBed":
             return (
                 <InArticleImage ao={item.aspectRatio} content={item.content} />
+            );
+        case "imageCollage":
+            return (
+                <ImageCollage aspectRatio={item.aspectRatio} content={item.content} />
             );
         case "paragraph":
             return (

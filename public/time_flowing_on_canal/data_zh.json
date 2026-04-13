@@ -7,42 +7,98 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "**社会叙事工作室（国美）** 发起的 **京杭大运河** **纪录片 / IED** 项目：把河道当作 **流动的时间**——商贸、生态、记忆与迁徙被编入 **一条纵深的叙事**。",
+            "content": "京杭大运河纪录片与交互体验设计项目，把河道当作流动的时间。参观者通过实体模型、投影映射和望远镜视角探索多感官展览空间。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "叙事焦点"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **时间如水流**：缓慢的市井变迁与快速的城市更新并置。\n- **岸线声部**：社会叙事以 **拼贴** 呈现，而非单一英雄弧光。\n- **地方真实**：影像锚定现场，文字解释 **这一段为何在当下重要**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "静帧（序列）"
+            "text": "微缩模型"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/time_flowing_on_canal/images/main1.JPG", "title": "" },
                 {
-                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal.JPG",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal2.JPG",
-                    "title": ""
-                },
-                {
-                    "image": "/Personal_Website/time_flowing_on_canal/images/The%20Time%20Flowing%20on%20the%20Canal3.JPG",
-                    "title": ""
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The Time Flowing on the Canal.JPG",
+                    "title": "京杭大运河精细微缩模型：传统建筑、桥梁与水系在深色木盒中呈现"
                 }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "深色木盒中的精细微缩模型捕捉了运河的传统建筑、桥梁与水道。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "展览空间"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/main1.JPG",
+                    "title": "展览空间：竹栏杆创建参观路径，墙面投影展示运河场景"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "竹栏杆在展厅中创建引导路径。墙面投影让参观者沉浸于多尺度的运河场景。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "望远镜视角"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1/1",
+            "content": [
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The Time Flowing on the Canal2.JPG",
+                    "title": "通过望远镜/窥孔观看的历史运河场景，展现传统建筑风貌"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "通过望远镜观看历史运河景象——传统建筑与船只沿水道排列，创造亲密的微视角体验。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "剪纸与模型"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "2/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/time_flowing_on_canal/images/The Time Flowing on the Canal3.JPG",
+                    "title": "剪纸艺术与几何模型陈列，旁边是项目文档资料"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "剪纸装置与几何模型旁陈列着项目资料夹，展示叙事设计背后的研究与工艺。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "纪录片研究转化为沉浸式空间叙事。参观者在宏观与微观尺度之间移动。竹与木唤起运河历史建筑，将叙事扎根于触觉现实。",
+            "credits": ""
         }
     ]
 }

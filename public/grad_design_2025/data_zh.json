@@ -1,44 +1,254 @@
 {
     "title": "Assistive LLM and Design Strategy",
-    "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions (2025 研究生毕业设计)",
-    "type": "Research | MArch",
-    "location": "London",
+    "subtitle": "模拟多利益相关者圆桌讨论 (2025 研究生毕业设计)",
+    "type": "研究 | 建筑学硕士",
+    "location": "伦敦",
     "date": "2025",
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "本项目是伦敦大学学院（UCL）Design for Performance and Interaction 专业的硕士毕业设计论文。该研究探索了一种创新的用户体验范式：基于大语言模型（LLM）的多利益相关者圆桌讨论模拟系统。旨在帮助设计师在制定策略时，通过模拟拥有不同背景、性格和心理特征的 AI Agent（智能体）之间的辩论与协作，快速获取多元化的视角。项目核心在于构建一个动态的数字环境，并引入“意图可视化（Intent Visualization）”，让用户无需阅读海量文本即可直观追踪 AI 的行为模式与决策倾向。",
+            "content": "UCL 硕士毕业设计：基于大语言模型的多利益相关者圆桌讨论模拟系统。通过模拟拥有不同背景和性格的 AI Agent 辩论与协作，帮助设计师快速获取多元视角。",
             "credits": ""
         },
         {
-            "type": "paragraph",
-            "content": "核心痛点：在传统的设计调研中，收集和整合多方利益相关者（如城市规划师、环保主义者、居民等）的意见面临巨大挑战：信息过载、认知负荷、数据碎片化。",
-            "credits": ""
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website.png",
+                    "title": "项目封面与装置空间渲染"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "引言"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-4.png",
+                    "title": "复杂模拟系统架构与利益相关者调研框架"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "解决方案：Designers’ Roundtable 系统。\n- OneAgent（智能体架构）：每个 Agent 拥有独立的记忆库、性格特征和投票机制。\n- RoundTable（圆桌中枢）：作为集体智慧的中心，负责收集提案、组织投票、并根据获胜提案动态决定下一轮讨论话题。\n- 交互界面：3D 圆桌会议室（沉浸式的视觉隐喻），实时干预（用户可随时暂停会议）。\n- 意图可视化 (Intent Visualization)：利用 LLM 输出的 Embedding 向量和 PCA 降维技术，将抽象的观点转化为可视化的点阵。趋势追踪，立场分析。",
-            "credits": ""
-        },
-        {
-            "type": "paragraph",
-            "content": "核心的设计思考：\n- 从“对话”到“社会模拟”：超越传统的 ChatGPT 问答模式，转向基于 Agent 的社会动力学模拟。\n- 可视化的“思维空间”：提出用高维向量可视化来“看”懂讨论的走向和共识的形成。\n- 人机协同的“导演模式”：用户不再是微观的操作者，而是宏观的“导演”。",
+            "content": "传统利益相关者研究面临数据碎片化、认知过载和洞察整合困难。本系统将 AI 驱动的社会模拟应用于服务设计与利益相关者参与。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "项目主视觉"
+            "text": "问题：现有方法的困境"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "1728/1117",
             "content": [
-                { "image": "/Personal_Website/grad_design_2025/images/main1.png", "title": "" }
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-1.png",
+                    "title": "信息过载、有价值内容难以定位，以及快速意图可视化的需求"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "设计师面临三大挑战：冲突观点导致的文本过载、从海量对话中定位有价值内容困难，以及缺乏沉浸式环境中快速意图可视化的工具。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "系统设计"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-5.png",
+                    "title": "系统架构：OneAgent、RoundTable 及其动态交互"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "系统构建了用户输入、Agent 交互和系统分析的动态循环。OneAgent 作为每个模拟利益相关者的「大脑」，具备记忆、提案和投票功能。RoundTable 管理整体讨论流程。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "圆桌设计"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-3.png",
+                    "title": "选择话题、添加 Agent 记忆和配置 Agent 的界面"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "用户可配置 Agent、控制讨论流程、聚焦特定议题。核心功能之一是实时向 Agent 记忆中添加信息，显著降低认知负荷。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "意图可视化"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-2.png",
+                    "title": "基于 PCA 的嵌入可视化，追踪 Agent 立场和表现"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "通过 PCA 降维展示 Agent 话题连接和表现演变。用户可追踪单轮立场变化，并跨轮次对比 Agent 表现。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "系统评估"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-8.png",
+                    "title": "向量距离追踪和 3D PCA 可视化，展示 Agent 对齐情况"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "评估显示 Agent 总体上与讨论主题保持一致。3D PCA 可视化呈现了随讨论推进，观点聚类更紧密、内容对齐度更高的趋势。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "用户研究"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-7.png",
+                    "title": "研究设计：传统方法与系统对比、问卷设计及参与者背景"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "6 位参与者（平均年龄 23.5 岁）来自政治、建筑、UX、时尚、金融等多元背景，通过结构化任务和问卷对比了系统与传统的差异。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "研究数据"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-6.png",
+                    "title": "定量对比：传统方法与本系统在 15 项指标上的表现"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "定量结果显示本系统显著优于传统方法。参与者使用系统完成任务更快、获取洞察更多，在趋势识别和内容分析方面提升尤为明显。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "局限性"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-10.png",
+                    "title": "系统局限：缺乏多模态 LLM 及伦理考量"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "当前局限包括缺乏多模态 LLM、设计挑战的纯语言表征，以及需要真实世界验证。用 AI 模拟人类利益相关者的伦理问题仍待探索。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "总结与未来方向"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-9.png",
+                    "title": "总结：多利益相关者模拟与先进可视化技术"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "核心贡献在于利用 LLM 模拟多利益相关者讨论，并结合先进可视化技术。系统提升了设计和规划中的协作决策效率，使利益相关者参与更包容。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "未来工作"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-11.png",
+                    "title": "未来方向：增强 Agent 复杂性、多模态输入和政策制定应用"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "未来将增强 Agent 的复杂度和适应性，探索多模态输入以获得更丰富的视觉和空间表达，并将系统拓展至政策制定等领域。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "核心洞察"
+        },
+        {
+            "type": "paragraph",
+            "content": "本研究将利益相关者参与从静态数据收集重新定义为动态交互模拟。通过结合 LLM Agent 辩论与降维意图可视化，改变了设计师感知和整合冲突观点的方式。核心洞察是：**多 Agent 社会模拟 + 空间可视化 = 可扩展的利益相关者研究**——将数周的访谈压缩为数小时的引导式模拟，同时保持深度和细致度。局限在于纯语言表征，整合多模态感知将是下一个突破方向。",
+            "credits": ""
         }
     ]
 }
-
-
-

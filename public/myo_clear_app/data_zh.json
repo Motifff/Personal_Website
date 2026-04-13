@@ -1,9 +1,9 @@
 {
-    "title": "近视防护 APP",
-    "subtitle": "基于激光雷达和计算机视觉的近视应用设计",
-    "type": "用户体验",
+    "title": "Myo-Clear APP",
+    "subtitle": "基于激光雷达和计算机视觉的近视防护应用设计",
+    "type": "UX",
     "location": "杭州",
-    "date": "2024年2月2日",
+    "date": "02 FEB 24",
     "mainContent": [
         {
             "type": "paragraph",
@@ -13,21 +13,125 @@
         {
             "type": "heading",
             "level": 2,
-            "text": "痛点"
+            "text": "洞察：一个国民健康问题"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/1.jpg",
+                    "title": "各国近视率对比及新冠疫情对儿童屏幕时间的影响"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "- **风险不可见**：距离与时长往往要到不适才被感知。\n- **反馈弱**：泛泛提醒容易被忽略。\n- **情境碎片化**：距离、光线与使用很少被读成同一条叙事。",
+            "content": "近视已成为中国重大的国民健康问题。**中国近视率达61%**，位居全球前列。随着移动设备的进一步普及和屏幕时间的增加，儿童近视率也在持续上升。问题是：我们该如何应对这一挑战？",
+            "credits": ""
+        },
+        {
+            "type": "quote",
+            "content": "\"释放人类潜能，实现全民眼健康\""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "研究：理解问题"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/2.jpg",
+                    "title": "研究成果：近视机制、实地调研数据、用户画像及潜在用户痛点"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "**近视机制**：长时间近距离注视导致睫状肌收紧，形成假性近视，最终发展为高度近视。实地调研显示干预意识低（验光每年仅**2次**），矫正率仅**14.1%**。儿童觉得现有应用太复杂，家长不喜欢被持续说教。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "方案"
+            "text": "概念：多层次的解决方案"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/3.jpg",
+                    "title": "面向家长、儿童和社会的概念方案，以及基于激光雷达的距离测量技术测试"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "**Myo-Clear** 用 **感知驱动** 的界面组织信息：\n\n- **空间感知**：借助 LiDAR 提示观看距离与环境。\n- **视觉管线**：CV 辅助识别与视疲劳相关的行为模式。\n- **可行动的界面**：把原始信号翻译成 **清晰、低负担** 的干预。",
+            "content": "**面向家长**：让孩子的视力健康透明化、可操作化的仪表盘。**面向儿童**：温和的提醒培养习惯，而非说教。**面向社会**：利用移动设备的高普及率实现低成本监测。大多数设备已配备前后摄像头——非常适合用于计算机视觉距离测量。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计产出：服务架构"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/4.jpg",
+                    "title": "服务架构：云端数据管理、视力客户端、模糊提醒、自主放松和排程功能"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "服务架构连接了多个触点：**云端数据管理**进行集中分析，**家庭客户端**用于日常监控，**视力客户端**用于专业追踪，**模糊提醒**提供非侵入式近距离警报，**自主放松**内置休息定时器，以及**排程功能**时间分配仪表盘。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "交付：从原型到体验"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/5.jpg",
+                    "title": "交付：模拟视图、线框图和故事板，展示交互场景"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "应用通过情境交互实现：**正常页面**在健康距离下静默运行。**近距离警告**温和提醒。**过度使用**提示休息。**倾斜警告**检测不良姿态。**舒适练习**引导眼部放松。线框图展示近视率显示和周使用趋势。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "应用界面：近视率仪表盘"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/main1.jpg",
+                    "title": "Myo-Clear 应用界面：近视率仪表盘，详细使用追踪和周趋势图表"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "主界面一目了然地呈现关键指标：**近视率**（90D到110D刻度）、**详细使用**（重度/中度/轻度）、**周趋势**。设计优先考虑清晰度——用户可以看到自己的视力健康状况，而不会被临床术语所淹没。",
             "credits": ""
         },
         {
@@ -37,25 +141,18 @@
         },
         {
             "type": "paragraph",
-            "content": "- 从 **指责** 到 **引导**：优先让人理解，而不是说教。\n- 从 **手填记录** 到 **环境感知**：减少用户劳动。\n- 从 **单一指标** 到 **整体姿态**：产品叙事贴近真实使用。",
+            "content": "核心决策：**从惩罚到引导**——儿童抗拒说教，应用选择温和提醒。**从手动记录到环境感知**——激光雷达和摄像头检测自动运行。**从临床复杂性到可理解的洞察**——应用将数据转化为可视化反馈。**平衡精度与能耗**——持续激光雷达会导致过热，因此设计智能采样。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "界面流程"
+            "text": "反思"
         },
         {
-            "type": "imageBed",
-            "aspectRatio": "16/9",
-            "content": [
-                { "image": "/Personal_Website/myo_clear_app/images/main1.jpg", "title": "封面" },
-                { "image": "/Personal_Website/myo_clear_app/images/1.jpg", "title": "界面 1" },
-                { "image": "/Personal_Website/myo_clear_app/images/2.jpg", "title": "界面 2" },
-                { "image": "/Personal_Website/myo_clear_app/images/3.jpg", "title": "界面 3" },
-                { "image": "/Personal_Website/myo_clear_app/images/4.jpg", "title": "界面 4" },
-                { "image": "/Personal_Website/myo_clear_app/images/5.jpg", "title": "界面 5" }
-            ]
+            "type": "paragraph",
+            "content": "Myo-Clear 展示了如何将 **传感技术** 用于应对 **公共健康挑战**。核心洞察：近视预防不在于更多的数据——而在于 **更好的信号**。手机守护你的眼睛，你无需盯着手机。",
+            "credits": ""
         }
     ]
 }

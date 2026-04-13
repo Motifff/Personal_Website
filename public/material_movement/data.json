@@ -7,32 +7,78 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **DEng installation** that pairs a **regenerative material recorder** with **interactive art**: movement of matter becomes **legible data** and **sensory scene** at once—asking visitors to feel **cycles** instead of only endpoints.",
+            "content": "A DEng installation repurposing a discarded CD player's laser head into a creative light-writing tool. Movement of matter becomes legible data and sensory scene at once.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Spatial intent"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Material honesty**: show grain, wear, and repair as **features**.\n- **Recording as ritual**: the device slows observation.\n- **Interaction**: visitors **co-produce** the archive with their presence.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Installation views"
+            "text": "Project Overview"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/material_movement/images/main1.JPG", "title": "" },
-                { "image": "/Personal_Website/material_movement/images/Material_movement.jpg", "title": "" },
-                { "image": "/Personal_Website/material_movement/images/2801668061651_.pic_hd.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/material_movement/images/Material_movement.jpg",
+                    "title": "Project poster showing the regenerative device, Arduino circuit diagram, and installation photos"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The poster communicates the full concept: recycling obsolete media through Arduino-driven laser modification to create a new material recording instrument.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Internal Mechanism"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "3/2",
+            "content": [
+                {
+                    "image": "/Personal_Website/material_movement/images/main1.JPG",
+                    "title": "Modified CD player mechanism with Arduino Uno circuit board and wiring diagram"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The transparent enclosure reveals the internal mechanics — Arduino Uno orchestrates motor speed, LED sequences, and sensor feedback for interactive light writing.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Light Diffraction"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/material_movement/images/2801668061651_.pic_hd.jpg",
+                    "title": "Overhead view: scratched CD spinning under laser, creating colorful diffracted light patterns"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The scratched CD surface diffracts laser light into colorful patterns, transforming material texture into visible visual data through motion and light.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "From endpoint to cycle. Instead of discarding old hardware, the project asks what new material emerges when we re-read the familiar. The device slows observation down — visitors engage with the process of transformation.",
+            "credits": ""
         }
     ]
 }

@@ -1,78 +1,164 @@
 {
-    "title": "侦探修辞",
+    "title": "流言侦探",
     "subtitle": "一个用于唤醒表达谨慎的互动机器人",
     "type": "人机交互 | 用户体验",
     "location": "杭州",
     "date": "2024年2月2日",
     "mainContent": [
         {
-            "type": "paragraph",
-            "content": "这是一件 **人机交互 / 体验向** 的作品：观众在文字对话媒介中参与互动，算法持续为系统文本叠加变量，通过累积与迭代，**模拟信息在类聊天机器人链路中被扭曲的过程**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "问题"
-        },
-        {
-            "type": "paragraph",
-            "content": "**核心痛点：**\n- 失真往往**不可见**：人们很难察觉自己的表述如何被放大、过滤或改写。\n- 用户常常**无意识**地参与意义的重塑。\n- 对算法行为缺少**可反思的距离**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "方案"
-        },
-        {
-            "type": "paragraph",
-            "content": "**侦探修辞**是一台互动机器人，让人**亲历**扭曲，而不是只阅读结论。\n\n- **累积变量**：系统文本层层叠加、漂移，贴近真实的信息漂移。\n- **参与式回路**：输入 → 机器改写 → 对照原文与变形结果。\n- **反思触发**：用直观对比，把「表达的谨慎」变成可感知经验。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "心智模型"
-        },
-        {
-            "type": "paragraph",
-            "content": "用户 **书写** → 机器人在多轮中 **持续改写文本** → 用户 **查看差异** → 对修辞风险的意识 **被更新**。\n\n与静态展示相比，用户处在链路之中，而不只是旁观者。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "交互序列"
-        },
-        {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/detective_retoric/images/main1.jpg", "title": "总览" },
-                { "image": "/Personal_Website/detective_retoric/images/p1.jpg", "title": "步骤 1" },
-                { "image": "/Personal_Website/detective_retoric/images/p2.jpg", "title": "步骤 2" },
-                { "image": "/Personal_Website/detective_retoric/images/p3.jpg", "title": "步骤 3" },
-                { "image": "/Personal_Website/detective_retoric/images/p4.jpg", "title": "步骤 4" },
-                { "image": "/Personal_Website/detective_retoric/images/p5.jpg", "title": "步骤 5" },
-                { "image": "/Personal_Website/detective_retoric/images/p6.jpg", "title": "步骤 6" }
+                {
+                    "image": "/Personal_Website/detective_retoric/images/mainImage.png",
+                    "title": "流言侦探 — 装置全景"
+                }
             ]
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "过程与记录"
+            "text": "灵感"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4/3",
             "content": [
-                { "image": "/Personal_Website/detective_retoric/images/mainImage.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0829.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0928.JPG", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0930.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/IMG_0977.png", "title": "" },
-                { "image": "/Personal_Website/detective_retoric/images/2811668066398_.pic_hd.jpg", "title": "" }
+                {
+                    "image": "/Personal_Website/detective_retoric/images/main1.jpg",
+                    "title": "灵感来源 — The Verge 报道、1650万聊天机器人、9-15%转发率"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "1650万活跃聊天/评论机器人与9-15%的复制转发率，使信息失真在算法层面被大规模放大。我们如何用公共数据训练AI，而不将人性中最糟的一面注入其中？",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "机制"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p1.jpg",
+                    "title": "机制 — 数据再现、社交网络、双向行为、语言维度缩减"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "信息失真的四大驱动力：数据再现、社交网络、双向行为、语言维度缩减。信息被处理重组，为叙述者创造改写机会；友谊与建议构成传播基础；冲突与亲密都在重塑信息；丰富表达在反复传递中被扁平化。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "概念"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p2.jpg",
+                    "title": "概念 — 线性通信模型：编码 → 噪音 → 解码"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "基本架构：编码 → 噪音 → 解码。注意力衍生的噪音——当编码器和解码器都作为受众时，噪音成为最重要变量。LSTM模型的注意力与人类不同，产生有意义的失真现象。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "演进"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p3.jpg",
+                    "title": "演进 — 中文语法框架、设计草图、渲染草图"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "以中文语法（定语、主语、谓语、宾语、状语、补语）作为失真结构框架。流程：猜测原始信息 → 选择问题处拉动杠杆 → 机器覆盖操作 → 机器将输入加入历史。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "原型"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p4.jpg",
+                    "title": "原型 — 机械设计、程序架构、主板、编码"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "机械设计、程序架构（模块化）、主板设计（树莓派）、编码（失真算法与交互逻辑）。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "展览"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p5.jpg",
+                    "title": "展览现场 — 观众互动"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "展览现场观众与装置互动，通过杠杆操作体验信息失真过程。",
+            "credits": ""
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/detective_retoric/images/p6.jpg",
+                    "title": "机器人雕塑"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip1.png",
+                    "title": "金属轮组件"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip2.JPG",
+                    "title": "框架组装"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip3.png",
+                    "title": "电机安装"
+                },
+                {
+                    "image": "/Personal_Website/detective_retoric/images/wip4.png",
+                    "title": "CAD 建模"
+                }
             ]
         },
         {

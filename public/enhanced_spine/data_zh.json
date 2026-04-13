@@ -3,60 +3,146 @@
     "subtitle": "结合未来主义与推测性设计的脊柱增强装置",
     "type": "DEng",
     "location": "杭州",
-    "date": "2024年2月2日",
+    "date": "02 FEB 24",
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "一件 **推测性设计工程（DEng）** 作品：原型化 **脊柱增强** 可穿戴物，在 **临床姿态逻辑** 与 **未来主义材料语言** 之间搭桥。目标不仅是机构草图，更是一个 **可信的文化物件**——追问身体如何与支持性技术接口。",
+            "content": "**增强脊柱（Enhanced Spine）** 是一项推测性设计工程（DEng）项目，原型化了一种 **脊柱增强可穿戴装置**——将 **临床生物力学** 与 **未来主义材料语言** 相融合。该装置针对的是一个由久坐工作、教育压力和慢性姿势退化所定义的时代中，脊柱健康日益加剧的危机。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "问题"
-        },
-        {
-            "type": "paragraph",
-            "content": "- 日常 **护具** 常显「医疗感」，带来社交压力。\n- **推测性** 作品若脱离 **真实生物力学线索**，容易流于装饰。\n- 需要 **可想象的穿戴**：在照片与影像中仍能落在 **人体尺度** 上。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "方案"
-        },
-        {
-            "type": "paragraph",
-            "content": "**增强脊柱** 提出 **混合式脊柱辅助** 叙事：\n\n- **支撑叙事**：讲清载荷路径与姿态意图。\n- **未来形态语言**：曲面、接缝与光作为 **语义**，而非纯视觉。\n- **可穿戴尺度**：在影像中可被读作 **贴身物件**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "心智模型"
-        },
-        {
-            "type": "paragraph",
-            "content": "用户 **佩戴** → **反馈**（视觉 / 结构线索）提示对齐 → 观者把脊柱重新读作 **生物与假体之间的协商边界**。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "实物与过程"
+            "text": "背景：内卷时代的危机"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "7732/4976",
             "content": [
-                { "image": "/Personal_Website/enhanced_spine/images/main1.jpg", "title": "主视觉" },
-                { "image": "/Personal_Website/enhanced_spine/images/1.jpg", "title": "研究 1" },
-                { "image": "/Personal_Website/enhanced_spine/images/2.jpg", "title": "研究 2" },
-                { "image": "/Personal_Website/enhanced_spine/images/3.jpg", "title": "研究 3" },
-                { "image": "/Personal_Website/enhanced_spine/images/4.jpg", "title": "研究 4" },
-                { "image": "/Personal_Website/enhanced_spine/images/5.jpg", "title": "研究 5" },
-                { "image": "/Personal_Website/enhanced_spine/images/mainImage.png", "title": "" }
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/3.jpg",
+                    "title": "背景——多任务处理、内卷成就与研究框架"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "学业竞争与职业压力迫使年轻人陷入无休止的久坐劳作循环。脊柱是一个 **结构性杠杆点**：它连接着神经信号、肌肉张力和器官定位。从脊柱入手，增强脊柱针对的是姿势崩塌的根源架构，而非表面症状。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "从按摩到增强"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/1.jpg",
+                    "title": "概念服务地图——从正骨意识到植入整合"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "\"今天的年轻人不再需要按摩，他们需要的是正骨。\" 增强脊柱提出了一种 **渐进式服务模式**，引导用户经历三个阶段：从 **非侵入性贴片** 开始，进阶到 **微针阵列**，最终——对那些选择的人——一个 **手术植入物**，成为身体的永久延伸。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "核心机制"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/2.jpg",
+                    "title": "设计交付——组件分解与核心机制"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "四个交互系统：**脊柱支撑** 使用线圈调制磁场以提供动态结构强化。**动量恢复** 通过运动中切割磁感应线回收动能。**力反馈** 在外部充电时产生体感热量。**体感模块** 使用模块化、亲肤材料确保身体与装置之间的自然接口。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计传导：三阶段之旅"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/5.jpg",
+                    "title": "设计传导与阶段差异——脊柱、肌肉与神经干预"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "**第一阶段** 使用可拆卸贴片以缓解疼痛和提升意识。**第二阶段** 引入微针阵列进行更深层次的干预，用户逐渐习惯装置的存在。**第三阶段** 涉及一个永久植入物，提供持续的运动稳定和能量回收——将久坐的压力转化为主动的增强。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "产品特性"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/4.jpg",
+                    "title": "产品海报——先进冷却、智能贴片、无线充电"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "产品系统围绕 **模块化和可及性** 构建：先进冷却系统、智能外贴片、无线充电、亲肤人体材料和集成植入系统。项目还设想了一个 **商业生态系统**，提供贷款和免费试用，同时提出一个伦理问题——增强应该是奢侈品还是公共福祉？",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "实物呈现"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4096/3574",
+            "content": [
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/main1.jpg",
+                    "title": "增强脊柱——植入系统的爆炸视图"
+                },
+                {
+                    "image": "/Personal_Website/enhanced_spine/images/mainImage.png",
+                    "title": "增强脊柱——脊柱模型上的植入组件详图"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "最终的实物——以爆炸图和组装视图呈现的植入组件——凝聚了项目的核心张力。它同时是 **医疗的与推测性的、功能的与令人不安的**。它提出的更大问题是文化性的：在一个身体被越来越多地要求超越其生物设计来表现的世界中，**支持何时变成增强，增强何时变成必需？**",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "反思"
+        },
+        {
+            "type": "paragraph",
+            "content": "增强脊柱提供了一个 **有根基的推测**：从脊柱侧弯和姿势崩塌的真实数据出发，追问一个 **负责任的** 增强技术可能是什么样子。从贴片到植入的渐进服务模式旨在让用户在每个阶段都拥有 **自主权**。而推测性的框架邀请观众思考的不仅是 **装置能做什么**，更是 **它的存在对我们意味着什么**。",
+            "credits": ""
         }
     ]
 }

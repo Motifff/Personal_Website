@@ -1,5 +1,5 @@
 {
-    "title": "Myo-Clear APP ",
+    "title": "Myo-Clear APP",
     "subtitle": "Myopic App Design using Lidar and Computer Vision",
     "type": "UX",
     "location": "Hangzhou",
@@ -7,55 +7,152 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "A **UX / product** exploration for **myopia care**: combining **LiDAR** sensing and **computer vision** to make distance, posture, and screen habits legible—so the phone becomes a **calm coach** instead of another source of eye strain.",
+            "content": "A **UX / product** exploration for **myopia care**: combining **LiDAR** sensing and **computer vision** to make distance, posture, and screen habits legible — so the phone becomes a **calm coach** instead of another source of eye strain.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Pain points"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Invisible risk**: users do not feel proximity or duration until symptoms appear.\n- **Weak feedback loops**: generic reminders are easy to ignore.\n- **Fragmented context**: distance, lighting, and usage are rarely read as one story.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Solution"
-        },
-        {
-            "type": "paragraph",
-            "content": "**Myo-Clear** proposes a **sensing-informed** interface:\n\n- **Spatial awareness**: LiDAR-backed cues for viewing distance and environment.\n- **Vision pipeline**: CV assists in recognizing behaviors that correlate with strain.\n- **Actionable UI**: translate raw signals into **clear, low-friction** interventions.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Design thinking"
-        },
-        {
-            "type": "paragraph",
-            "content": "- From **blame** to **guidance**: prioritize comprehension over scolding.\n- From **manual logging** to **ambient sensing**: reduce user labor.\n- From **single metrics** to **holistic posture**: align product narrative with lived use.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Interface flow"
+            "text": "Insight: A National Health Issue"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "7732/4976",
             "content": [
-                { "image": "/Personal_Website/myo_clear_app/images/main1.jpg", "title": "Cover" },
-                { "image": "/Personal_Website/myo_clear_app/images/1.jpg", "title": "Screen 1" },
-                { "image": "/Personal_Website/myo_clear_app/images/2.jpg", "title": "Screen 2" },
-                { "image": "/Personal_Website/myo_clear_app/images/3.jpg", "title": "Screen 3" },
-                { "image": "/Personal_Website/myo_clear_app/images/4.jpg", "title": "Screen 4" },
-                { "image": "/Personal_Website/myo_clear_app/images/5.jpg", "title": "Screen 5" }
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/1.jpg",
+                    "title": "Myopia prevalence across countries and the impact of COVID-19 on children's screen time"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Myopia has become a major Chinese national health issue. **China's myopia rate is 61%** — among the highest globally. With the further spread of mobile devices and rising screen time, children's myopia is gradually increasing. The question is: how do we face this challenge?",
+            "credits": ""
+        },
+        {
+            "type": "quote",
+            "content": "\"Unlocking human potential with universal eye health\""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Research: Understanding the Problem"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/2.jpg",
+                    "title": "Research findings: mechanisms of myopia, field research data, user personas, and potential user pain points"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "**Mechanism**: Tightening of ciliary muscles from close-proximity viewing creates pseudomyopia, which progresses to high myopia when unrelieved. Field research shows low intervention awareness (optometry only **2 times/year**) and low correction rates (**14.1%**). Children find existing apps too complex; parents dislike constant lecturing.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Concept: A Multi-Layered Approach"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/3.jpg",
+                    "title": "Concept proposals for parents, children, and society, plus technical testing of LiDAR-based distance measurement"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "**For parents**: A dashboard that makes their child's vision health transparent and actionable. **For children**: Gentle nudges that build habits rather than lectures. **For society**: Leveraging mobile device prevalence for low-cost surveillance. Most devices already have front and rear cameras — ideal for computer vision distance measurement.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Output: Service Architecture"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/4.jpg",
+                    "title": "Service architecture: cloud data management, vision client, blur reminder, autonomous relaxation, and arranging function"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The service architecture connects: **Cloud data management** for centralized analytics, **Home Client** for daily monitoring, **Vision Client** for specialized tracking, **Blur Reminder** for non-intrusive close-distance alerts, **Autonomous Relaxation** with built-in break timers, and an **Arranging Function** dashboard for time allocation.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Delivery: From Prototype to Experience"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/5.jpg",
+                    "title": "Delivery: mock views, wireframes, and storyboard showing interaction scenarios"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The app flows through contextual interactions: **Normal Page** runs silently at healthy distances. **Close Warning** gently alerts when too near. **Over Used** prompts breaks. **Tilt Warning** detects poor posture. **Comfort Exercise** guides quick eye relaxation. Wireframes show the myopia rate display and weekly usage trends.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "App Interface: Myopia Rate Dashboard"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "4/3",
+            "content": [
+                {
+                    "image": "/Personal_Website/myo_clear_app/images/main1.jpg",
+                    "title": "Myo-Clear app interface: myopia rate dashboard with detailed usage tracking and weekly trend charts"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The main interface presents key metrics at a glance: **Myopia Rate** (90D to 110D scale), **Detailed Usage** (Heavy/Moderate/Mild), and **Weekly Trends**. Design prioritizes clarity over complexity — users see their vision health status without being overwhelmed by clinical terminology.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Design Thinking"
+        },
+        {
+            "type": "paragraph",
+            "content": "Core decisions: **From punishment to guidance** — children resist lectures, the app nudges. **From manual logging to ambient sensing** — LiDAR and camera detection runs automatically. **From clinical complexity to accessible insight** — the app translates data into visual feedback. **Balance precision with energy** — continuous LiDAR causes overheating, so the design intelligently samples.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Reflection"
+        },
+        {
+            "type": "paragraph",
+            "content": "Myo-Clear shows how **sensing technology** can address a **public health challenge** at scale. The key insight: myopia prevention isn't about more data — it's about **better signals**. The phone watches over your eyes so you don't have to watch over the phone.",
+            "credits": ""
         }
     ]
 }

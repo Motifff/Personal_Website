@@ -1,76 +1,146 @@
 {
     "title": "Dimention Smasher",
     "subtitle": "Hardware and software system for expanding live streamers' creativity space",
-    "type": "System Design",
+    "type": "PD",
     "location": "Hangzhou",
     "date": "02 FEB 24",
     "mainContent": [
         {
-            "type": "paragraph",
-            "content": "A **hardware + software system** for **live creators**: it **expands the creative space** beyond a flat camera frame—giving streamers **new spatial affordances** (layers, props, interactions) without forcing a heavier production pipeline.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Pain points"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **Single-plane** streaming flattens performance and novelty.\n- **Toolchains** that add depth often demand **studio-grade** skill and setup.\n- Creators need **playful iteration**, not only post-production polish.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Solution"
-        },
-        {
-            "type": "paragraph",
-            "content": "**Dimension Smasher** couples **physical interfaces** with **real-time software**:\n\n- **Spatial smashing**: break the default rectangle into composable creative zones.\n- **Streamer-first loop**: fast try → observe chat feedback → adjust layout.\n- **System thinking**: firmware, visuals, and interaction cues stay **one product**.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Mental model"
-        },
-        {
-            "type": "paragraph",
-            "content": "Creator **sets scene** → **hardware + software** remap space → **audience** reads a wider performance field → creator **tunes** live.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Product sequence"
-        },
-        {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "4940/2488",
             "content": [
-                { "image": "/Personal_Website/dimention_smasher/images/main1.png", "title": "Overview" },
-                { "image": "/Personal_Website/dimention_smasher/images/p1.jpg", "title": "Frame 1" },
-                { "image": "/Personal_Website/dimention_smasher/images/p2.jpg", "title": "Frame 2" },
-                { "image": "/Personal_Website/dimention_smasher/images/p3.jpg", "title": "Frame 3" },
-                { "image": "/Personal_Website/dimention_smasher/images/p4.jpg", "title": "Frame 4" },
-                { "image": "/Personal_Website/dimention_smasher/images/p5.jpg", "title": "Frame 5" }
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/main1.png",
+                    "title": "维度粉碎者 — 首页主视觉"
+                }
             ]
         },
         {
+            "type": "paragraph",
+            "content": "**维度粉碎者**——融合硬件与软件的产品设计，帮助直播创作者摆脱单一平面镜头的束缚，提供新的空间可能性。",
+            "credits": ""
+        },
+        {
             "type": "heading",
             "level": 2,
-            "text": "Device & renderings"
+            "text": "问题与背景"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "7732/4976",
             "content": [
-                { "image": "/Personal_Website/dimention_smasher/images/DimentionSmasher1.png", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.png", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.jpg", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/mainImage.jpg", "title": "" },
-                { "image": "/Personal_Website/dimention_smasher/images/mainImage.png", "title": "" }
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p1.jpg",
+                    "title": "桌面研究与一手访谈 — 21%成功率、1145%增长"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "单平面让表演变扁。设置门槛高——创作者必须在直播的同时操作相机、灯光、绿幕。21%成功率，1145%增长压力——市场蓬勃发展但工具尚未跟上。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "虚拟生产技术现状"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p5.jpg",
+                    "title": "虚拟生产技术全景与当前痛点"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "镜头畸变、色彩失真、光源变化、前景背景融合不真实。笨重设备、复杂设置和昂贵系统使虚拟生产对个体主播遥不可及。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "方案与核心设计"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p2.jpg",
+                    "title": "系统设计与产品线划分 — 入门级、中级、高端"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "物理界面 + 实时软件。流水线：相机输入 → 图像分割 → 提取3D → 空间锚点 → 渲染 → 直播输出。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "硬件方案"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p3.jpg",
+                    "title": "硬件爆炸图 — OLED、LiDAR、UWB、按钮、旋钮、PCB、电池"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "OLED屏幕、LiDAR传感器、UWB传感器、自定义按钮、旋钮与选择器、PCB主板、电池与USB-C。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "软件方案"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "7732/4976",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/p4.jpg",
+                    "title": "软件方案与App设计 — 痛点、流水线、图层编辑器"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "流水线：设置 → 前景 → 中景（基于LiDAR景深） → 背景（真实光线采集+融合） → 输出。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "产品渲染"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "3/2",
+            "content": [
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/DimentionSmasher1.png",
+                    "title": "产品渲染 — NerCase 设备"
+                },
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/Dimention_smasher.png",
+                    "title": "产品渲染 — 备用视角"
+                },
+                {
+                    "image": "/Personal_Website/dimention_smasher/images/main1.png",
+                    "title": "维度粉碎者 — 首页主视觉"
+                }
             ]
         }
     ]

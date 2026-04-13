@@ -1,41 +1,254 @@
 {
     "title": "Assistive LLM and Design Strategy",
-    "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions (2025 Master's Graduation Project)",
+    "subtitle": "Simulating Multi-Stakeholder Roundtable Discussions",
     "type": "Research | MArch",
     "location": "London",
     "date": "2025",
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "This project is a master's dissertation from the Design for Performance and Interaction program at University College London (UCL). The research explores an innovative user experience paradigm: a multi-stakeholder roundtable discussion simulation system based on Large Language Models (LLMs). It aims to help designers quickly acquire diverse perspectives during strategy formulation by simulating debates and collaborations among AI Agents with different backgrounds, personalities, and psychological traits. The core of the project lies in constructing a dynamic digital environment and introducing \"Intent Visualization,\" allowing users to intuitively track AI behavioral patterns and decision tendencies without reading massive amounts of text.",
+            "content": "A UCL master's dissertation exploring an LLM-based roundtable discussion simulator that lets designers acquire diverse perspectives by simulating debates among AI agents with different backgrounds, personalities, and traits.",
             "credits": ""
         },
         {
-            "type": "paragraph",
-            "content": "Core Pain Points: In traditional design research, collecting and integrating opinions from multiple stakeholders (such as urban planners, environmentalists, residents, etc.) faces significant challenges: information overload, cognitive burden, and data fragmentation.",
-            "credits": ""
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website.png",
+                    "title": "Project cover and installation space rendering"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Introduction"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-4.png",
+                    "title": "Complex simulation system architecture and stakeholder investigation framework"
+                }
+            ]
         },
         {
             "type": "paragraph",
-            "content": "Solution: Designers' Roundtable System.\n- OneAgent (Agent Architecture): Each Agent has an independent memory bank, personality traits, and voting mechanism.\n- RoundTable (Roundtable Hub): Serves as the center of collective intelligence, responsible for collecting proposals, organizing votes, and dynamically deciding the next discussion topic based on winning proposals.\n- Interactive Interface: 3D roundtable meeting room (immersive visual metaphor), real-time intervention (users can pause meetings at any time).\n- Intent Visualization: Uses LLM output Embedding vectors and PCA dimensionality reduction techniques to transform abstract viewpoints into visualizable dot matrices. Trend tracking, stance analysis.",
-            "credits": ""
-        },
-        {
-            "type": "paragraph",
-            "content": "Core Design Thinking:\n- From \"Dialogue\" to \"Social Simulation\": Moving beyond traditional ChatGPT Q&A mode toward Agent-based social dynamics simulation.\n- Visualized \"Thought Space\": Proposing high-dimensional vector visualization to \"see\" the direction of discussions and the formation of consensus.\n- Human-AI Collaborative \"Director Mode\": Users are no longer micro-level operators, but macro-level \"directors.\"",
+            "content": "Traditional stakeholder research struggles with fragmented data, cognitive overload, and difficulty synthesizing insights. This system applies AI-driven social simulations to service design and stakeholder engagement.",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "Project visual"
+            "text": "Problem: Troubles with Current Methods"
         },
         {
             "type": "imageBed",
-            "aspectRatio": "16/9",
+            "aspectRatio": "1728/1117",
             "content": [
-                { "image": "/Personal_Website/grad_design_2025/images/main1.png", "title": "" }
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-1.png",
+                    "title": "Oversaturated text, difficulty locating valuable content, and the need for quick intent visualization"
+                }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Designers face three core challenges: oversaturated text from conflicting viewpoints, difficulty locating valuable content within massive transcripts, and lack of tools for quick intent visualization in immersive environments.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "System Design"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-5.png",
+                    "title": "System architecture: OneAgent, RoundTable, and their dynamic interactions"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "The system creates a dynamic, cyclical process of user input, agent interaction, and system analysis. OneAgent acts as the brain for each simulated stakeholder with memory, propose, and vote functions. RoundTable manages the overall discussion flow.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Roundtable Design"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-3.png",
+                    "title": "Interface for choosing topics, adding agent memory, and configuring agents"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Users configure agents, control discussion flow, and zoom into specific aspects. A key feature is the ability to add to an agent's memory in real-time, significantly reducing cognitive load.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Intent Visualization"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-2.png",
+                    "title": "PCA-based embedding visualization for tracking agent stance and performance"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "PCA reduces the dimensionality of textual content, showing how agents' topic connections and performance evolve. Users can track current-round stances and compare agent performance across rounds.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "System Evaluation"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-8.png",
+                    "title": "Vector distance tracking and 3D PCA visualization showing agent alignment"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Evaluation shows agents generally aligned with round topics. The 3D PCA visualization demonstrates tighter clustering of ideas and greater content alignment as the discussion progresses.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "User Study"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-7.png",
+                    "title": "Study setup comparing traditional method with the system, questionnaire design, and participant demographics"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "6 participants (mean age 23.5) from diverse backgrounds — politics, architecture, UX, fashion, finance — compared the system against traditional methods through structured tasks and questionnaires.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "User Study Results"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-6.png",
+                    "title": "Quantitative comparison: traditional method vs. our design across 15 metrics"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Quantitative results show significant improvements over the traditional method. Participants using the system completed tasks faster and gathered more insights, with strong improvements in trend identification and content analysis.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Limitations"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-10.png",
+                    "title": "System limitations: lack of multi-modal LLMs and ethical considerations"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Current limitations include the lack of multi-modal LLMs, limited language-based representations of design challenges, and the need for real-world validation. Ethical considerations in simulating human stakeholders remain an open question.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Summary & Future Directions"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-9.png",
+                    "title": "Summary: simulating multi-stakeholder discussions and advanced visualization techniques"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Key contributions include simulating multi-stakeholder discussions using LLMs and advanced visualization techniques. The system enhances collaborative decision-making in design and planning processes while making stakeholder engagement more efficient and inclusive.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Future Work"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-11.png",
+                    "title": "Future directions: enhanced agent complexity, multi-modal inputs, and policy development applications"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Future work aims to enhance agents' complexity and adaptability, explore multi-modal inputs for richer visual and spatial representation, and apply the system to other domains such as policy development.",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Key Takeaway"
+        },
+        {
+            "type": "paragraph",
+            "content": "This research reframes stakeholder engagement from a static data-collection exercise into a dynamic, interactive simulation. By combining LLM-based agent debates with dimensionality-reduced intent visualization, it transforms the way designers perceive and synthesize conflicting viewpoints. The core insight is that **multi-agent social simulation + spatial visualization = scalable stakeholder research** — reducing weeks of interviews into hours of guided simulation while maintaining depth and nuance. The limitation lies in language-only representation; integrating multi-modal perception will be the next frontier.",
+            "credits": ""
         }
     ]
 }

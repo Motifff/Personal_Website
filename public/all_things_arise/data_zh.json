@@ -1,5 +1,5 @@
 {
-    "title": "万物生 • 普陀祈福",
+    "title": "万物生 - 普陀祈福",
     "subtitle": "珠宝设计项目",
     "type": "珠宝设计",
     "location": "杭州",
@@ -7,32 +7,35 @@
     "mainContent": [
         {
             "type": "paragraph",
-            "content": "以 **普陀祈福** 为文化支点的 **珠宝** 研究——**万物生** 把饰品理解为 **可佩戴的祝祷**：足够小以进入日常，又足够密实以携带 **文化坐标**（海、香、近似诵念的纹样回路）。",
+            "content": "以普陀祈福为文化支点的珠宝研究——万物生把饰品理解为可佩戴的祝祷。系列包含金线莲花、宝塔、祥云纹样以及玉石作品。",
             "credits": ""
         },
         {
             "type": "heading",
             "level": 2,
-            "text": "设计意图"
-        },
-        {
-            "type": "paragraph",
-            "content": "- **祝福即纹样**：图腾以 **曼陀罗式** 的变奏重复。\n- **材料语气**：金属与石材追求 **静**，而非喧哗的奢华。\n- **可穿戴尺度**：作品需承受 **真实光线**——影棚与街道。",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "系列静物"
+            "text": "系列"
         },
         {
             "type": "imageBed",
             "aspectRatio": "16/9",
             "content": [
-                { "image": "/Personal_Website/all_things_arise/images/main1.png", "title": "" },
-                { "image": "/Personal_Website/all_things_arise/images/putuo.PNG", "title": "" },
-                { "image": "/Personal_Website/all_things_arise/images/putuo1.PNG", "title": "" }
+                { "image": "/Personal_Website/all_things_arise/images/main1.png", "title": "六款珠宝设计：金色莲花与宝塔线描、玉璧吊坠、纹理金盘" }
             ]
+        },
+        {
+            "type": "paragraph",
+            "content": "六款金与玉的设计——莲花与宝塔纹样如曼陀罗般重复变奏。圆形构图呼应佛教象征中的圆满。",
+            "credits": ""
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "设计思考"
+        },
+        {
+            "type": "paragraph",
+            "content": "从装饰到祝祷。每件作品承载超越材料价值的叙事重量。金线绘画将传统图标学转化为当代图形形式。",
+            "credits": ""
         }
     ]
 }

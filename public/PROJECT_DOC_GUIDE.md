@@ -154,7 +154,8 @@ Core Design Thinking:
 | 组件 | 用途 |
 |------|------|
 | `heading` | 分节标题 |
-| `imageBed` | 图片展示（多图轮播） |
+| `imageBed` | 图片轮播（多图横向滚动） |
+| `imageCollage` | 图片拼接（左大右二布局） |
 | `paragraph` | 文字段落（支持Markdown） |
 | `quote` | 引用/强调 |
 | `link` | 外部链接 |

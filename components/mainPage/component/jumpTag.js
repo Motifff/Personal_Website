@@ -1,5 +1,8 @@
+import { useState } from "react"
+
 export default function JumpTag(props) {
     const isPrimary = props.isPrimary !== false // 默认为一级标题
+    const [isHovered, setIsHovered] = useState(false)
 
     return (
         <div className="Wrap"
@@ -11,7 +14,11 @@ export default function JumpTag(props) {
                 gap: "2px",
                 alignSelf: "stretch",
                 cursor: "pointer",
+                opacity: isHovered ? 1 : 0.5,
+                transition: "opacity 0.3s ease",
             }}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
             onClick={props.onClick}>
             <div className="Text"
                 style={{
