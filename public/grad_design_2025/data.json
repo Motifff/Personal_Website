@@ -30,7 +30,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-4.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-1.png",
                     "title": "Complex simulation system architecture and stakeholder investigation framework"
                 }
             ]
@@ -50,7 +50,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-1.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-2.png",
                     "title": "Oversaturated text, difficulty locating valuable content, and the need for quick intent visualization"
                 }
             ]
@@ -70,7 +70,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-5.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-3.png",
                     "title": "System architecture: OneAgent, RoundTable, and their dynamic interactions"
                 }
             ]
@@ -90,7 +90,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-3.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-4.png",
                     "title": "Interface for choosing topics, adding agent memory, and configuring agents"
                 }
             ]
@@ -110,7 +110,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-2.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-5.png",
                     "title": "PCA-based embedding visualization for tracking agent stance and performance"
                 }
             ]
@@ -130,7 +130,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-8.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-6.png",
                     "title": "Vector distance tracking and 3D PCA visualization showing agent alignment"
                 }
             ]
@@ -170,7 +170,7 @@
             "aspectRatio": "1728/1117",
             "content": [
                 {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-6.png",
+                    "image": "/Personal_Website/grad_design_2025/images/Website-8.png",
                     "title": "Quantitative comparison: traditional method vs. our design across 15 metrics"
                 }
             ]
@@ -178,6 +178,26 @@
         {
             "type": "paragraph",
             "content": "Quantitative results show significant improvements over the traditional method. Participants using the system completed tasks faster and gathered more insights, with strong improvements in trend identification and content analysis.",
+            "credits": ""
+        },
+      {
+            "type": "heading",
+            "level": 2,
+            "text": "Summary & Future Directions"
+        },
+        {
+            "type": "imageBed",
+            "aspectRatio": "1728/1117",
+            "content": [
+                {
+                    "image": "/Personal_Website/grad_design_2025/images/Website-9.png",
+                    "title": "Summary: simulating multi-stakeholder discussions and advanced visualization techniques"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Key contributions include simulating multi-stakeholder discussions using LLMs and advanced visualization techniques. The system enhances collaborative decision-making in design and planning processes while making stakeholder engagement more efficient and inclusive.",
             "credits": ""
         },
         {
@@ -198,26 +218,6 @@
         {
             "type": "paragraph",
             "content": "Current limitations include the lack of multi-modal LLMs, limited language-based representations of design challenges, and the need for real-world validation. Ethical considerations in simulating human stakeholders remain an open question.",
-            "credits": ""
-        },
-        {
-            "type": "heading",
-            "level": 2,
-            "text": "Summary & Future Directions"
-        },
-        {
-            "type": "imageBed",
-            "aspectRatio": "1728/1117",
-            "content": [
-                {
-                    "image": "/Personal_Website/grad_design_2025/images/Website-9.png",
-                    "title": "Summary: simulating multi-stakeholder discussions and advanced visualization techniques"
-                }
-            ]
-        },
-        {
-            "type": "paragraph",
-            "content": "Key contributions include simulating multi-stakeholder discussions using LLMs and advanced visualization techniques. The system enhances collaborative decision-making in design and planning processes while making stakeholder engagement more efficient and inclusive.",
             "credits": ""
         },
         {
